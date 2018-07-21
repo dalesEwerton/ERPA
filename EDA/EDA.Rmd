@@ -1,0 +1,112 @@
+---
+title: "ERPA - EDA"
+output: html_notebook
+---
+
+
+## Análise de Dados Exploratória
+
+
+### Bibliotecas e Dados
+```{r, echo=FALSE, warning=FALSE}
+
+library(tidyverse)
+data <- read_csv("../data/data.csv")
+
+```
+
+### Pré-processamento
+
+```{r, echo=FALSE, warning=FALSE}
+
+#Trocando NA's por mediana da coluna
+brancos_mediana <- median(data$Brancos_Nulos, na.rm = TRUE)
+data$Brancos_Nulos[is.na(data$Brancos_Nulos)] <- brancos_mediana
+
+```
+
+
+### Questões
+
+##### Quais são os candidatos da nossa base de dados?
+
+```{r, echo=FALSE}
+#Exemplo guia de como responder
+
+candidatos = data %>%
+  group_by(Nome_do_Candidato) %>%
+  summarise(vezes_apareceu = length(Nome_do_Candidato)) %>%
+  arrange(desc(vezes_apareceu))
+
+ggplot(data = candidatos, 
+       aes(x=reorder(Nome_do_Candidato, - as.numeric(vezes_apareceu)),
+          y = as.factor(vezes_apareceu), fill = Nome_do_Candidato)) +
+  geom_bar(stat = "identity", binwidth = NULL) +
+  labs(title = "Candidatos na Base de Dados",
+       x = "Nome do Candidato", y = "Vezes que aparece nos dados") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+
+##### Quais são as instituições da nossa base de dados?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Quais os anos das pesquisas da nossa base de dados?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual a média de cada candidato levando em consideração o instituto e ano?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual a media das pesquisas de intenção de voto sobre um candidato?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual a media dos candidatos em um determinado ano?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual foi o menor e o maior valor das intencoes de voto para o candidato?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual o ano em que mais temos dados de pesquisas?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual o candidato em que mais temos dados de pesquisas?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual o instituto em que mais temos dados de pesquisas?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+##### Qual o partido em que mais temos dados de pesquisas?
+
+```{r, echo=FALSE}
+#Responder Aqui
+```
+
+
+
