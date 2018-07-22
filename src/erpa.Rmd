@@ -1,0 +1,27 @@
+---
+title: "ERPA"
+output: html_notebook
+---
+ 
+
+```{r, warning=FALSE}
+
+library(keras)
+
+#UNCOMMENT TO INSTALL KERAS
+#install_keras(method = c("auto", "virtualenv", "conda"), conda = "auto",
+#  tensorflow = "default", extra_packages = NULL)
+
+library(caret)
+
+
+```
+
+```{r}
+
+
+
+
+```
+
+
