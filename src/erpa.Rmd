@@ -6,7 +6,7 @@ output: html_notebook
 
 ```{r, warning=FALSE}
 
-library(keras)
+#library(keras)
 
 #UNCOMMENT TO INSTALL KERAS
 #install_keras(method = c("auto", "virtualenv", "conda"), conda = "auto",
@@ -14,14 +14,134 @@ library(keras)
 
 library(caret)
 
-
 ```
 
 ```{r}
 
+set.seed(500)
 
 
+#Defininindo o particionamento dos dados
+partition <- createDataPartition(y=data$Nome_do_Candidato, p=.8, list=FALSE)
+fit_data  <- data[partition,]
+test_data <- data[-partition,]
+
+ctrl <- trainControl(method = "cv", number = 5, search = "random")
 
 ```
+
+
+```{r}
+
+grid <- expand.grid(k = 1:50)
+modelo.knn <- train(
+  Resultado_Final ~.,
+  data       = data,
+  method     = "knn",
+  trControl  = ctrl,
+  preProcess = c('nzv'),
+  tuneGrid   = grid,
+  na.action  = na.omit
+)
+
+plot(modelo.knn)
+knn.predict <- predict(modelo.knn, test_data)
+
+test_data$pred <- knn.predict
+
+ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
+  labs(title = "Modelo KNN - Obs vs Pred", x = "Predição", y = "Observado")+
+  geom_jitter(colour = "red") +
+  geom_abline(colour = "blue")
+```
+
+```{r}
+
+modelo.mars <- train(
+   Resultado_Final ~.,
+   data = data, 
+   method = "earth", 
+   trControl = ctrl,
+   preProcess = c('nzv'),
+   tuneLength = 10,
+   na.action = na.omit)
+
+plot(modelo.mars)
+
+mars.predict <- predict(modelo.mars, test_data)
+
+test_data$pred <- mars.predict
+
+ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
+  labs(title = "Modelo MARs - Obs vs Pred", x = "Predição", y = "Observado")+
+  geom_jitter(colour = "red") +
+  geom_abline(colour = "blue")
+```
+
+
+```{r}
+
+set.seed(13)
+
+#Neural Network
+modelo.net <- train(
+   Resultado_Final ~.,
+   data       = data, 
+   method     = "nnet", 
+   trControl  = ctrl,
+   preProcess = c('nzv'),
+   na.action  = na.omit)
+
+
+net.predict <- predict(modelo.net, test_data)
+
+test_data$pred <- net.predict
+
+ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
+  labs(title = "Modelo Neural Network - Obs vs Pred", x = "Predição", y = "Observado")+
+  geom_jitter(colour = "red") +
+  geom_abline(colour = "blue")
+
+```
+
+```{r}
+set.seed(127)
+
+#Cubist
+modelo.cubist <- train(
+   Resultado_Final ~.,
+   data       = data, 
+   method     = "cubist", 
+   trControl  = ctrl,
+   preProcess = c('nzv'),
+   na.action  = na.omit)
+
+cubist.predict <- predict(modelo.cubist, test_data)
+
+test_data$pred <- cubist.predict
+
+ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
+  labs(title = "Modelo Cubist - Obs vs Pred", x = "Predição", y = "Observado")+
+  geom_jitter(colour = "red") +
+  geom_abline(colour = "blue")
+```
+
+
+
+
+```{r}
+set.seed(849)
+
+#Hybrid Neural Fuzzy Inference System
+modelo.hybrid.neural <- train(
+  Resultado_Final ~.,
+  data       = data,
+  method     = "HYFIS", 
+  tuneLength = 2,
+  trControl  = ctrl)
+
+```
+
+
 
 
