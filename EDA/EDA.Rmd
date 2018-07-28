@@ -23,8 +23,8 @@ data <- read_csv("../data/data.csv")
 brancos_mediana <- median(data$Brancos_Nulos, na.rm = TRUE)
 data$Brancos_Nulos[is.na(data$Brancos_Nulos)] <- brancos_mediana
 
-```
 
+```
 
 ### Questões
 
@@ -82,6 +82,23 @@ ggplot(data = anos,
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
+##### Quais os partidos da nossa base de dados?
+
+```{r, echo=FALSE}
+partidos = data %>%
+  group_by(Partido_do_Candidato) %>%
+  summarise(vezes_partido_apareceu = length(Partido_do_Candidato)) %>%
+  arrange(desc(vezes_partido_apareceu))
+
+ggplot(data = partidos, 
+       aes(x=reorder(Partido_do_Candidato, - as.numeric(vezes_partido_apareceu)),
+          y = as.factor(vezes_partido_apareceu), fill = Partido_do_Candidato)) +
+  geom_bar(stat = "identity", binwidth = NULL) +
+  labs(title = "Partido na Base de Dados",
+       x = "Partido dos Candidatos", y = "Vezes que aparece nos dados") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
 ##### Qual a média de cada candidato levando em consideração o instituto e ano?
 
 ```{r, echo=FALSE}
@@ -100,34 +117,49 @@ ggplot(data = anos,
 #Responder Aqui
 ```
 
-##### Qual foi o menor e o maior valor das intencoes de voto para o candidato?
+##### Qual foi o menor e o maior valor das intencoes de voto para os candidatos?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+
+
+
+```
+
+```{r, echo=FALSE}
+#Função que calcula a moda para utilizar nas perguntas abaixo!
+moda <- function(x) {
+  z <- table(as.vector(x)) 
+  names(z)[z == max(z)]
+}
 ```
 
 ##### Qual o ano em que mais temos dados de pesquisas?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+ano = data$Ano_da_Eleicao
+moda(ano)
+
 ```
 
 ##### Qual o candidato em que mais temos dados de pesquisas?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+candidato = data$Nome_do_Candidato
+moda(candidato)
 ```
 
 ##### Qual o instituto em que mais temos dados de pesquisas?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+instituto = data$Instituto
+moda(instituto)
 ```
 
 ##### Qual o partido em que mais temos dados de pesquisas?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+partido = data$Partido_do_Candidato
+moda(partido)
 ```
 
 
