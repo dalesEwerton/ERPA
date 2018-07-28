@@ -53,12 +53,12 @@ ggplot(data = candidatos,
 ```{r, echo=FALSE}
 institutos = data %>%
   group_by(Instituto) %>%
-  summarise(vezes_apareceu = length(Instituto)) %>%
-  arrange(desc(vezes_apareceu))
+  summarise(vezes_intituto_apareceu = length(Instituto)) %>%
+  arrange(desc(vezes_intituto_apareceu))
 
 ggplot(data = institutos, 
-       aes(x=reorder(Instituto, - as.numeric(vezes_apareceu)),
-          y = as.factor(vezes_apareceu), fill = Instituto)) +
+       aes(x=reorder(Instituto, - as.numeric(vezes_intituto_apareceu)),
+          y = as.factor(vezes_intituto_apareceu), fill = Instituto)) +
   geom_bar(stat = "identity", binwidth = NULL) +
   labs(title = "Institutos na Base de Dados",
        x = "Institutos", y = "Vezes que aparece nos dados") +
@@ -70,15 +70,15 @@ ggplot(data = institutos,
 ```{r, echo=FALSE}
 anos = data %>%
   group_by(Ano_da_Eleicao) %>%
-  summarise(vezes_apareceu = length(Ano_da_Eleicao)) %>%
-  arrange(desc(vezes_apareceu))
+  summarise(vezes_anos_apareceu = length(Ano_da_Eleicao)) %>%
+  arrange(desc(vezes_anos_apareceu))
 
 ggplot(data = anos, 
-       aes(x=reorder(Ano_da_Eleicao, - as.numeric(vezes_apareceu)),
-          y = as.factor(vezes_apareceu), fill = Ano_da_Eleicao)) +
+       aes(x=reorder(Ano_da_Eleicao, - as.numeric(vezes_anos_apareceu)),
+          y = as.factor(vezes_anos_apareceu), fill = Ano_da_Eleicao)) +
   geom_bar(stat = "identity", binwidth = NULL) +
   labs(title = "Anos de eleição na Base de Dados",
-       x = "Ano_da_Eleicao", y = "Vezes que aparece nos dados") +
+       x = "Ano da Eleicao", y = "Vezes que aparece nos dados") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
