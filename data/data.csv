@@ -1,820 +1,690 @@
-"","X1","X1_1","Nome_do_Candidato","Resultado_da_Pesquisa","Mes","Instituto","Partido_do_Candidato","Ano_da_Eleicao","Brancos_Nulos","Indecisos","Resultado_Final"
-"1",1,1,"Dilma Rousseff",0.38,"JUL","Datafolha","PT",2014,0.13,0.11,"0.4159"
-"2",2,2,"Aecio",0.2,"JUL","Datafolha","PSDB",2014,0.13,0.11,"0.3355"
-"3",3,3,"Marina Silva",0.09,"JUL","Datafolha","PSB",2014,0.13,0.11,"0.2132"
-"4",4,4,"Luciana",0.01,"JUL","Datafolha","PSOL",2014,0.13,0.11,"0.0155"
-"5",5,5,"Eymael",0,"JUL","Datafolha","PSDC",2014,0.13,0.11,"0.006"
-"6",6,6,"Jose_Maria",0.02,"JUL","Datafolha","PSTU",2014,0.13,0.11,"0.009"
-"7",7,7,"Dilma Rousseff",0.36,"JUL","Datafolha","PT",2014,0.13,0.14,"0.4159"
-"8",8,8,"Aecio",0.2,"JUL","Datafolha","PSDB",2014,0.13,0.14,"0.3355"
-"9",9,9,"Marina Silva",0.08,"JUL","Datafolha","PSB",2014,0.13,0.14,"0.2132"
-"10",10,10,"Luciana",0.01,"JUL","Datafolha","PSOL",2014,0.13,0.14,"0.0155"
-"11",11,11,"Eymael",0.01,"JUL","Datafolha","PSDC",2014,0.13,0.14,"0.006"
-"12",12,12,"Jose_Maria",0.01,"JUL","Datafolha","PSTU",2014,0.13,0.14,"0.009"
-"13",13,13,"Dilma Rousseff",0.36,"AGO","Datafolha","PT",2014,0.08,0.09,"0.4159"
-"14",14,14,"Aecio",0.2,"AGO","Datafolha","PSDB",2014,0.08,0.09,"0.3355"
-"15",15,15,"Marina Silva",0.21,"AGO","Datafolha","PSB",2014,0.08,0.09,"0.2132"
-"16",16,16,"Luciana",0,"AGO","Datafolha","PSOL",2014,0.08,0.09,"0.0155"
-"17",17,17,"Eymael",0,"AGO","Datafolha","PSDC",2014,0.08,0.09,"0.006"
-"18",18,18,"Jose_Maria",0.01,"AGO","Datafolha","PSTU",2014,0.08,0.09,"0.009"
-"19",19,19,"Dilma Rousseff",0.35,"AGO","Datafolha","PT",2014,0.06,0.07,"0.4159"
-"20",20,20,"Aecio",0.14,"AGO","Datafolha","PSDB",2014,0.06,0.07,"0.3355"
-"21",21,21,"Marina Silva",0.34,"AGO","Datafolha","PSB",2014,0.06,0.07,"0.2132"
-"22",22,22,"Luciana",0.01,"AGO","Datafolha","PSOL",2014,0.06,0.07,"0.0155"
-"23",23,23,"Eymael",0,"AGO","Datafolha","PSDC",2014,0.06,0.07,"0.006"
-"24",24,24,"Jose_Maria",0.01,"AGO","Datafolha","PSTU",2014,0.06,0.07,"0.009"
-"25",25,25,"Dilma Rousseff",0.35,"SET","Datafolha","PT",2014,0.06,0.07,"0.4159"
-"26",26,26,"Aecio",0.14,"SET","Datafolha","PSDB",2014,0.06,0.07,"0.3355"
-"27",27,27,"Marina Silva",0.34,"SET","Datafolha","PSB",2014,0.06,0.07,"0.2132"
-"28",28,28,"Luciana",0.01,"SET","Datafolha","PSOL",2014,0.06,0.07,"0.0155"
-"29",29,29,"Eymael",0,"SET","Datafolha","PSDC",2014,0.06,0.07,"0.006"
-"30",30,30,"Jose_Maria",0.01,"SET","Datafolha","PSTU",2014,0.06,0.07,"0.009"
-"31",31,31,"Dilma Rousseff",0.36,"SET","Datafolha","PT",2014,0.06,0.07,"0.4159"
-"32",32,32,"Aecio",0.15,"SET","Datafolha","PSDB",2014,0.06,0.07,"0.3355"
-"33",33,33,"Marina Silva",0.33,"SET","Datafolha","PSB",2014,0.06,0.07,"0.2132"
-"34",34,34,"Luciana",0.01,"SET","Datafolha","PSOL",2014,0.06,0.07,"0.0155"
-"35",35,35,"Eymael",0,"SET","Datafolha","PSDC",2014,0.06,0.07,"0.006"
-"36",36,36,"Jose_Maria",0,"SET","Datafolha","PSTU",2014,0.06,0.07,"0.009"
-"37",37,37,"Dilma Rousseff",0.37,"SET","Datafolha","PT",2014,0.06,0.07,"0.4159"
-"38",38,38,"Aecio",0.17,"SET","Datafolha","PSDB",2014,0.06,0.07,"0.3355"
-"39",39,39,"Marina Silva",0.3,"SET","Datafolha","PSB",2014,0.06,0.07,"0.2132"
-"40",40,40,"Luciana",0.1,"SET","Datafolha","PSOL",2014,0.06,0.07,"0.0155"
-"41",41,41,"Eymael",0,"SET","Datafolha","PSDC",2014,0.06,0.07,"0.006"
-"42",42,42,"Jose_Maria",0,"SET","Datafolha","PSTU",2014,0.06,0.07,"0.009"
-"43",43,43,"Dilma Rousseff",0.4,"SET","Datafolha","PT",2014,0.05,0.06,"0.4159"
-"44",44,44,"Aecio",0.18,"SET","Datafolha","PSDB",2014,0.05,0.06,"0.3355"
-"45",45,45,"Marina Silva",0.27,"SET","Datafolha","PSB",2014,0.05,0.06,"0.2132"
-"46",46,46,"Luciana",0.1,"SET","Datafolha","PSOL",2014,0.05,0.06,"0.0155"
-"47",47,47,"Eymael",0,"SET","Datafolha","PSDC",2014,0.05,0.06,"0.006"
-"48",48,48,"Jose_Maria",0,"SET","Datafolha","PSTU",2014,0.05,0.06,"0.009"
-"49",49,49,"Dilma Rousseff",0.4,"SET","Datafolha","PT",2014,0.05,0.05,"0.4159"
-"50",50,50,"Aecio",0.2,"SET","Datafolha","PSDB",2014,0.05,0.05,"0.3355"
-"51",51,51,"Marina Silva",0.25,"SET","Datafolha","PSB",2014,0.05,0.05,"0.2132"
-"52",52,52,"Luciana",0.01,"SET","Datafolha","PSOL",2014,0.05,0.05,"0.0155"
-"53",53,53,"Eymael",0,"SET","Datafolha","PSDC",2014,0.05,0.05,"0.006"
-"54",54,54,"Jose_Maria",0,"SET","Datafolha","PSTU",2014,0.05,0.05,"0.009"
-"55",55,55,"Dilma Rousseff",0.4,"OUT","Datafolha","PT",2014,0.05,0.05,"0.4159"
-"56",56,56,"Aecio",0.21,"OUT","Datafolha","PSDB",2014,0.05,0.05,"0.3355"
-"57",57,57,"Marina Silva",0.24,"OUT","Datafolha","PSB",2014,0.05,0.05,"0.2132"
-"58",58,58,"Luciana",0.01,"OUT","Datafolha","PSOL",2014,0.05,0.05,"0.0155"
-"59",59,59,"Eymael",0,"OUT","Datafolha","PSDC",2014,0.05,0.05,"0.006"
-"60",60,60,"Jose_Maria",0,"OUT","Datafolha","PSTU",2014,0.05,0.05,"0.009"
-"61",61,61,"Dilma Rousseff",0.4,"OUT","Datafolha","PT",2014,0.04,0.05,"0.4159"
-"62",62,62,"Aecio",0.24,"OUT","Datafolha","PSDB",2014,0.04,0.05,"0.3355"
-"63",63,63,"Marina Silva",0.22,"OUT","Datafolha","PSB",2014,0.04,0.05,"0.2132"
-"64",64,64,"Luciana",0.01,"OUT","Datafolha","PSOL",2014,0.04,0.05,"0.0155"
-"65",65,65,"Eymael",0,"OUT","Datafolha","PSDC",2014,0.04,0.05,"0.006"
-"66",66,66,"Jose_Maria",0,"OUT","Datafolha","PSTU",2014,0.04,0.05,"0.009"
-"67",67,67,"Dilma Rousseff",0.38,"JUL","IBOPE","PT",2014,0.16,0.09,"0.4159"
-"68",68,68,"Aecio",0.22,"JUL","IBOPE","PSDB",2014,0.16,0.09,"0.3355"
-"69",69,69,"Marina Silva",0.08,"JUL","IBOPE","PSB",2014,0.16,0.09,"0.2132"
-"70",70,70,"Luciana",0.01,"JUL","IBOPE","PSOL",2014,0.16,0.09,"0.0155"
-"71",71,71,"Eymael",0,"JUL","IBOPE","PSDC",2014,0.16,0.09,"0.006"
-"72",72,72,"Jose_Maria",0.01,"JUL","IBOPE","PSTU",2014,0.16,0.09,"0.009"
-"73",73,73,"Dilma Rousseff",0.38,"AGO","IBOPE","PT",2014,0.13,0.11,"0.4159"
-"74",74,74,"Aecio",0.23,"AGO","IBOPE","PSDB",2014,0.13,0.11,"0.3355"
-"75",75,75,"Marina Silva",0.09,"AGO","IBOPE","PSB",2014,0.13,0.11,"0.2132"
-"76",76,76,"Luciana",0.01,"AGO","IBOPE","PSOL",2014,0.13,0.11,"0.0155"
-"77",77,77,"Eymael",0,"AGO","IBOPE","PSDC",2014,0.13,0.11,"0.006"
-"78",78,78,"Jose_Maria",0,"AGO","IBOPE","PSTU",2014,0.13,0.11,"0.009"
-"79",79,79,"Dilma Rousseff",0.34,"AGO","IBOPE","PT",2014,0.07,0.08,"0.4159"
-"80",80,80,"Aecio",0.19,"AGO","IBOPE","PSDB",2014,0.07,0.08,"0.3355"
-"81",81,81,"Marina Silva",0.29,"AGO","IBOPE","PSB",2014,0.07,0.08,"0.2132"
-"82",82,82,"Luciana",0.01,"AGO","IBOPE","PSOL",2014,0.07,0.08,"0.0155"
-"83",83,83,"Eymael",0,"AGO","IBOPE","PSDC",2014,0.07,0.08,"0.006"
-"84",84,84,"Jose_Maria",0,"AGO","IBOPE","PSTU",2014,0.07,0.08,"0.009"
-"85",85,85,"Dilma Rousseff",0.37,"SET","IBOPE","PT",2014,0.07,0.05,"0.4159"
-"86",86,86,"Aecio",0.15,"SET","IBOPE","PSDB",2014,0.07,0.05,"0.3355"
-"87",87,87,"Marina Silva",0.33,"SET","IBOPE","PSB",2014,0.07,0.05,"0.2132"
-"88",88,88,"Luciana",0,"SET","IBOPE","PSOL",2014,0.07,0.05,"0.0155"
-"89",89,89,"Eymael",0,"SET","IBOPE","PSDC",2014,0.07,0.05,"0.006"
-"90",90,90,"Jose_Maria",0,"SET","IBOPE","PSTU",2014,0.07,0.05,"0.009"
-"91",91,91,"Dilma Rousseff",0.39,"SET","IBOPE","PT",2014,0.08,0.05,"0.4159"
-"92",92,92,"Aecio",0.15,"SET","IBOPE","PSDB",2014,0.08,0.05,"0.3355"
-"93",93,93,"Marina Silva",0.31,"SET","IBOPE","PSB",2014,0.08,0.05,"0.2132"
-"94",94,94,"Luciana",0,"SET","IBOPE","PSOL",2014,0.08,0.05,"0.0155"
-"95",95,95,"Eymael",0,"SET","IBOPE","PSDC",2014,0.08,0.05,"0.006"
-"96",96,96,"Jose_Maria",0,"SET","IBOPE","PSTU",2014,0.08,0.05,"0.009"
-"97",97,97,"Dilma Rousseff",0.36,"SET","IBOPE","PT",2014,0.07,0.06,"0.4159"
-"98",98,98,"Aecio",0.19,"SET","IBOPE","PSDB",2014,0.07,0.06,"0.3355"
-"99",99,99,"Marina Silva",0.3,"SET","IBOPE","PSB",2014,0.07,0.06,"0.2132"
-"100",100,100,"Luciana",0,"SET","IBOPE","PSOL",2014,0.07,0.06,"0.0155"
-"101",101,101,"Eymael",0,"SET","IBOPE","PSDC",2014,0.07,0.06,"0.006"
-"102",102,102,"Jose_Maria",0,"SET","IBOPE","PSTU",2014,0.07,0.06,"0.009"
-"103",103,103,"Dilma Rousseff",0.38,"SET","IBOPE","PT",2014,0.07,0.05,"0.4159"
-"104",104,104,"Aecio",0.19,"SET","IBOPE","PSDB",2014,0.07,0.05,"0.3355"
-"105",105,105,"Marina Silva",0.29,"SET","IBOPE","PSB",2014,0.07,0.05,"0.2132"
-"106",106,106,"Luciana",0.01,"SET","IBOPE","PSOL",2014,0.07,0.05,"0.0155"
-"107",107,107,"Eymael",0.01,"SET","IBOPE","PSDC",2014,0.07,0.05,"0.006"
-"108",108,108,"Jose_Maria",0.01,"SET","IBOPE","PSTU",2014,0.07,0.05,"0.009"
-"109",109,109,"Dilma Rousseff",0.39,"SET","IBOPE","PT",2014,0.07,0.07,"0.4159"
-"110",110,110,"Aecio",0.19,"SET","IBOPE","PSDB",2014,0.07,0.07,"0.3355"
-"111",111,111,"Marina Silva",0.25,"SET","IBOPE","PSB",2014,0.07,0.07,"0.2132"
-"112",112,112,"Luciana",0.01,"SET","IBOPE","PSOL",2014,0.07,0.07,"0.0155"
-"113",113,113,"Eymael",0,"SET","IBOPE","PSDC",2014,0.07,0.07,"0.006"
-"114",114,114,"Jose_Maria",0,"SET","IBOPE","PSTU",2014,0.07,0.07,"0.009"
-"115",115,115,"Dilma Rousseff",0.4,"OUT","IBOPE","PT",2014,0.08,0.07,"0.4159"
-"116",116,116,"Aecio",0.19,"OUT","IBOPE","PSDB",2014,0.08,0.07,"0.3355"
-"117",117,117,"Marina Silva",0.24,"OUT","IBOPE","PSB",2014,0.08,0.07,"0.2132"
-"118",118,118,"Luciana",0.01,"OUT","IBOPE","PSOL",2014,0.08,0.07,"0.0155"
-"119",119,119,"Eymael",0,"OUT","IBOPE","PSDC",2014,0.08,0.07,"0.006"
-"120",120,120,"Jose_Maria",0,"OUT","IBOPE","PSTU",2014,0.08,0.07,"0.009"
-"121",121,121,"Dilma Rousseff",0.4,"OUT","IBOPE","PT",2014,0.07,0.05,"0.4159"
-"122",122,122,"Aecio",0.24,"OUT","IBOPE","PSDB",2014,0.07,0.05,"0.3355"
-"123",123,123,"Marina Silva",0.21,"OUT","IBOPE","PSB",2014,0.07,0.05,"0.2132"
-"124",124,124,"Luciana",0.01,"OUT","IBOPE","PSOL",2014,0.07,0.05,"0.0155"
-"125",125,125,"Eymael",0,"OUT","IBOPE","PSDC",2014,0.07,0.05,"0.006"
-"126",126,126,"Jose_Maria",0,"OUT","IBOPE","PSTU",2014,0.07,0.05,"0.009"
-"127",127,127,"Jose Serra",0.35,"MAI","Vox Populi","PSDB",2010,0.07,0.22,"0.3261"
-"128",128,128,"Dilma Rousseff",0.38,"MAI","Vox Populi","PT",2010,0.07,0.22,"0.4691"
-"129",129,129,"Ciro Gomes",0,"MAI","Vox Populi","PDT12",2010,0.07,0.22,"0"
-"130",130,130,"Heloisa Helena",0,"MAI","Vox Populi","PSOL",2010,0.07,0.22,"0"
-"131",131,131,"Marina Silva",0.07,"MAI","Vox Populi","PV",2010,0.07,0.22,"0.1933"
-"132",132,132,"Jose Serra",332000,"MAI","Sensus","PSDB",2010,0.07,173,"0.3261"
-"133",133,133,"Dilma Rousseff",357,"MAI","Sensus","PT",2010,0.07,173,"0.4691"
-"134",134,134,"Ciro Gomes",0,"MAI","Sensus","PDT12",2010,0.07,173,"0"
-"135",135,135,"Heloisa Helena",0,"MAI","Sensus","PSOL",2010,0.07,173,"0"
-"136",136,136,"Marina Silva",0.08,"MAI","Sensus","PV",2010,0.07,173,"0.1933"
-"137",137,137,"Jose Serra",0.37,"MAI","Datafolha","PSDB",2010,0.07,0.14,"0.3261"
-"138",138,138,"Dilma Rousseff",0.37,"MAI","Datafolha","PT",2010,0.07,0.14,"0.4691"
-"139",139,139,"Ciro Gomes",0,"MAI","Datafolha","PDT12",2010,0.07,0.14,"0"
-"140",140,140,"Heloisa Helena",0,"MAI","Datafolha","PSOL",2010,0.07,0.14,"0"
-"141",141,141,"Marina Silva",0.12,"MAI","Datafolha","PV",2010,0.07,0.14,"0.1933"
-"142",142,142,"Jose Serra",0.37,"JUN","IBOPE","PSDB",2010,0.07,0.17,"0.3261"
-"143",143,143,"Dilma Rousseff",0.37,"JUN","IBOPE","PT",2010,0.07,0.17,"0.4691"
-"144",144,144,"Ciro Gomes",0,"JUN","IBOPE","PDT12",2010,0.07,0.17,"0"
-"145",145,145,"Heloisa Helena",0,"JUN","IBOPE","PSOL",2010,0.07,0.17,"0"
-"146",146,146,"Marina Silva",0.09,"JUN","IBOPE","PV",2010,0.07,0.17,"0.1933"
-"147",147,147,"Jose Serra",0.35,"JUN","IBOPE","PSDB",2010,0.07,0.16,"0.3261"
-"148",148,148,"Dilma Rousseff",0.4,"JUN","IBOPE","PT",2010,0.07,0.16,"0.4691"
-"149",149,149,"Ciro Gomes",0,"JUN","IBOPE","PDT12",2010,0.07,0.16,"0"
-"150",150,150,"Heloisa Helena",0,"JUN","IBOPE","PSOL",2010,0.07,0.16,"0"
-"151",151,151,"Marina Silva",0.09,"JUN","IBOPE","PV",2010,0.07,0.16,"0.1933"
-"152",152,152,"Jose Serra",0.35,"JUN","Vox Populi","PSDB",2010,0.07,0.17,"0.3261"
-"153",153,153,"Dilma Rousseff",0.4,"JUN","Vox Populi","PT",2010,0.07,0.17,"0.4691"
-"154",154,154,"Ciro Gomes",0,"JUN","Vox Populi","PDT12",2010,0.07,0.17,"0"
-"155",155,155,"Heloisa Helena",0,"JUN","Vox Populi","PSOL",2010,0.07,0.17,"0"
-"156",156,156,"Marina Silva",0.08,"JUN","Vox Populi","PV",2010,0.07,0.17,"0.1933"
-"157",157,157,"Jose Serra",0.39,"JUN","IBOPE","PSDB",2010,0.07,0.13,"0.3261"
-"158",158,158,"Dilma Rousseff",0.39,"JUN","IBOPE","PT",2010,0.07,0.13,"0.4691"
-"159",159,159,"Ciro Gomes",0,"JUN","IBOPE","PDT12",2010,0.07,0.13,"0"
-"160",160,160,"Heloisa Helena",0,"JUN","IBOPE","PSOL",2010,0.07,0.13,"0"
-"161",161,161,"Marina Silva",0.1,"JUN","IBOPE","PV",2010,0.07,0.13,"0.1933"
-"162",162,162,"Jose Serra",0.39,"JUL","Datafolha","PSDB",2010,0.07,0.12,"0.3261"
-"163",163,163,"Dilma Rousseff",0.38,"JUL","Datafolha","PT",2010,0.07,0.12,"0.4691"
-"164",164,164,"Ciro Gomes",0,"JUL","Datafolha","PDT12",2010,0.07,0.12,"0"
-"165",165,165,"Heloisa Helena",0,"JUL","Datafolha","PSOL",2010,0.07,0.12,"0"
-"166",166,166,"Marina Silva",0.1,"JUL","Datafolha","PV",2010,0.07,0.12,"0.1933"
-"167",167,167,"Jose Serra",0.33,"JUL","Vox Populi","PSDB",2010,0.07,0.17,"0.3261"
-"168",168,168,"Dilma Rousseff",0.41,"JUL","Vox Populi","PT",2010,0.07,0.17,"0.4691"
-"169",169,169,"Ciro Gomes",0,"JUL","Vox Populi","PDT12",2010,0.07,0.17,"0"
-"170",170,170,"Heloisa Helena",0,"JUL","Vox Populi","PSOL",2010,0.07,0.17,"0"
-"171",171,171,"Marina Silva",0.08,"JUL","Vox Populi","PV",2010,0.07,0.17,"0.1933"
-"172",172,172,"Jose Serra",0.37,"JUL","Datafolha","PSDB",2010,0.07,0.17,"0.3261"
-"173",173,173,"Dilma Rousseff",0.36,"JUL","Datafolha","PT",2010,0.07,0.17,"0.4691"
-"174",174,174,"Ciro Gomes",0,"JUL","Datafolha","PDT12",2010,0.07,0.17,"0"
-"175",175,175,"Heloisa Helena",0,"JUL","Datafolha","PSOL",2010,0.07,0.17,"0"
-"176",176,176,"Marina Silva",0.1,"JUL","Datafolha","PV",2010,0.07,0.17,"0.1933"
-"177",177,177,"Jose Serra",0.34,"JUL","Vox Populi","PSDB",2010,0.07,0.19,"0.3261"
-"178",178,178,"Dilma Rousseff",0.39,"JUL","Vox Populi","PT",2010,0.07,0.19,"0.4691"
-"179",179,179,"Ciro Gomes",0,"JUL","Vox Populi","PDT12",2010,0.07,0.19,"0"
-"180",180,180,"Heloisa Helena",0,"JUL","Vox Populi","PSOL",2010,0.07,0.19,"0"
-"181",181,181,"Marina Silva",0.07,"JUL","Vox Populi","PV",2010,0.07,0.19,"0.1933"
-"182",182,182,"Jose Serra",316,"AGO","Sensus","PSDB",2010,0.07,183,"0.3261"
-"183",183,183,"Dilma Rousseff",416,"AGO","Sensus","PT",2010,0.07,183,"0.4691"
-"184",184,184,"Ciro Gomes",0,"AGO","Sensus","PDT12",2010,0.07,183,"0"
-"185",185,185,"Heloisa Helena",0,"AGO","Sensus","PSOL",2010,0.07,183,"0"
-"186",186,186,"Marina Silva",85,"AGO","Sensus","PV",2010,0.07,183,"0.1933"
-"187",187,187,"Jose Serra",0.34,"AGO","IBOPE","PSDB",2010,0.07,0.19,"0.3261"
-"188",188,188,"Dilma Rousseff",0.39,"AGO","IBOPE","PT",2010,0.07,0.19,"0.4691"
-"189",189,189,"Ciro Gomes",0,"AGO","IBOPE","PDT12",2010,0.07,0.19,"0"
-"190",190,190,"Heloisa Helena",0,"AGO","IBOPE","PSOL",2010,0.07,0.19,"0"
-"191",191,191,"Marina Silva",0.08,"AGO","IBOPE","PV",2010,0.07,0.19,"0.1933"
-"192",192,192,"Jose Serra",0.29,"AGO","Vox Populi","PSDB",2010,0.07,0.18,"0.3261"
-"193",193,193,"Dilma Rousseff",0.45,"AGO","Vox Populi","PT",2010,0.07,0.18,"0.4691"
-"194",194,194,"Ciro Gomes",0,"AGO","Vox Populi","PDT12",2010,0.07,0.18,"0"
-"195",195,195,"Heloisa Helena",0,"AGO","Vox Populi","PSOL",2010,0.07,0.18,"0"
-"196",196,196,"Marina Silva",0.08,"AGO","Vox Populi","PV",2010,0.07,0.18,"0.1933"
-"197",197,197,"Jose Serra",0.33,"AGO","Datafolha","PSDB",2010,0.07,0.16,"0.3261"
-"198",198,198,"Dilma Rousseff",0.41,"AGO","Datafolha","PT",2010,0.07,0.16,"0.4691"
-"199",199,199,"Ciro Gomes",0,"AGO","Datafolha","PDT12",2010,0.07,0.16,"0"
-"200",200,200,"Heloisa Helena",0,"AGO","Datafolha","PSOL",2010,0.07,0.16,"0"
-"201",201,201,"Marina Silva",0.1,"AGO","Datafolha","PV",2010,0.07,0.16,"0.1933"
-"202",202,202,"Jose Serra",0.32,"AGO","IBOPE","PSDB",2010,0.07,0.17,"0.3261"
-"203",203,203,"Dilma Rousseff",0.43,"AGO","IBOPE","PT",2010,0.07,0.17,"0.4691"
-"204",204,204,"Ciro Gomes",0,"AGO","IBOPE","PDT12",2010,0.07,0.17,"0"
-"205",205,205,"Heloisa Helena",0,"AGO","IBOPE","PSOL",2010,0.07,0.17,"0"
-"206",206,206,"Marina Silva",0.08,"AGO","IBOPE","PV",2010,0.07,0.17,"0.1933"
-"207",207,207,"Jose Serra",0.3,"AGO","Datafolha","PSDB",2010,0.07,0.14,"0.3261"
-"208",208,208,"Dilma Rousseff",0.47,"AGO","Datafolha","PT",2010,0.07,0.14,"0.4691"
-"209",209,209,"Ciro Gomes",0,"AGO","Datafolha","PDT12",2010,0.07,0.14,"0"
-"210",210,210,"Heloisa Helena",0,"AGO","Datafolha","PSOL",2010,0.07,0.14,"0"
-"211",211,211,"Marina Silva",0.09,"AGO","Datafolha","PV",2010,0.07,0.14,"0.1933"
-"212",212,212,"Jose Serra",281,"AGO","Sensus","PSDB",2010,0.07,178,"0.3261"
-"213",213,213,"Dilma Rousseff",0.46,"AGO","Sensus","PT",2010,0.07,178,"0.4691"
-"214",214,214,"Ciro Gomes",0,"AGO","Sensus","PDT12",2010,0.07,178,"0"
-"215",215,215,"Heloisa Helena",0,"AGO","Sensus","PSOL",2010,0.07,178,"0"
-"216",216,216,"Marina Silva",81,"AGO","Sensus","PV",2010,0.07,178,"0.1933"
-"217",217,217,"Jose Serra",0.29,"AGO","Datafolha","PSDB",2010,0.07,0.13,"0.3261"
-"218",218,218,"Dilma Rousseff",0.49,"AGO","Datafolha","PT",2010,0.07,0.13,"0.4691"
-"219",219,219,"Ciro Gomes",0,"AGO","Datafolha","PDT12",2010,0.07,0.13,"0"
-"220",220,220,"Heloisa Helena",0,"AGO","Datafolha","PSOL",2010,0.07,0.13,"0"
-"221",221,221,"Marina Silva",0.09,"AGO","Datafolha","PV",2010,0.07,0.13,"0.1933"
-"222",222,222,"Jose Serra",0.27,"AGO","IBOPE","PSDB",2010,0.07,0.15,"0.3261"
-"223",223,223,"Dilma Rousseff",0.51,"AGO","IBOPE","PT",2010,0.07,0.15,"0.4691"
-"224",224,224,"Ciro Gomes",0,"AGO","IBOPE","PDT12",2010,0.07,0.15,"0"
-"225",225,225,"Heloisa Helena",0,"AGO","IBOPE","PSOL",2010,0.07,0.15,"0"
-"226",226,226,"Marina Silva",0.07,"AGO","IBOPE","PV",2010,0.07,0.15,"0.1933"
-"227",227,227,"Jose Serra",0.27,"SET","IBOPE","PSDB",2010,0.07,0.14,"0.3261"
-"228",228,228,"Dilma Rousseff",0.51,"SET","IBOPE","PT",2010,0.07,0.14,"0.4691"
-"229",229,229,"Ciro Gomes",0,"SET","IBOPE","PDT12",2010,0.07,0.14,"0"
-"230",230,230,"Heloisa Helena",0,"SET","IBOPE","PSOL",2010,0.07,0.14,"0"
-"231",231,231,"Marina Silva",0.08,"SET","IBOPE","PV",2010,0.07,0.14,"0.1933"
-"232",232,232,"Jose Serra",0.25,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"233",233,233,"Dilma Rousseff",0.51,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"234",234,234,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"235",235,235,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"236",236,236,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"237",237,237,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.16,"0.3261"
-"238",238,238,"Dilma Rousseff",0.52,"SET","Vox Populi","PT",2010,0.07,0.16,"0.4691"
-"239",239,239,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.16,"0"
-"240",240,240,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.16,"0"
-"241",241,241,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.16,"0.1933"
-"242",242,242,"Jose Serra",0.28,"SET","Datafolha","PSDB",2010,0.07,0.12,"0.3261"
-"243",243,243,"Dilma Rousseff",0.5,"SET","Datafolha","PT",2010,0.07,0.12,"0.4691"
-"244",244,244,"Ciro Gomes",0,"SET","Datafolha","PDT12",2010,0.07,0.12,"0"
-"245",245,245,"Heloisa Helena",0,"SET","Datafolha","PSOL",2010,0.07,0.12,"0"
-"246",246,246,"Marina Silva",0.1,"SET","Datafolha","PV",2010,0.07,0.12,"0.1933"
-"247",247,247,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"248",248,248,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"249",249,249,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"250",250,250,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"251",251,251,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"252",252,252,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"253",253,253,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"254",254,254,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"255",255,255,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"256",256,256,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"257",257,257,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"258",258,258,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"259",259,259,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"260",260,260,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"261",261,261,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"262",262,262,"Jose Serra",0.22,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"263",263,263,"Dilma Rousseff",0.55,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"264",264,264,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"265",265,265,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"266",266,266,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"267",267,267,"Jose Serra",0.21,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"268",268,268,"Dilma Rousseff",0.56,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"269",269,269,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"270",270,270,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"271",271,271,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"272",272,272,"Jose Serra",0.21,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"273",273,273,"Dilma Rousseff",0.54,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"274",274,274,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"275",275,275,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"276",276,276,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"277",277,277,"Jose Serra",0.27,"SET","Datafolha","PSDB",2010,0.07,0.12,"0.3261"
-"278",278,278,"Dilma Rousseff",0.5,"SET","Datafolha","PT",2010,0.07,0.12,"0.4691"
-"279",279,279,"Ciro Gomes",0,"SET","Datafolha","PDT12",2010,0.07,0.12,"0"
-"280",280,280,"Heloisa Helena",0,"SET","Datafolha","PSOL",2010,0.07,0.12,"0"
-"281",281,281,"Marina Silva",0.11,"SET","Datafolha","PV",2010,0.07,0.12,"0.1933"
-"282",282,282,"Jose Serra",0.21,"SET","Vox Populi","PSDB",2010,0.07,0.17,"0.3261"
-"283",283,283,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.17,"0.4691"
-"284",284,284,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.17,"0"
-"285",285,285,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.17,"0"
-"286",286,286,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.17,"0.1933"
-"287",287,287,"Jose Serra",0.22,"SET","Vox Populi","PSDB",2010,0.07,0.16,"0.3261"
-"288",288,288,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.16,"0.4691"
-"289",289,289,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.16,"0"
-"290",290,290,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.16,"0"
-"291",291,291,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.16,"0.1933"
-"292",292,292,"Jose Serra",264,"SET","Sensus","PSDB",2010,0.07,142,"0.3261"
-"293",293,293,"Dilma Rousseff",505,"SET","Sensus","PT",2010,0.07,142,"0.4691"
-"294",294,294,"Ciro Gomes",0,"SET","Sensus","PDT12",2010,0.07,142,"0"
-"295",295,295,"Heloisa Helena",0,"SET","Sensus","PSOL",2010,0.07,142,"0"
-"296",296,296,"Marina Silva",89,"SET","Sensus","PV",2010,0.07,142,"0.1933"
-"297",297,297,"Jose Serra",0.23,"SET","Vox Populi","PSDB",2010,0.07,0.16,"0.3261"
-"298",298,298,"Dilma Rousseff",0.52,"SET","Vox Populi","PT",2010,0.07,0.16,"0.4691"
-"299",299,299,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.16,"0"
-"300",300,300,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.16,"0"
-"301",301,301,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.16,"0.1933"
-"302",302,302,"Jose Serra",0.23,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"303",303,303,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"304",304,304,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"305",305,305,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"306",306,306,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"307",307,307,"Jose Serra",0.22,"SET","Vox Populi","PSDB",2010,0.07,0.16,"0.3261"
-"308",308,308,"Dilma Rousseff",0.54,"SET","Vox Populi","PT",2010,0.07,0.16,"0.4691"
-"309",309,309,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.16,"0"
-"310",310,310,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.16,"0"
-"311",311,311,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.16,"0.1933"
-"312",312,312,"Jose Serra",0.27,"SET","Datafolha","PSDB",2010,0.07,0.11,"0.3261"
-"313",313,313,"Dilma Rousseff",0.51,"SET","Datafolha","PT",2010,0.07,0.11,"0.4691"
-"314",314,314,"Ciro Gomes",0,"SET","Datafolha","PDT12",2010,0.07,0.11,"0"
-"315",315,315,"Heloisa Helena",0,"SET","Datafolha","PSOL",2010,0.07,0.11,"0"
-"316",316,316,"Marina Silva",0.11,"SET","Datafolha","PV",2010,0.07,0.11,"0.1933"
-"317",317,317,"Jose Serra",0.22,"SET","Vox Populi","PSDB",2010,0.07,0.17,"0.3261"
-"318",318,318,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.17,"0.4691"
-"319",319,319,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.17,"0"
-"320",320,320,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.17,"0"
-"321",321,321,"Marina Silva",0.08,"SET","Vox Populi","PV",2010,0.07,0.17,"0.1933"
-"322",322,322,"Jose Serra",0.25,"SET","IBOPE","PSDB",2010,0.07,0.13,"0.3261"
-"323",323,323,"Dilma Rousseff",0.51,"SET","IBOPE","PT",2010,0.07,0.13,"0.4691"
-"324",324,324,"Ciro Gomes",0,"SET","IBOPE","PDT12",2010,0.07,0.13,"0"
-"325",325,325,"Heloisa Helena",0,"SET","IBOPE","PSOL",2010,0.07,0.13,"0"
-"326",326,326,"Marina Silva",0.11,"SET","IBOPE","PV",2010,0.07,0.13,"0.1933"
-"327",327,327,"Jose Serra",0.22,"SET","Vox Populi","PSDB",2010,0.07,0.17,"0.3261"
-"328",328,328,"Dilma Rousseff",0.52,"SET","Vox Populi","PT",2010,0.07,0.17,"0.4691"
-"329",329,329,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.17,"0"
-"330",330,330,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.17,"0"
-"331",331,331,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.17,"0.1933"
-"332",332,332,"Jose Serra",0.23,"SET","Vox Populi","PSDB",2010,0.07,0.17,"0.3261"
-"333",333,333,"Dilma Rousseff",0.51,"SET","Vox Populi","PT",2010,0.07,0.17,"0.4691"
-"334",334,334,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.17,"0"
-"335",335,335,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.17,"0"
-"336",336,336,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.17,"0.1933"
-"337",337,337,"Jose Serra",0.23,"SET","Vox Populi","PSDB",2010,0.07,0.17,"0.3261"
-"338",338,338,"Dilma Rousseff",0.51,"SET","Vox Populi","PT",2010,0.07,0.17,"0.4691"
-"339",339,339,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.17,"0"
-"340",340,340,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.17,"0"
-"341",341,341,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.17,"0.1933"
-"342",342,342,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.16,"0.3261"
-"343",343,343,"Dilma Rousseff",0.51,"SET","Vox Populi","PT",2010,0.07,0.16,"0.4691"
-"344",344,344,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.16,"0"
-"345",345,345,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.16,"0"
-"346",346,346,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.16,"0.1933"
-"347",347,347,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.14,"0.3261"
-"348",348,348,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.14,"0.4691"
-"349",349,349,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.14,"0"
-"350",350,350,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.14,"0"
-"351",351,351,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.14,"0.1933"
-"352",352,352,"Jose Serra",0.23,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"353",353,353,"Dilma Rousseff",0.53,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"354",354,354,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"355",355,355,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"356",356,356,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"357",357,357,"Jose Serra",0.25,"SET","Vox Populi","PSDB",2010,0.07,0.14,"0.3261"
-"358",358,358,"Dilma Rousseff",0.52,"SET","Vox Populi","PT",2010,0.07,0.14,"0.4691"
-"359",359,359,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.14,"0"
-"360",360,360,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.14,"0"
-"361",361,361,"Marina Silva",0.09,"SET","Vox Populi","PV",2010,0.07,0.14,"0.1933"
-"362",362,362,"Jose Serra",0.28,"SET","Datafolha","PSDB",2010,0.07,0.1,"0.3261"
-"363",363,363,"Dilma Rousseff",0.49,"SET","Datafolha","PT",2010,0.07,0.1,"0.4691"
-"364",364,364,"Ciro Gomes",0,"SET","Datafolha","PDT12",2010,0.07,0.1,"0"
-"365",365,365,"Heloisa Helena",0,"SET","Datafolha","PSOL",2010,0.07,0.1,"0"
-"366",366,366,"Marina Silva",0.13,"SET","Datafolha","PV",2010,0.07,0.1,"0.1933"
-"367",367,367,"Jose Serra",0.28,"SET","IBOPE","PSDB",2010,0.07,0.1,"0.3261"
-"368",368,368,"Dilma Rousseff",0.5,"SET","IBOPE","PT",2010,0.07,0.1,"0.4691"
-"369",369,369,"Ciro Gomes",0,"SET","IBOPE","PDT12",2010,0.07,0.1,"0"
-"370",370,370,"Heloisa Helena",0,"SET","IBOPE","PSOL",2010,0.07,0.1,"0"
-"371",371,371,"Marina Silva",0.12,"SET","IBOPE","PV",2010,0.07,0.1,"0.1933"
-"372",372,372,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"373",373,373,"Dilma Rousseff",0.51,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"374",374,374,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"375",375,375,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"376",376,376,"Marina Silva",0.1,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"377",377,377,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"378",378,378,"Dilma Rousseff",0.51,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"379",379,379,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"380",380,380,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"381",381,381,"Marina Silva",0.1,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"382",382,382,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.16,"0.3261"
-"383",383,383,"Dilma Rousseff",0.5,"SET","Vox Populi","PT",2010,0.07,0.16,"0.4691"
-"384",384,384,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.16,"0"
-"385",385,385,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.16,"0"
-"386",386,386,"Marina Silva",0.1,"SET","Vox Populi","PV",2010,0.07,0.16,"0.1933"
-"387",387,387,"Jose Serra",0.23,"SET","Vox Populi","PSDB",2010,0.07,0.16,"0.3261"
-"388",388,388,"Dilma Rousseff",0.5,"SET","Vox Populi","PT",2010,0.07,0.16,"0.4691"
-"389",389,389,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.16,"0"
-"390",390,390,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.16,"0"
-"391",391,391,"Marina Silva",0.11,"SET","Vox Populi","PV",2010,0.07,0.16,"0.1933"
-"392",392,392,"Jose Serra",0.27,"SET","IBOPE","PSDB",2010,0.07,0.1,"0.3261"
-"393",393,393,"Dilma Rousseff",0.5,"SET","IBOPE","PT",2010,0.07,0.1,"0.4691"
-"394",394,394,"Ciro Gomes",0,"SET","IBOPE","PDT12",2010,0.07,0.1,"0"
-"395",395,395,"Heloisa Helena",0,"SET","IBOPE","PSOL",2010,0.07,0.1,"0"
-"396",396,396,"Marina Silva",0.13,"SET","IBOPE","PV",2010,0.07,0.1,"0.1933"
-"397",397,397,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.15,"0.3261"
-"398",398,398,"Dilma Rousseff",0.49,"SET","Vox Populi","PT",2010,0.07,0.15,"0.4691"
-"399",399,399,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.15,"0"
-"400",400,400,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.15,"0"
-"401",401,401,"Marina Silva",0.12,"SET","Vox Populi","PV",2010,0.07,0.15,"0.1933"
-"402",402,402,"Jose Serra",256,"SET","Sensus","PSDB",2010,0.07,153,"0.3261"
-"403",403,403,"Dilma Rousseff",475,"SET","Sensus","PT",2010,0.07,153,"0.4691"
-"404",404,404,"Ciro Gomes",0,"SET","Sensus","PDT12",2010,0.07,153,"0"
-"405",405,405,"Heloisa Helena",0,"SET","Sensus","PSOL",2010,0.07,153,"0"
-"406",406,406,"Marina Silva",116,"SET","Sensus","PV",2010,0.07,153,"0.1933"
-"407",407,407,"Jose Serra",0.24,"SET","Vox Populi","PSDB",2010,0.07,0.14,"0.3261"
-"408",408,408,"Dilma Rousseff",0.49,"SET","Vox Populi","PT",2010,0.07,0.14,"0.4691"
-"409",409,409,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.14,"0"
-"410",410,410,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.14,"0"
-"411",411,411,"Marina Silva",0.13,"SET","Vox Populi","PV",2010,0.07,0.14,"0.1933"
-"412",412,412,"Jose Serra",0.28,"SET","Datafolha","PSDB",2010,0.07,0.12,"0.3261"
-"413",413,413,"Dilma Rousseff",0.46,"SET","Datafolha","PT",2010,0.07,0.12,"0.4691"
-"414",414,414,"Ciro Gomes",0,"SET","Datafolha","PDT12",2010,0.07,0.12,"0"
-"415",415,415,"Heloisa Helena",0,"SET","Datafolha","PSOL",2010,0.07,0.12,"0"
-"416",416,416,"Marina Silva",0.14,"SET","Datafolha","PV",2010,0.07,0.12,"0.1933"
-"417",417,417,"Jose Serra",0.25,"SET","Vox Populi","PSDB",2010,0.07,0.14,"0.3261"
-"418",418,418,"Dilma Rousseff",0.49,"SET","Vox Populi","PT",2010,0.07,0.14,"0.4691"
-"419",419,419,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.14,"0"
-"420",420,420,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.14,"0"
-"421",421,421,"Marina Silva",0.12,"SET","Vox Populi","PV",2010,0.07,0.14,"0.1933"
-"422",422,422,"Jose Serra",0.28,"SET","Datafolha","PSDB",2010,0.07,0.11,"0.3261"
-"423",423,423,"Dilma Rousseff",0.47,"SET","Datafolha","PT",2010,0.07,0.11,"0.4691"
-"424",424,424,"Ciro Gomes",0,"SET","Datafolha","PDT12",2010,0.07,0.11,"0"
-"425",425,425,"Heloisa Helena",0,"SET","Datafolha","PSOL",2010,0.07,0.11,"0"
-"426",426,426,"Marina Silva",0.14,"SET","Datafolha","PV",2010,0.07,0.11,"0.1933"
-"427",427,427,"Jose Serra",0.26,"SET","Vox Populi","PSDB",2010,0.07,0.13,"0.3261"
-"428",428,428,"Dilma Rousseff",0.49,"SET","Vox Populi","PT",2010,0.07,0.13,"0.4691"
-"429",429,429,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.13,"0"
-"430",430,430,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.13,"0"
-"431",431,431,"Marina Silva",0.12,"SET","Vox Populi","PV",2010,0.07,0.13,"0.1933"
-"432",432,432,"Jose Serra",0.26,"SET","Vox Populi","PSDB",2010,0.07,0.13,"0.3261"
-"433",433,433,"Dilma Rousseff",0.49,"SET","Vox Populi","PT",2010,0.07,0.13,"0.4691"
-"434",434,434,"Ciro Gomes",0,"SET","Vox Populi","PDT12",2010,0.07,0.13,"0"
-"435",435,435,"Heloisa Helena",0,"SET","Vox Populi","PSOL",2010,0.07,0.13,"0"
-"436",436,436,"Marina Silva",0.12,"SET","Vox Populi","PV",2010,0.07,0.13,"0.1933"
-"437",437,437,"Jose Serra",0.27,"OUT","Vox Populi","PSDB",2010,0.07,0.13,"0.3261"
-"438",438,438,"Dilma Rousseff",0.48,"OUT","Vox Populi","PT",2010,0.07,0.13,"0.4691"
-"439",439,439,"Ciro Gomes",0,"OUT","Vox Populi","PDT12",2010,0.07,0.13,"0"
-"440",440,440,"Heloisa Helena",0,"OUT","Vox Populi","PSOL",2010,0.07,0.13,"0"
-"441",441,441,"Marina Silva",0.12,"OUT","Vox Populi","PV",2010,0.07,0.13,"0.1933"
-"442",442,442,"Jose Serra",0.34,"JAN","Vox Populi","PSDB",2010,0.07,0.19,"0.3261"
-"443",443,443,"Dilma Rousseff",0.27,"JAN","Vox Populi","PT",2010,0.07,0.19,"0.4691"
-"444",444,444,"Ciro Gomes",0,"JAN","Vox Populi","PDT12",2010,0.07,0.19,"0"
-"445",445,445,"Heloisa Helena",0.11,"JAN","Vox Populi","PSOL",2010,0.07,0.19,"0"
-"446",446,446,"Marina Silva",0.09,"JAN","Vox Populi","PV",2010,0.07,0.19,"0.1933"
-"447",447,447,"Jose Serra",332,"JAN","Sensus","PSDB",2010,0.07,203,"0.3261"
-"448",448,448,"Dilma Rousseff",278,"JAN","Sensus","PT",2010,0.07,203,"0.4691"
-"449",449,449,"Ciro Gomes",0,"JAN","Sensus","PDT12",2010,0.07,203,"0"
-"450",450,450,"Heloisa Helena",119,"JAN","Sensus","PSOL",2010,0.07,203,"0"
-"451",451,451,"Marina Silva",68,"JAN","Sensus","PV",2010,0.07,203,"0.1933"
-"452",452,452,"Jose Serra",0.36,"FEV","IBOPE","PSDB",2010,0.07,0.2,"0.3261"
-"453",453,453,"Dilma Rousseff",0.25,"FEV","IBOPE","PT",2010,0.07,0.2,"0.4691"
-"454",454,454,"Ciro Gomes",0,"FEV","IBOPE","PDT12",2010,0.07,0.2,"0"
-"455",455,455,"Heloisa Helena",0.11,"FEV","IBOPE","PSOL",2010,0.07,0.2,"0"
-"456",456,456,"Marina Silva",0.08,"FEV","IBOPE","PV",2010,0.07,0.2,"0.1933"
-"457",457,457,"Jose Serra",0.32,"FEV","Datafolha","PSDB",2010,0.07,0.19,"0.3261"
-"458",458,458,"Dilma Rousseff",0.28,"FEV","Datafolha","PT",2010,0.07,0.19,"0.4691"
-"459",459,459,"Ciro Gomes",0,"FEV","Datafolha","PDT12",2010,0.07,0.19,"0"
-"460",460,460,"Heloisa Helena",0.11,"FEV","Datafolha","PSOL",2010,0.07,0.19,"0"
-"461",461,461,"Marina Silva",0.08,"FEV","Datafolha","PV",2010,0.07,0.19,"0.1933"
-"462",462,462,"Jose Serra",0.35,"MAR","IBOPE","PSDB",2010,0.07,0.18,"0.3261"
-"463",463,463,"Dilma Rousseff",0.3,"MAR","IBOPE","PT",2010,0.07,0.18,"0.4691"
-"464",464,464,"Ciro Gomes",0,"MAR","IBOPE","PDT12",2010,0.07,0.18,"0"
-"465",465,465,"Heloisa Helena",0.11,"MAR","IBOPE","PSOL",2010,0.07,0.18,"0"
-"466",466,466,"Marina Silva",0.06,"MAR","IBOPE","PV",2010,0.07,0.18,"0.1933"
-"467",467,467,"Jose Serra",0.36,"MAR","Datafolha","PSDB",2010,0.07,0.18,"0.3261"
-"468",468,468,"Dilma Rousseff",0.27,"MAR","Datafolha","PT",2010,0.07,0.18,"0.4691"
-"469",469,469,"Ciro Gomes",0,"MAR","Datafolha","PDT12",2010,0.07,0.18,"0"
-"470",470,470,"Heloisa Helena",0.11,"MAR","Datafolha","PSOL",2010,0.07,0.18,"0"
-"471",471,471,"Marina Silva",0.08,"MAR","Datafolha","PV",2010,0.07,0.18,"0.1933"
-"472",472,472,"Jose Serra",0.34,"MAR","Vox Populi","PSDB",2010,0.07,0.2,"0.3261"
-"473",473,473,"Dilma Rousseff",0.31,"MAR","Vox Populi","PT",2010,0.07,0.2,"0.4691"
-"474",474,474,"Ciro Gomes",0,"MAR","Vox Populi","PDT12",2010,0.07,0.2,"0"
-"475",475,475,"Heloisa Helena",0.1,"MAR","Vox Populi","PSOL",2010,0.07,0.2,"0"
-"476",476,476,"Marina Silva",0.05,"MAR","Vox Populi","PV",2010,0.07,0.2,"0.1933"
-"477",477,477,"Jose Serra",327,"ABR","Sensus","PSDB",2010,0.07,167,"0.3261"
-"478",478,478,"Dilma Rousseff",324,"ABR","Sensus","PT",2010,0.07,167,"0.4691"
-"479",479,479,"Ciro Gomes",0,"ABR","Sensus","PDT12",2010,0.07,167,"0"
-"480",480,480,"Heloisa Helena",101,"ABR","Sensus","PSOL",2010,0.07,167,"0"
-"481",481,481,"Marina Silva",81,"ABR","Sensus","PV",2010,0.07,167,"0.1933"
-"482",482,482,"Jose Serra",0.36,"ABR","IBOPE","PSDB",2010,0.07,0.19,"0.3261"
-"483",483,483,"Dilma Rousseff",0.29,"ABR","IBOPE","PT",2010,0.07,0.19,"0.4691"
-"484",484,484,"Ciro Gomes",0,"ABR","IBOPE","PDT12",2010,0.07,0.19,"0"
-"485",485,485,"Heloisa Helena",0.08,"ABR","IBOPE","PSOL",2010,0.07,0.19,"0"
-"486",486,486,"Marina Silva",0.08,"ABR","IBOPE","PV",2010,0.07,0.19,"0.1933"
-"487",487,487,"Jose Serra",0.38,"ABR","Datafolha","PSDB",2010,0.07,0.15,"0.3261"
-"488",488,488,"Dilma Rousseff",0.28,"ABR","Datafolha","PT",2010,0.07,0.15,"0.4691"
-"489",489,489,"Ciro Gomes",0,"ABR","Datafolha","PDT12",2010,0.07,0.15,"0"
-"490",490,490,"Heloisa Helena",0.09,"ABR","Datafolha","PSOL",2010,0.07,0.15,"0"
-"491",491,491,"Marina Silva",0.1,"ABR","Datafolha","PV",2010,0.07,0.15,"0.1933"
-"492",492,492,"Lula",0.37,"OUT","Datafolha","PT",2002,0.02,0.26,"0.4644"
-"493",493,493,"Jose Serra",0.13,"OUT","Datafolha","PSDB",2002,0.02,0.26,"0.2319"
-"494",494,494,"Anthony Garotinho",0.12,"OUT","Datafolha","PSB",2002,0.02,0.26,"0.1786"
-"495",495,495,"Ciro Gomes",0.08,"OUT","Datafolha","PPS",2002,0.02,0.26,"0.1197"
-"496",496,496,"FHC",0,"OUT","Datafolha","PSDB",2002,0.02,0.26,"0"
-"497",497,497,"Roseana Sarney",0,"OUT","Datafolha","PFL",2002,0.02,0.26,"0"
-"498",498,498,"Itamar Franco",0,"OUT","Datafolha","PMDB",2002,0.02,0.26,"0"
-"499",499,499,"Ene<e1>s",0,"OUT","Datafolha","Prona",2002,0.02,0.26,"0"
-"500",500,500,"Lula",0.36,"SET","IBOPE","PT",2002,0.03,0.27,"0.4644"
-"501",501,501,"Jose Serra",0.13,"SET","IBOPE","PSDB",2002,0.03,0.27,"0.2319"
-"502",502,502,"Anthony Garotinho",0.12,"SET","IBOPE","PSB",2002,0.03,0.27,"0.1786"
-"503",503,503,"Ciro Gomes",0.09,"SET","IBOPE","PPS",2002,0.03,0.27,"0.1197"
-"504",504,504,"FHC",0,"SET","IBOPE","PSDB",2002,0.03,0.27,"0"
-"505",505,505,"Roseana Sarney",0,"SET","IBOPE","PFL",2002,0.03,0.27,"0"
-"506",506,506,"Itamar Franco",0,"SET","IBOPE","PMDB",2002,0.03,0.27,"0"
-"507",507,507,"Ene<e1>s",0,"SET","IBOPE","Prona",2002,0.03,0.27,"0"
-"508",508,508,"Lula",341,"SET","Sensus","PT",2002,0.08,299,"0.4644"
-"509",509,509,"Jose Serra",145,"SET","Sensus","PSDB",2002,0.08,299,"0.2319"
-"510",510,510,"Anthony Garotinho",114,"SET","Sensus","PSB",2002,0.08,299,"0.1786"
-"511",511,511,"Ciro Gomes",95,"SET","Sensus","PPS",2002,0.08,299,"0.1197"
-"512",512,512,"FHC",0,"SET","Sensus","PSDB",2002,0.08,299,"0"
-"513",513,513,"Roseana Sarney",0,"SET","Sensus","PFL",2002,0.08,299,"0"
-"514",514,514,"Itamar Franco",0,"SET","Sensus","PMDB",2002,0.08,299,"0"
-"515",515,515,"Ene<e1>s",0,"SET","Sensus","Prona",2002,0.08,299,"0"
-"516",516,516,"Lula",0.36,"SET","Datafolha","PT",2002,0.02,0.3,"0.4644"
-"517",517,517,"Jose Serra",0.12,"SET","Datafolha","PSDB",2002,0.02,0.3,"0.2319"
-"518",518,518,"Anthony Garotinho",0.1,"SET","Datafolha","PSB",2002,0.02,0.3,"0.1786"
-"519",519,519,"Ciro Gomes",0.08,"SET","Datafolha","PPS",2002,0.02,0.3,"0.1197"
-"520",520,520,"FHC",0,"SET","Datafolha","PSDB",2002,0.02,0.3,"0"
-"521",521,521,"Roseana Sarney",0,"SET","Datafolha","PFL",2002,0.02,0.3,"0"
-"522",522,522,"Itamar Franco",0,"SET","Datafolha","PMDB",2002,0.02,0.3,"0"
-"523",523,523,"Ene<e1>s",0,"SET","Datafolha","Prona",2002,0.02,0.3,"0"
-"524",524,524,"Lula",0.34,"SET","IBOPE","PT",2002,0.04,0.3,"0.4644"
-"525",525,525,"Jose Serra",0.13,"SET","IBOPE","PSDB",2002,0.04,0.3,"0.2319"
-"526",526,526,"Anthony Garotinho",0.1,"SET","IBOPE","PSB",2002,0.04,0.3,"0.1786"
-"527",527,527,"Ciro Gomes",0.09,"SET","IBOPE","PPS",2002,0.04,0.3,"0.1197"
-"528",528,528,"FHC",0,"SET","IBOPE","PSDB",2002,0.04,0.3,"0"
-"529",529,529,"Roseana Sarney",0,"SET","IBOPE","PFL",2002,0.04,0.3,"0"
-"530",530,530,"Itamar Franco",0,"SET","IBOPE","PMDB",2002,0.04,0.3,"0"
-"531",531,531,"Ene<e1>s",0,"SET","IBOPE","Prona",2002,0.04,0.3,"0"
-"532",532,532,"Lula",0.35,"SET","Datafolha","PT",2002,0.03,0.31,"0.4644"
-"533",533,533,"Jose Serra",0.12,"SET","Datafolha","PSDB",2002,0.03,0.31,"0.2319"
-"534",534,534,"Anthony Garotinho",0.09,"SET","Datafolha","PSB",2002,0.03,0.31,"0.1786"
-"535",535,535,"Ciro Gomes",0.09,"SET","Datafolha","PPS",2002,0.03,0.31,"0.1197"
-"536",536,536,"FHC",0,"SET","Datafolha","PSDB",2002,0.03,0.31,"0"
-"537",537,537,"Roseana Sarney",0,"SET","Datafolha","PFL",2002,0.03,0.31,"0"
-"538",538,538,"Itamar Franco",0,"SET","Datafolha","PMDB",2002,0.03,0.31,"0"
-"539",539,539,"Ene<e1>s",0,"SET","Datafolha","Prona",2002,0.03,0.31,"0"
-"540",540,540,"Lula",0.32,"SET","IBOPE","PT",2002,0.05,0.27,"0.4644"
-"541",541,541,"Jose Serra",0.14,"SET","IBOPE","PSDB",2002,0.05,0.27,"0.2319"
-"542",542,542,"Anthony Garotinho",0.1,"SET","IBOPE","PSB",2002,0.05,0.27,"0.1786"
-"543",543,543,"Ciro Gomes",0.1,"SET","IBOPE","PPS",2002,0.05,0.27,"0.1197"
-"544",544,544,"FHC",0,"SET","IBOPE","PSDB",2002,0.05,0.27,"0"
-"545",545,545,"Roseana Sarney",0,"SET","IBOPE","PFL",2002,0.05,0.27,"0"
-"546",546,546,"Itamar Franco",0,"SET","IBOPE","PMDB",2002,0.05,0.27,"0"
-"547",547,547,"Ene<e1>s",0,"SET","IBOPE","Prona",2002,0.05,0.27,"0"
-"548",548,548,"Lula",0.35,"SET","IBOPE","PT",2002,0.05,0.3,"0.4644"
-"549",549,549,"Jose Serra",0.13,"SET","IBOPE","PSDB",2002,0.05,0.3,"0.2319"
-"550",550,550,"Anthony Garotinho",0.09,"SET","IBOPE","PSB",2002,0.05,0.3,"0.1786"
-"551",551,551,"Ciro Gomes",0.08,"SET","IBOPE","PPS",2002,0.05,0.3,"0.1197"
-"552",552,552,"FHC",0,"SET","IBOPE","PSDB",2002,0.05,0.3,"0"
-"553",553,553,"Roseana Sarney",0,"SET","IBOPE","PFL",2002,0.05,0.3,"0"
-"554",554,554,"Itamar Franco",0,"SET","IBOPE","PMDB",2002,0.05,0.3,"0"
-"555",555,555,"Ene<e1>s",0,"SET","IBOPE","Prona",2002,0.05,0.3,"0"
-"556",556,556,"Lula",0.29,"SET","Datafolha","PT",2002,0.03,0.38,"0.4644"
-"557",557,557,"Jose Serra",0.11,"SET","Datafolha","PSDB",2002,0.03,0.38,"0.2319"
-"558",558,558,"Anthony Garotinho",0.07,"SET","Datafolha","PSB",2002,0.03,0.38,"0.1786"
-"559",559,559,"Ciro Gomes",0.1,"SET","Datafolha","PPS",2002,0.03,0.38,"0.1197"
-"560",560,560,"FHC",0,"SET","Datafolha","PSDB",2002,0.03,0.38,"0"
-"561",561,561,"Roseana Sarney",0,"SET","Datafolha","PFL",2002,0.03,0.38,"0"
-"562",562,562,"Itamar Franco",0,"SET","Datafolha","PMDB",2002,0.03,0.38,"0"
-"563",563,563,"Ene<e1>s",0,"SET","Datafolha","Prona",2002,0.03,0.38,"0"
-"564",564,564,"Lula",299,"SET","IBOPE","PT",2002,0.07,382,"0.4644"
-"565",565,565,"Jose Serra",107,"SET","IBOPE","PSDB",2002,0.07,382,"0.2319"
-"566",566,566,"Anthony Garotinho",94,"SET","IBOPE","PSB",2002,0.07,382,"0.1786"
-"567",567,567,"Ciro Gomes",127,"SET","IBOPE","PPS",2002,0.07,382,"0.1197"
-"568",568,568,"FHC",0,"SET","IBOPE","PSDB",2002,0.07,382,"0"
-"569",569,569,"Roseana Sarney",0,"SET","IBOPE","PFL",2002,0.07,382,"0"
-"570",570,570,"Itamar Franco",0,"SET","IBOPE","PMDB",2002,0.07,382,"0"
-"571",571,571,"Ene<e1>s",0,"SET","IBOPE","Prona",2002,0.07,382,"0"
-"572",572,572,"Lula",0.26,"SET","Datafolha","PT",2002,0.05,0.39,"0.4644"
-"573",573,573,"Jose Serra",0.1,"SET","Datafolha","PSDB",2002,0.05,0.39,"0.2319"
-"574",574,574,"Anthony Garotinho",0.07,"SET","Datafolha","PSB",2002,0.05,0.39,"0.1786"
-"575",575,575,"Ciro Gomes",0.12,"SET","Datafolha","PPS",2002,0.05,0.39,"0.1197"
-"576",576,576,"FHC",0,"SET","Datafolha","PSDB",2002,0.05,0.39,"0"
-"577",577,577,"Roseana Sarney",0,"SET","Datafolha","PFL",2002,0.05,0.39,"0"
-"578",578,578,"Itamar Franco",0,"SET","Datafolha","PMDB",2002,0.05,0.39,"0"
-"579",579,579,"Ene<e1>s",0,"SET","Datafolha","Prona",2002,0.05,0.39,"0"
-"580",580,580,"Lula",0.26,"AGO","Sensus","PT",2002,0.03,0.41,"0.4644"
-"581",581,581,"Jose Serra",0.1,"AGO","Sensus","PSDB",2002,0.03,0.41,"0.2319"
-"582",582,582,"Anthony Garotinho",0.05,"AGO","Sensus","PSB",2002,0.03,0.41,"0.1786"
-"583",583,583,"Ciro Gomes",0.13,"AGO","Sensus","PPS",2002,0.03,0.41,"0.1197"
-"584",584,584,"FHC",0,"AGO","Sensus","PSDB",2002,0.03,0.41,"0"
-"585",585,585,"Roseana Sarney",0,"AGO","Sensus","PFL",2002,0.03,0.41,"0"
-"586",586,586,"Itamar Franco",0,"AGO","Sensus","PMDB",2002,0.03,0.41,"0"
-"587",587,587,"Ene<e1>s",0,"AGO","Sensus","Prona",2002,0.03,0.41,"0"
-"588",588,588,"Lula",264,"AGO","IBOPE","PT",2002,0.07,398,"0.4644"
-"589",589,589,"Jose Serra",94,"AGO","IBOPE","PSDB",2002,0.07,398,"0.2319"
-"590",590,590,"Anthony Garotinho",59,"AGO","IBOPE","PSB",2002,0.07,398,"0.1786"
-"591",591,591,"Ciro Gomes",171,"AGO","IBOPE","PPS",2002,0.07,398,"0.1197"
-"592",592,592,"FHC",0,"AGO","IBOPE","PSDB",2002,0.07,398,"0"
-"593",593,593,"Roseana Sarney",0,"AGO","IBOPE","PFL",2002,0.07,398,"0"
-"594",594,594,"Itamar Franco",0,"AGO","IBOPE","PMDB",2002,0.07,398,"0"
-"595",595,595,"Ene<e1>s",0,"AGO","IBOPE","Prona",2002,0.07,398,"0"
-"596",596,596,"Lula",0.24,"AGO","Datafolha","PT",2002,0.07,0.42,"0.4644"
-"597",597,597,"Jose Serra",0.05,"AGO","Datafolha","PSDB",2002,0.07,0.42,"0.2319"
-"598",598,598,"Anthony Garotinho",0.05,"AGO","Datafolha","PSB",2002,0.07,0.42,"0.1786"
-"599",599,599,"Ciro Gomes",0.16,"AGO","Datafolha","PPS",2002,0.07,0.42,"0.1197"
-"600",600,600,"FHC",0,"AGO","Datafolha","PSDB",2002,0.07,0.42,"0"
-"601",601,601,"Roseana Sarney",0,"AGO","Datafolha","PFL",2002,0.07,0.42,"0"
-"602",602,602,"Itamar Franco",0,"AGO","Datafolha","PMDB",2002,0.07,0.42,"0"
-"603",603,603,"Ene<e1>s",0,"AGO","Datafolha","Prona",2002,0.07,0.42,"0"
-"604",604,604,"Lula",0.25,"AGO","Sensus","PT",2002,0.03,0.41,"0.4644"
-"605",605,605,"Jose Serra",0.06,"AGO","Sensus","PSDB",2002,0.03,0.41,"0.2319"
-"606",606,606,"Anthony Garotinho",0.06,"AGO","Sensus","PSB",2002,0.03,0.41,"0.1786"
-"607",607,607,"Ciro Gomes",0.18,"AGO","Sensus","PPS",2002,0.03,0.41,"0.1197"
-"608",608,608,"FHC",0,"AGO","Sensus","PSDB",2002,0.03,0.41,"0"
-"609",609,609,"Roseana Sarney",0,"AGO","Sensus","PFL",2002,0.03,0.41,"0"
-"610",610,610,"Itamar Franco",0,"AGO","Sensus","PMDB",2002,0.03,0.41,"0"
-"611",611,611,"Ene<e1>s",0,"AGO","Sensus","Prona",2002,0.03,0.41,"0"
-"612",612,612,"Lula",258,"AGO","IBOPE","PT",2002,0.07,403,"0.4644"
-"613",613,613,"Jose Serra",73,"AGO","IBOPE","PSDB",2002,0.07,403,"0.2319"
-"614",614,614,"Anthony Garotinho",62,"AGO","IBOPE","PSB",2002,0.07,403,"0.1786"
-"615",615,615,"Ciro Gomes",0.19,"AGO","IBOPE","PPS",2002,0.07,403,"0.1197"
-"616",616,616,"FHC",0,"AGO","IBOPE","PSDB",2002,0.07,403,"0"
-"617",617,617,"Roseana Sarney",0,"AGO","IBOPE","PFL",2002,0.07,403,"0"
-"618",618,618,"Itamar Franco",0,"AGO","IBOPE","PMDB",2002,0.07,403,"0"
-"619",619,619,"Ene<e1>s",0,"AGO","IBOPE","Prona",2002,0.07,403,"0"
-"620",620,620,"Lula",0.22,"AGO","Datafolha","PT",2002,0.06,0.42,"0.4644"
-"621",621,621,"Jose Serra",0.07,"AGO","Datafolha","PSDB",2002,0.06,0.42,"0.2319"
-"622",622,622,"Anthony Garotinho",0.06,"AGO","Datafolha","PSB",2002,0.06,0.42,"0.1786"
-"623",623,623,"Ciro Gomes",0.17,"AGO","Datafolha","PPS",2002,0.06,0.42,"0.1197"
-"624",624,624,"FHC",0,"AGO","Datafolha","PSDB",2002,0.06,0.42,"0"
-"625",625,625,"Roseana Sarney",0,"AGO","Datafolha","PFL",2002,0.06,0.42,"0"
-"626",626,626,"Itamar Franco",0,"AGO","Datafolha","PMDB",2002,0.06,0.42,"0"
-"627",627,627,"Ene<e1>s",0,"AGO","Datafolha","Prona",2002,0.06,0.42,"0"
-"628",628,628,"Lula",0.28,"AGO","Sensus","PT",2002,0.07,0.3,"0.4644"
-"629",629,629,"Jose Serra",0.08,"AGO","Sensus","PSDB",2002,0.07,0.3,"0.2319"
-"630",630,630,"Anthony Garotinho",0.05,"AGO","Sensus","PSB",2002,0.07,0.3,"0.1786"
-"631",631,631,"Ciro Gomes",0.23,"AGO","Sensus","PPS",2002,0.07,0.3,"0.1197"
-"632",632,632,"FHC",0,"AGO","Sensus","PSDB",2002,0.07,0.3,"0"
-"633",633,633,"Roseana Sarney",0,"AGO","Sensus","PFL",2002,0.07,0.3,"0"
-"634",634,634,"Itamar Franco",0,"AGO","Sensus","PMDB",2002,0.07,0.3,"0"
-"635",635,635,"Ene<e1>s",0,"AGO","Sensus","Prona",2002,0.07,0.3,"0"
-"636",636,636,"Lula",0.22,"AGO","IBOPE","PT",2002,0.06,0.42,"0.4644"
-"637",637,637,"Jose Serra",0.05,"AGO","IBOPE","PSDB",2002,0.06,0.42,"0.2319"
-"638",638,638,"Anthony Garotinho",0.05,"AGO","IBOPE","PSB",2002,0.06,0.42,"0.1786"
-"639",639,639,"Ciro Gomes",0.19,"AGO","IBOPE","PPS",2002,0.06,0.42,"0.1197"
-"640",640,640,"FHC",0,"AGO","IBOPE","PSDB",2002,0.06,0.42,"0"
-"641",641,641,"Roseana Sarney",0,"AGO","IBOPE","PFL",2002,0.06,0.42,"0"
-"642",642,642,"Itamar Franco",0,"AGO","IBOPE","PMDB",2002,0.06,0.42,"0"
-"643",643,643,"Ene<e1>s",0,"AGO","IBOPE","Prona",2002,0.06,0.42,"0"
-"644",644,644,"Lula",0.27,"AGO","Vox Populi","PT",2002,0.06,0.28,"0.4644"
-"645",645,645,"Jose Serra",0.09,"AGO","Vox Populi","PSDB",2002,0.06,0.28,"0.2319"
-"646",646,646,"Anthony Garotinho",0.07,"AGO","Vox Populi","PSB",2002,0.06,0.28,"0.1786"
-"647",647,647,"Ciro Gomes",0.22,"AGO","Vox Populi","PPS",2002,0.06,0.28,"0.1197"
-"648",648,648,"FHC",0,"AGO","Vox Populi","PSDB",2002,0.06,0.28,"0"
-"649",649,649,"Roseana Sarney",0,"AGO","Vox Populi","PFL",2002,0.06,0.28,"0"
-"650",650,650,"Itamar Franco",0,"AGO","Vox Populi","PMDB",2002,0.06,0.28,"0"
-"651",651,651,"Ene<e1>s",0,"AGO","Vox Populi","Prona",2002,0.06,0.28,"0"
-"652",652,652,"Lula",267,"JUL","IBOPE","PT",2002,0.07,412,"0.4644"
-"653",653,653,"Jose Serra",72,"JUL","IBOPE","PSDB",2002,0.07,412,"0.2319"
-"654",654,654,"Anthony Garotinho",67,"JUL","IBOPE","PSB",2002,0.07,412,"0.1786"
-"655",655,655,"Ciro Gomes",171,"JUL","IBOPE","PPS",2002,0.07,412,"0.1197"
-"656",656,656,"FHC",0,"JUL","IBOPE","PSDB",2002,0.07,412,"0"
-"657",657,657,"Roseana Sarney",0,"JUL","IBOPE","PFL",2002,0.07,412,"0"
-"658",658,658,"Itamar Franco",0,"JUL","IBOPE","PMDB",2002,0.07,412,"0"
-"659",659,659,"Ene<e1>s",0,"JUL","IBOPE","Prona",2002,0.07,412,"0"
-"660",660,660,"Lula",0.23,"JUL","Vox Populi","PT",2002,0.04,0.42,"0.4644"
-"661",661,661,"Jose Serra",0.06,"JUL","Vox Populi","PSDB",2002,0.04,0.42,"0.2319"
-"662",662,662,"Anthony Garotinho",0.04,"JUL","Vox Populi","PSB",2002,0.04,0.42,"0.1786"
-"663",663,663,"Ciro Gomes",0.18,"JUL","Vox Populi","PPS",2002,0.04,0.42,"0.1197"
-"664",664,664,"FHC",0,"JUL","Vox Populi","PSDB",2002,0.04,0.42,"0"
-"665",665,665,"Roseana Sarney",0,"JUL","Vox Populi","PFL",2002,0.04,0.42,"0"
-"666",666,666,"Itamar Franco",0,"JUL","Vox Populi","PMDB",2002,0.04,0.42,"0"
-"667",667,667,"Ene<e1>s",0,"JUL","Vox Populi","Prona",2002,0.04,0.42,"0"
-"668",668,668,"Lula",0.23,"JUL","Sensus","PT",2002,0.06,0.42,"0.4644"
-"669",669,669,"Jose Serra",0.07,"JUL","Sensus","PSDB",2002,0.06,0.42,"0.2319"
-"670",670,670,"Anthony Garotinho",0.06,"JUL","Sensus","PSB",2002,0.06,0.42,"0.1786"
-"671",671,671,"Ciro Gomes",0.16,"JUL","Sensus","PPS",2002,0.06,0.42,"0.1197"
-"672",672,672,"FHC",0,"JUL","Sensus","PSDB",2002,0.06,0.42,"0"
-"673",673,673,"Roseana Sarney",0,"JUL","Sensus","PFL",2002,0.06,0.42,"0"
-"674",674,674,"Itamar Franco",0,"JUL","Sensus","PMDB",2002,0.06,0.42,"0"
-"675",675,675,"Ene<e1>s",0,"JUL","Sensus","Prona",2002,0.06,0.42,"0"
-"676",676,676,"Lula",0.21,"JUL","Datafolha","PT",2002,0.06,0.47,"0.4644"
-"677",677,677,"Jose Serra",0.05,"JUL","Datafolha","PSDB",2002,0.06,0.47,"0.2319"
-"678",678,678,"Anthony Garotinho",0.05,"JUL","Datafolha","PSB",2002,0.06,0.47,"0.1786"
-"679",679,679,"Ciro Gomes",0.15,"JUL","Datafolha","PPS",2002,0.06,0.47,"0.1197"
-"680",680,680,"FHC",0,"JUL","Datafolha","PSDB",2002,0.06,0.47,"0"
-"681",681,681,"Roseana Sarney",0,"JUL","Datafolha","PFL",2002,0.06,0.47,"0"
-"682",682,682,"Itamar Franco",0,"JUL","Datafolha","PMDB",2002,0.06,0.47,"0"
-"683",683,683,"Ene<e1>s",0,"JUL","Datafolha","Prona",2002,0.06,0.47,"0"
-"684",684,684,"Lula",0.27,"JUL","IBOPE","PT",2002,0.08,0.32,"0.4644"
-"685",685,685,"Jose Serra",0.08,"JUL","IBOPE","PSDB",2002,0.08,0.32,"0.2319"
-"686",686,686,"Anthony Garotinho",0.06,"JUL","IBOPE","PSB",2002,0.08,0.32,"0.1786"
-"687",687,687,"Ciro Gomes",0.19,"JUL","IBOPE","PPS",2002,0.08,0.32,"0.1197"
-"688",688,688,"FHC",0,"JUL","IBOPE","PSDB",2002,0.08,0.32,"0"
-"689",689,689,"Roseana Sarney",0,"JUL","IBOPE","PFL",2002,0.08,0.32,"0"
-"690",690,690,"Itamar Franco",0,"JUL","IBOPE","PMDB",2002,0.08,0.32,"0"
-"691",691,691,"Ene<e1>s",0,"JUL","IBOPE","Prona",2002,0.08,0.32,"0"
-"692",692,692,"Lula",0.21,"JUL","Vox Populi","PT",2002,0.06,0.46,"0.4644"
-"693",693,693,"Jose Serra",0.07,"JUL","Vox Populi","PSDB",2002,0.06,0.46,"0.2319"
-"694",694,694,"Anthony Garotinho",0.06,"JUL","Vox Populi","PSB",2002,0.06,0.46,"0.1786"
-"695",695,695,"Ciro Gomes",0.13,"JUL","Vox Populi","PPS",2002,0.06,0.46,"0.1197"
-"696",696,696,"FHC",0,"JUL","Vox Populi","PSDB",2002,0.06,0.46,"0"
-"697",697,697,"Roseana Sarney",0,"JUL","Vox Populi","PFL",2002,0.06,0.46,"0"
-"698",698,698,"Itamar Franco",0,"JUL","Vox Populi","PMDB",2002,0.06,0.46,"0"
-"699",699,699,"Ene<e1>s",0,"JUL","Vox Populi","Prona",2002,0.06,0.46,"0"
-"700",700,700,"Lula",245,"JUN","IBOPE","PT",2002,29,435,"0.4644"
-"701",701,701,"Jose Serra",111,"JUN","IBOPE","PSDB",2002,29,435,"0.2319"
-"702",702,702,"Anthony Garotinho",68,"JUN","IBOPE","PSB",2002,29,435,"0.1786"
-"703",703,703,"Ciro Gomes",68,"JUN","IBOPE","PPS",2002,29,435,"0.1197"
-"704",704,704,"FHC",0,"JUN","IBOPE","PSDB",2002,29,435,"0"
-"705",705,705,"Roseana Sarney",0,"JUN","IBOPE","PFL",2002,29,435,"0"
-"706",706,706,"Itamar Franco",0,"JUN","IBOPE","PMDB",2002,29,435,"0"
-"707",707,707,"Ene<e1>s",0,"JUN","IBOPE","Prona",2002,29,435,"0"
-"708",708,708,"Lula",0.26,"JUN","Datafolha","PT",2002,0.07,0.44,"0.4644"
-"709",709,709,"Jose Serra",0.08,"JUN","Datafolha","PSDB",2002,0.07,0.44,"0.2319"
-"710",710,710,"Anthony Garotinho",0.06,"JUN","Datafolha","PSB",2002,0.07,0.44,"0.1786"
-"711",711,711,"Ciro Gomes",0.05,"JUN","Datafolha","PPS",2002,0.07,0.44,"0.1197"
-"712",712,712,"FHC",0.01,"JUN","Datafolha","PSDB",2002,0.07,0.44,"0"
-"713",713,713,"Roseana Sarney",0.01,"JUN","Datafolha","PFL",2002,0.07,0.44,"0"
-"714",714,714,"Itamar Franco",0,"JUN","Datafolha","PMDB",2002,0.07,0.44,"0"
-"715",715,715,"Ene<e1>s",0.01,"JUN","Datafolha","Prona",2002,0.07,0.44,"0"
-"716",716,716,"Lula",0.24,"JUN","Sensus","PT",2002,0.08,0.47,"0.4644"
-"717",717,717,"Jose Serra",0.07,"JUN","Sensus","PSDB",2002,0.08,0.47,"0.2319"
-"718",718,718,"Anthony Garotinho",0.06,"JUN","Sensus","PSB",2002,0.08,0.47,"0.1786"
-"719",719,719,"Ciro Gomes",0.04,"JUN","Sensus","PPS",2002,0.08,0.47,"0.1197"
-"720",720,720,"FHC",0.01,"JUN","Sensus","PSDB",2002,0.08,0.47,"0"
-"721",721,721,"Roseana Sarney",0,"JUN","Sensus","PFL",2002,0.08,0.47,"0"
-"722",722,722,"Itamar Franco",0,"JUN","Sensus","PMDB",2002,0.08,0.47,"0"
-"723",723,723,"Ene<e1>s",0.01,"JUN","Sensus","Prona",2002,0.08,0.47,"0"
-"724",724,724,"Lula",0.25,"JUN","IBOPE","PT",2002,0.05,0.48,"0.4644"
-"725",725,725,"Jose Serra",0.08,"JUN","IBOPE","PSDB",2002,0.05,0.48,"0.2319"
-"726",726,726,"Anthony Garotinho",0.06,"JUN","IBOPE","PSB",2002,0.05,0.48,"0.1786"
-"727",727,727,"Ciro Gomes",0.05,"JUN","IBOPE","PPS",2002,0.05,0.48,"0.1197"
-"728",728,728,"FHC",0.01,"JUN","IBOPE","PSDB",2002,0.05,0.48,"0"
-"729",729,729,"Roseana Sarney",0,"JUN","IBOPE","PFL",2002,0.05,0.48,"0"
-"730",730,730,"Itamar Franco",0,"JUN","IBOPE","PMDB",2002,0.05,0.48,"0"
-"731",731,731,"Ene<e1>s",0,"JUN","IBOPE","Prona",2002,0.05,0.48,"0"
-"732",732,732,"Lula",0.29,"MAI","IBOPE","PT",2002,0.07,0.41,"0.4644"
-"733",733,733,"Jose Serra",0.1,"MAI","IBOPE","PSDB",2002,0.07,0.41,"0.2319"
-"734",734,734,"Anthony Garotinho",0.07,"MAI","IBOPE","PSB",2002,0.07,0.41,"0.1786"
-"735",735,735,"Ciro Gomes",0.04,"MAI","IBOPE","PPS",2002,0.07,0.41,"0.1197"
-"736",736,736,"FHC",0,"MAI","IBOPE","PSDB",2002,0.07,0.41,"0"
-"737",737,737,"Roseana Sarney",0,"MAI","IBOPE","PFL",2002,0.07,0.41,"0"
-"738",738,738,"Itamar Franco",0,"MAI","IBOPE","PMDB",2002,0.07,0.41,"0"
-"739",739,739,"Ene<e1>s",0.01,"MAI","IBOPE","Prona",2002,0.07,0.41,"0"
-"740",740,740,"Lula",0.27,"MAI","Vox Populi","PT",2002,0.05,0.46,"0.4644"
-"741",741,741,"Jose Serra",0.06,"MAI","Vox Populi","PSDB",2002,0.05,0.46,"0.2319"
-"742",742,742,"Anthony Garotinho",0.06,"MAI","Vox Populi","PSB",2002,0.05,0.46,"0.1786"
-"743",743,743,"Ciro Gomes",0.05,"MAI","Vox Populi","PPS",2002,0.05,0.46,"0.1197"
-"744",744,744,"FHC",0,"MAI","Vox Populi","PSDB",2002,0.05,0.46,"0"
-"745",745,745,"Roseana Sarney",0,"MAI","Vox Populi","PFL",2002,0.05,0.46,"0"
-"746",746,746,"Itamar Franco",0,"MAI","Vox Populi","PMDB",2002,0.05,0.46,"0"
-"747",747,747,"Ene<e1>s",0,"MAI","Vox Populi","Prona",2002,0.05,0.46,"0"
-"748",748,748,"Lula",245,"ABR","Sensus","PT",2002,37,475,"0.4644"
-"749",749,749,"Jose Serra",73,"ABR","Sensus","PSDB",2002,37,475,"0.2319"
-"750",750,750,"Anthony Garotinho",76,"ABR","Sensus","PSB",2002,37,475,"0.1786"
-"751",751,751,"Ciro Gomes",42,"ABR","Sensus","PPS",2002,37,475,"0.1197"
-"752",752,752,"FHC",0,"ABR","Sensus","PSDB",2002,37,475,"0"
-"753",753,753,"Roseana Sarney",22,"ABR","Sensus","PFL",2002,37,475,"0"
-"754",754,754,"Itamar Franco",0,"ABR","Sensus","PMDB",2002,37,475,"0"
-"755",755,755,"Ene<e1>s",0,"ABR","Sensus","Prona",2002,37,475,"0"
-"756",756,756,"Lula",0.2,"ABR","Datafolha","PT",2002,0.09,0.48,"0.4644"
-"757",757,757,"Jose Serra",0.06,"ABR","Datafolha","PSDB",2002,0.09,0.48,"0.2319"
-"758",758,758,"Anthony Garotinho",0.06,"ABR","Datafolha","PSB",2002,0.09,0.48,"0.1786"
-"759",759,759,"Ciro Gomes",0.04,"ABR","Datafolha","PPS",2002,0.09,0.48,"0.1197"
-"760",760,760,"FHC",0.01,"ABR","Datafolha","PSDB",2002,0.09,0.48,"0"
-"761",761,761,"Roseana Sarney",0.02,"ABR","Datafolha","PFL",2002,0.09,0.48,"0"
-"762",762,762,"Itamar Franco",0,"ABR","Datafolha","PMDB",2002,0.09,0.48,"0"
-"763",763,763,"Ene<e1>s",0,"ABR","Datafolha","Prona",2002,0.09,0.48,"0"
-"764",764,764,"Lula",0.18,"ABR","Sensus","PT",2002,0.07,0.5,"0.4644"
-"765",765,765,"Jose Serra",0.07,"ABR","Sensus","PSDB",2002,0.07,0.5,"0.2319"
-"766",766,766,"Anthony Garotinho",0.06,"ABR","Sensus","PSB",2002,0.07,0.5,"0.1786"
-"767",767,767,"Ciro Gomes",0.03,"ABR","Sensus","PPS",2002,0.07,0.5,"0.1197"
-"768",768,768,"FHC",0.01,"ABR","Sensus","PSDB",2002,0.07,0.5,"0"
-"769",769,769,"Roseana Sarney",0.05,"ABR","Sensus","PFL",2002,0.07,0.5,"0"
-"770",770,770,"Itamar Franco",0,"ABR","Sensus","PMDB",2002,0.07,0.5,"0"
-"771",771,771,"Ene<e1>s",0,"ABR","Sensus","Prona",2002,0.07,0.5,"0"
-"772",772,772,"Lula",192,"MAR","IBOPE","PT",2002,76,452,"0.4644"
-"773",773,773,"Jose Serra",74,"MAR","IBOPE","PSDB",2002,76,452,"0.2319"
-"774",774,774,"Anthony Garotinho",63,"MAR","IBOPE","PSB",2002,76,452,"0.1786"
-"775",775,775,"Ciro Gomes",48,"MAR","IBOPE","PPS",2002,76,452,"0.1197"
-"776",776,776,"FHC",0,"MAR","IBOPE","PSDB",2002,76,452,"0"
-"777",777,777,"Roseana Sarney",74,"MAR","IBOPE","PFL",2002,76,452,"0"
-"778",778,778,"Itamar Franco",6,"MAR","IBOPE","PMDB",2002,76,452,"0"
-"779",779,779,"Ene<e1>s",0,"MAR","IBOPE","Prona",2002,76,452,"0"
-"780",780,780,"Lula",0.13,"MAR","GPP","PT",2002,0.09,0.53,"0.4644"
-"781",781,781,"Jose Serra",0.06,"MAR","GPP","PSDB",2002,0.09,0.53,"0.2319"
-"782",782,782,"Anthony Garotinho",0.05,"MAR","GPP","PSB",2002,0.09,0.53,"0.1786"
-"783",783,783,"Ciro Gomes",0.03,"MAR","GPP","PPS",2002,0.09,0.53,"0.1197"
-"784",784,784,"FHC",0.02,"MAR","GPP","PSDB",2002,0.09,0.53,"0"
-"785",785,785,"Roseana Sarney",0.07,"MAR","GPP","PFL",2002,0.09,0.53,"0"
-"786",786,786,"Itamar Franco",0.01,"MAR","GPP","PMDB",2002,0.09,0.53,"0"
-"787",787,787,"Ene<e1>s",0.01,"MAR","GPP","Prona",2002,0.09,0.53,"0"
-"788",788,788,"Lula",0.2,"MAR","Sensus","PT",2002,0.08,36,"0.4644"
-"789",789,789,"Jose Serra",0.11,"MAR","Sensus","PSDB",2002,0.08,36,"0.2319"
-"790",790,790,"Anthony Garotinho",0.05,"MAR","Sensus","PSB",2002,0.08,36,"0.1786"
-"791",791,791,"Ciro Gomes",0.04,"MAR","Sensus","PPS",2002,0.08,36,"0.1197"
-"792",792,792,"FHC",0.01,"MAR","Sensus","PSDB",2002,0.08,36,"0"
-"793",793,793,"Roseana Sarney",0.11,"MAR","Sensus","PFL",2002,0.08,36,"0"
-"794",794,794,"Itamar Franco",0.01,"MAR","Sensus","PMDB",2002,0.08,36,"0"
-"795",795,795,"Ene<e1>s",0.01,"MAR","Sensus","Prona",2002,0.08,36,"0"
-"796",796,796,"Lula",0.15,"FEV","Datafolha","PT",2002,0.07,0.51,"0.4644"
-"797",797,797,"Jose Serra",0.03,"FEV","Datafolha","PSDB",2002,0.07,0.51,"0.2319"
-"798",798,798,"Anthony Garotinho",0.05,"FEV","Datafolha","PSB",2002,0.07,0.51,"0.1786"
-"799",799,799,"Ciro Gomes",0.02,"FEV","Datafolha","PPS",2002,0.07,0.51,"0.1197"
-"800",800,800,"FHC",0.02,"FEV","Datafolha","PSDB",2002,0.07,0.51,"0"
-"801",801,801,"Roseana Sarney",0.1,"FEV","Datafolha","PFL",2002,0.07,0.51,"0"
-"802",802,802,"Itamar Franco",13,"FEV","Datafolha","PMDB",2002,0.07,0.51,"0"
-"803",803,803,"Ene<e1>s",0,"FEV","Datafolha","Prona",2002,0.07,0.51,"0"
-"804",804,804,"Lula",0.15,"JAN","Datafolha","PT",2002,0.09,0.55,"0.4644"
-"805",805,805,"Jose Serra",0.02,"JAN","Datafolha","PSDB",2002,0.09,0.55,"0.2319"
-"806",806,806,"Anthony Garotinho",0.05,"JAN","Datafolha","PSB",2002,0.09,0.55,"0.1786"
-"807",807,807,"Ciro Gomes",0.02,"JAN","Datafolha","PPS",2002,0.09,0.55,"0.1197"
-"808",808,808,"FHC",0.03,"JAN","Datafolha","PSDB",2002,0.09,0.55,"0"
-"809",809,809,"Roseana Sarney",0.06,"JAN","Datafolha","PFL",2002,0.09,0.55,"0"
-"810",810,810,"Itamar Franco",0,"JAN","Datafolha","PMDB",2002,0.09,0.55,"0"
-"811",811,811,"Ene<e1>s",0,"JAN","Datafolha","Prona",2002,0.08,0.55,"0"
-"812",812,812,"Lula",0.16,"JAN","Sensus","PT",2002,0.08,0.55,"0.4644"
-"813",813,813,"Jose Serra",0,"JAN","Sensus","PSDB",2002,0.08,0.55,"0.2319"
-"814",814,814,"Anthony Garotinho",0.04,"JAN","Sensus","PSB",2002,0.08,0.55,"0.1786"
-"815",815,815,"Ciro Gomes",0.03,"JAN","Sensus","PPS",2002,0.08,0.55,"0.1197"
-"816",816,816,"FHC",0.03,"JAN","Sensus","PSDB",2002,0.08,0.55,"0"
-"817",817,817,"Roseana Sarney",0.05,"JAN","Sensus","PFL",2002,0.08,0.55,"0"
-"818",818,818,"Itamar Franco",0.01,"JAN","Sensus","PMDB",2002,0.08,0.55,"0"
-"819",819,819,"Ene<e1>s",0,"JAN","Sensus","Prona",2002,0.08,0.55,"0"
+Nome_do_Candidato,Resultado_da_Pesquisa,Mes,Instituto,Partido_do_Candidato,Ano_da_Eleicao,Brancos_Nulos,Indecisos,Resultado_Final
+Dilma Rousseff,0.38,JUL,Datafolha,PT,2014,0.13,0.11,0.42
+Aecio,0.2,JUL,Datafolha,PSDB,2014,0.13,0.11,0.34
+Marina Silva,0.09,JUL,Datafolha,PSB,2014,0.13,0.11,0.21
+Luciana,0.01,JUL,Datafolha,PSOL,2014,0.13,0.11,0.02
+Eymael,0,JUL,Datafolha,PSDC,2014,0.13,0.11,0.00
+Jose_Maria,0.02,JUL,Datafolha,PSTU,2014,0.13,0.11,0.00
+Dilma Rousseff,0.36,JUL,Datafolha,PT,2014,0.13,0.14,0.42
+Aecio,0.2,JUL,Datafolha,PSDB,2014,0.13,0.14,0.34
+Marina Silva,0.08,JUL,Datafolha,PSB,2014,0.13,0.14,0.21
+Luciana,0.01,JUL,Datafolha,PSOL,2014,0.13,0.14,0.02
+Eymael,0.01,JUL,Datafolha,PSDC,2014,0.13,0.14,0.00
+Jose_Maria,0.01,JUL,Datafolha,PSTU,2014,0.13,0.14,0.00
+Dilma Rousseff,0.36,AGO,Datafolha,PT,2014,0.08,0.09,0.42
+Aecio,0.2,AGO,Datafolha,PSDB,2014,0.08,0.09,0.34
+Marina Silva,0.21,AGO,Datafolha,PSB,2014,0.08,0.09,0.21
+Luciana,0,AGO,Datafolha,PSOL,2014,0.08,0.09,0.02
+Eymael,0,AGO,Datafolha,PSDC,2014,0.08,0.09,0.00
+Jose_Maria,0.01,AGO,Datafolha,PSTU,2014,0.08,0.09,0.00
+Dilma Rousseff,0.35,AGO,Datafolha,PT,2014,0.06,0.07,0.42
+Aecio,0.14,AGO,Datafolha,PSDB,2014,0.06,0.07,0.34
+Marina Silva,0.34,AGO,Datafolha,PSB,2014,0.06,0.07,0.21
+Luciana,0.01,AGO,Datafolha,PSOL,2014,0.06,0.07,0.02
+Eymael,0,AGO,Datafolha,PSDC,2014,0.06,0.07,0.00
+Jose_Maria,0.01,AGO,Datafolha,PSTU,2014,0.06,0.07,0.00
+Dilma Rousseff,0.35,SET,Datafolha,PT,2014,0.06,0.07,0.42
+Aecio,0.14,SET,Datafolha,PSDB,2014,0.06,0.07,0.34
+Marina Silva,0.34,SET,Datafolha,PSB,2014,0.06,0.07,0.21
+Luciana,0.01,SET,Datafolha,PSOL,2014,0.06,0.07,0.02
+Eymael,0,SET,Datafolha,PSDC,2014,0.06,0.07,0.00
+Jose_Maria,0.01,SET,Datafolha,PSTU,2014,0.06,0.07,0.00
+Dilma Rousseff,0.36,SET,Datafolha,PT,2014,0.06,0.07,0.42
+Aecio,0.15,SET,Datafolha,PSDB,2014,0.06,0.07,0.34
+Marina Silva,0.33,SET,Datafolha,PSB,2014,0.06,0.07,0.21
+Luciana,0.01,SET,Datafolha,PSOL,2014,0.06,0.07,0.02
+Eymael,0,SET,Datafolha,PSDC,2014,0.06,0.07,0.00
+Jose_Maria,0,SET,Datafolha,PSTU,2014,0.06,0.07,0.00
+Dilma Rousseff,0.37,SET,Datafolha,PT,2014,0.06,0.07,0.42
+Aecio,0.17,SET,Datafolha,PSDB,2014,0.06,0.07,0.34
+Marina Silva,0.3,SET,Datafolha,PSB,2014,0.06,0.07,0.21
+Luciana,0.1,SET,Datafolha,PSOL,2014,0.06,0.07,0.02
+Eymael,0,SET,Datafolha,PSDC,2014,0.06,0.07,0.00
+Jose_Maria,0,SET,Datafolha,PSTU,2014,0.06,0.07,0.00
+Dilma Rousseff,0.4,SET,Datafolha,PT,2014,0.05,0.06,0.42
+Aecio,0.18,SET,Datafolha,PSDB,2014,0.05,0.06,0.34
+Marina Silva,0.27,SET,Datafolha,PSB,2014,0.05,0.06,0.21
+Luciana,0.1,SET,Datafolha,PSOL,2014,0.05,0.06,0.02
+Eymael,0,SET,Datafolha,PSDC,2014,0.05,0.06,0.00
+Jose_Maria,0,SET,Datafolha,PSTU,2014,0.05,0.06,0.00
+Dilma Rousseff,0.4,SET,Datafolha,PT,2014,0.05,0.05,0.42
+Aecio,0.2,SET,Datafolha,PSDB,2014,0.05,0.05,0.34
+Marina Silva,0.25,SET,Datafolha,PSB,2014,0.05,0.05,0.21
+Luciana,0.01,SET,Datafolha,PSOL,2014,0.05,0.05,0.02
+Eymael,0,SET,Datafolha,PSDC,2014,0.05,0.05,0.00
+Jose_Maria,0,SET,Datafolha,PSTU,2014,0.05,0.05,0.00
+Dilma Rousseff,0.4,OUT,Datafolha,PT,2014,0.05,0.05,0.42
+Aecio,0.21,OUT,Datafolha,PSDB,2014,0.05,0.05,0.34
+Marina Silva,0.24,OUT,Datafolha,PSB,2014,0.05,0.05,0.21
+Luciana,0.01,OUT,Datafolha,PSOL,2014,0.05,0.05,0.02
+Eymael,0,OUT,Datafolha,PSDC,2014,0.05,0.05,0.00
+Jose_Maria,0,OUT,Datafolha,PSTU,2014,0.05,0.05,0.00
+Dilma Rousseff,0.4,OUT,Datafolha,PT,2014,0.04,0.05,0.42
+Aecio,0.24,OUT,Datafolha,PSDB,2014,0.04,0.05,0.34
+Marina Silva,0.22,OUT,Datafolha,PSB,2014,0.04,0.05,0.21
+Luciana,0.01,OUT,Datafolha,PSOL,2014,0.04,0.05,0.02
+Eymael,0,OUT,Datafolha,PSDC,2014,0.04,0.05,0.00
+Jose_Maria,0,OUT,Datafolha,PSTU,2014,0.04,0.05,0.00
+Dilma Rousseff,0.38,JUL,IBOPE,PT,2014,0.16,0.09,0.42
+Aecio,0.22,JUL,IBOPE,PSDB,2014,0.16,0.09,0.34
+Marina Silva,0.08,JUL,IBOPE,PSB,2014,0.16,0.09,0.21
+Luciana,0.01,JUL,IBOPE,PSOL,2014,0.16,0.09,0.02
+Eymael,0,JUL,IBOPE,PSDC,2014,0.16,0.09,0.00
+Jose_Maria,0.01,JUL,IBOPE,PSTU,2014,0.16,0.09,0.00
+Dilma Rousseff,0.38,AGO,IBOPE,PT,2014,0.13,0.11,0.42
+Aecio,0.23,AGO,IBOPE,PSDB,2014,0.13,0.11,0.34
+Marina Silva,0.09,AGO,IBOPE,PSB,2014,0.13,0.11,0.21
+Luciana,0.01,AGO,IBOPE,PSOL,2014,0.13,0.11,0.02
+Eymael,0,AGO,IBOPE,PSDC,2014,0.13,0.11,0.00
+Jose_Maria,0,AGO,IBOPE,PSTU,2014,0.13,0.11,0.00
+Dilma Rousseff,0.34,AGO,IBOPE,PT,2014,0.07,0.08,0.42
+Aecio,0.19,AGO,IBOPE,PSDB,2014,0.07,0.08,0.34
+Marina Silva,0.29,AGO,IBOPE,PSB,2014,0.07,0.08,0.21
+Luciana,0.01,AGO,IBOPE,PSOL,2014,0.07,0.08,0.02
+Eymael,0,AGO,IBOPE,PSDC,2014,0.07,0.08,0.00
+Jose_Maria,0,AGO,IBOPE,PSTU,2014,0.07,0.08,0.00
+Dilma Rousseff,0.37,SET,IBOPE,PT,2014,0.07,0.05,0.42
+Aecio,0.15,SET,IBOPE,PSDB,2014,0.07,0.05,0.34
+Marina Silva,0.33,SET,IBOPE,PSB,2014,0.07,0.05,0.21
+Luciana,0,SET,IBOPE,PSOL,2014,0.07,0.05,0.02
+Eymael,0,SET,IBOPE,PSDC,2014,0.07,0.05,0.00
+Jose_Maria,0,SET,IBOPE,PSTU,2014,0.07,0.05,0.00
+Dilma Rousseff,0.39,SET,IBOPE,PT,2014,0.08,0.05,0.42
+Aecio,0.15,SET,IBOPE,PSDB,2014,0.08,0.05,0.34
+Marina Silva,0.31,SET,IBOPE,PSB,2014,0.08,0.05,0.21
+Luciana,0,SET,IBOPE,PSOL,2014,0.08,0.05,0.02
+Eymael,0,SET,IBOPE,PSDC,2014,0.08,0.05,0.00
+Jose_Maria,0,SET,IBOPE,PSTU,2014,0.08,0.05,0.00
+Dilma Rousseff,0.36,SET,IBOPE,PT,2014,0.07,0.06,0.42
+Aecio,0.19,SET,IBOPE,PSDB,2014,0.07,0.06,0.34
+Marina Silva,0.3,SET,IBOPE,PSB,2014,0.07,0.06,0.21
+Luciana,0,SET,IBOPE,PSOL,2014,0.07,0.06,0.02
+Eymael,0,SET,IBOPE,PSDC,2014,0.07,0.06,0.00
+Jose_Maria,0,SET,IBOPE,PSTU,2014,0.07,0.06,0.00
+Dilma Rousseff,0.38,SET,IBOPE,PT,2014,0.07,0.05,0.42
+Aecio,0.19,SET,IBOPE,PSDB,2014,0.07,0.05,0.34
+Marina Silva,0.29,SET,IBOPE,PSB,2014,0.07,0.05,0.21
+Luciana,0.01,SET,IBOPE,PSOL,2014,0.07,0.05,0.02
+Eymael,0.01,SET,IBOPE,PSDC,2014,0.07,0.05,0.00
+Jose_Maria,0.01,SET,IBOPE,PSTU,2014,0.07,0.05,0.00
+Dilma Rousseff,0.39,SET,IBOPE,PT,2014,0.07,0.07,0.42
+Aecio,0.19,SET,IBOPE,PSDB,2014,0.07,0.07,0.34
+Marina Silva,0.25,SET,IBOPE,PSB,2014,0.07,0.07,0.21
+Luciana,0.01,SET,IBOPE,PSOL,2014,0.07,0.07,0.02
+Eymael,0,SET,IBOPE,PSDC,2014,0.07,0.07,0.00
+Jose_Maria,0,SET,IBOPE,PSTU,2014,0.07,0.07,0.00
+Dilma Rousseff,0.4,OUT,IBOPE,PT,2014,0.08,0.07,0.42
+Aecio,0.19,OUT,IBOPE,PSDB,2014,0.08,0.07,0.34
+Marina Silva,0.24,OUT,IBOPE,PSB,2014,0.08,0.07,0.21
+Luciana,0.01,OUT,IBOPE,PSOL,2014,0.08,0.07,0.02
+Eymael,0,OUT,IBOPE,PSDC,2014,0.08,0.07,0.00
+Jose_Maria,0,OUT,IBOPE,PSTU,2014,0.08,0.07,0.00
+Dilma Rousseff,0.4,OUT,IBOPE,PT,2014,0.07,0.05,0.42
+Aecio,0.24,OUT,IBOPE,PSDB,2014,0.07,0.05,0.34
+Marina Silva,0.21,OUT,IBOPE,PSB,2014,0.07,0.05,0.21
+Luciana,0.01,OUT,IBOPE,PSOL,2014,0.07,0.05,0.02
+Eymael,0,OUT,IBOPE,PSDC,2014,0.07,0.05,0.00
+Jose_Maria,0,OUT,IBOPE,PSTU,2014,0.07,0.05,0.00
+Jose Serra,0.35,MAI,Vox Populi,PSDB,2010,,0.22,0.33
+Dilma Rousseff,0.38,MAI,Vox Populi,PT,2010,,0.22,0.47
+Ciro Gomes,0,MAI,Vox Populi,PDT12,2010,,0.22,0.00
+Heloísa Helena,0,MAI,Vox Populi,PSOL,2010,,0.22,0.00
+Marina Silva,0.07,MAI,Vox Populi,PV,2010,,0.22,0.19
+Jose Serra,0.33,MAI,Sensus,PSDB,2010,,173,0.33
+Dilma Rousseff,0.35,MAI,Sensus,PT,2010,,173,0.47
+Ciro Gomes,0,MAI,Sensus,PDT12,2010,,173,0.00
+Heloísa Helena,0,MAI,Sensus,PSOL,2010,,173,0.00
+Marina Silva,0.08,MAI,Sensus,PV,2010,,173,0.19
+Jose Serra,0.37,MAI,Datafolha,PSDB,2010,,0.14,0.33
+Dilma Rousseff,0.37,MAI,Datafolha,PT,2010,,0.14,0.47
+Ciro Gomes,0,MAI,Datafolha,PDT12,2010,,0.14,0.00
+Heloísa Helena,0,MAI,Datafolha,PSOL,2010,,0.14,0.00
+Marina Silva,0.12,MAI,Datafolha,PV,2010,,0.14,0.19
+Jose Serra,0.37,JUN,IBOPE,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.37,JUN,IBOPE,PT,2010,,0.17,0.47
+Ciro Gomes,0,JUN,IBOPE,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,JUN,IBOPE,PSOL,2010,,0.17,0.00
+Marina Silva,0.09,JUN,IBOPE,PV,2010,,0.17,0.19
+Jose Serra,0.35,JUN,IBOPE,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.4,JUN,IBOPE,PT,2010,,0.16,0.47
+Ciro Gomes,0,JUN,IBOPE,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,JUN,IBOPE,PSOL,2010,,0.16,0.00
+Marina Silva,0.09,JUN,IBOPE,PV,2010,,0.16,0.19
+Jose Serra,0.35,JUN,Vox Populi,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.4,JUN,Vox Populi,PT,2010,,0.17,0.47
+Ciro Gomes,0,JUN,Vox Populi,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,JUN,Vox Populi,PSOL,2010,,0.17,0.00
+Marina Silva,0.08,JUN,Vox Populi,PV,2010,,0.17,0.19
+Jose Serra,0.39,JUN,IBOPE,PSDB,2010,,0.13,0.33
+Dilma Rousseff,0.39,JUN,IBOPE,PT,2010,,0.13,0.47
+Ciro Gomes,0,JUN,IBOPE,PDT12,2010,,0.13,0.00
+Heloísa Helena,0,JUN,IBOPE,PSOL,2010,,0.13,0.00
+Marina Silva,0.1,JUN,IBOPE,PV,2010,,0.13,0.19
+Jose Serra,0.39,JUL,Datafolha,PSDB,2010,,0.12,0.33
+Dilma Rousseff,0.38,JUL,Datafolha,PT,2010,,0.12,0.47
+Ciro Gomes,0,JUL,Datafolha,PDT12,2010,,0.12,0.00
+Heloísa Helena,0,JUL,Datafolha,PSOL,2010,,0.12,0.00
+Marina Silva,0.1,JUL,Datafolha,PV,2010,,0.12,0.19
+Jose Serra,0.33,JUL,Vox Populi,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.41,JUL,Vox Populi,PT,2010,,0.17,0.47
+Ciro Gomes,0,JUL,Vox Populi,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,JUL,Vox Populi,PSOL,2010,,0.17,0.00
+Marina Silva,0.08,JUL,Vox Populi,PV,2010,,0.17,0.19
+Jose Serra,0.37,JUL,Datafolha,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.36,JUL,Datafolha,PT,2010,,0.17,0.47
+Ciro Gomes,0,JUL,Datafolha,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,JUL,Datafolha,PSOL,2010,,0.17,0.00
+Marina Silva,0.1,JUL,Datafolha,PV,2010,,0.17,0.19
+Jose Serra,0.34,JUL,Vox Populi,PSDB,2010,,0.19,0.33
+Dilma Rousseff,0.39,JUL,Vox Populi,PT,2010,,0.19,0.47
+Ciro Gomes,0,JUL,Vox Populi,PDT12,2010,,0.19,0.00
+Heloísa Helena,0,JUL,Vox Populi,PSOL,2010,,0.19,0.00
+Marina Silva,0.07,JUL,Vox Populi,PV,2010,,0.19,0.19
+Jose Serra,0.31,AGO,Sensus,PSDB,2010,,183,0.33
+Dilma Rousseff,0.41,AGO,Sensus,PT,2010,,183,0.47
+Ciro Gomes,0,AGO,Sensus,PDT12,2010,,183,0.00
+Heloísa Helena,0,AGO,Sensus,PSOL,2010,,183,0.00
+Marina Silva,0.08,AGO,Sensus,PV,2010,,183,0.19
+Jose Serra,0.34,AGO,IBOPE,PSDB,2010,,0.19,0.33
+Dilma Rousseff,0.39,AGO,IBOPE,PT,2010,,0.19,0.47
+Ciro Gomes,0,AGO,IBOPE,PDT12,2010,,0.19,0.00
+Heloísa Helena,0,AGO,IBOPE,PSOL,2010,,0.19,0.00
+Marina Silva,0.08,AGO,IBOPE,PV,2010,,0.19,0.19
+Jose Serra,0.29,AGO,Vox Populi,PSDB,2010,,0.18,0.33
+Dilma Rousseff,0.45,AGO,Vox Populi,PT,2010,,0.18,0.47
+Ciro Gomes,0,AGO,Vox Populi,PDT12,2010,,0.18,0.00
+Heloísa Helena,0,AGO,Vox Populi,PSOL,2010,,0.18,0.00
+Marina Silva,0.08,AGO,Vox Populi,PV,2010,,0.18,0.19
+Jose Serra,0.33,AGO,Datafolha,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.41,AGO,Datafolha,PT,2010,,0.16,0.47
+Ciro Gomes,0,AGO,Datafolha,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,AGO,Datafolha,PSOL,2010,,0.16,0.00
+Marina Silva,0.1,AGO,Datafolha,PV,2010,,0.16,0.19
+Jose Serra,0.32,AGO,IBOPE,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.43,AGO,IBOPE,PT,2010,,0.17,0.47
+Ciro Gomes,0,AGO,IBOPE,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,AGO,IBOPE,PSOL,2010,,0.17,0.00
+Marina Silva,0.08,AGO,IBOPE,PV,2010,,0.17,0.19
+Jose Serra,0.3,AGO,Datafolha,PSDB,2010,,0.14,0.33
+Dilma Rousseff,0.47,AGO,Datafolha,PT,2010,,0.14,0.47
+Ciro Gomes,0,AGO,Datafolha,PDT12,2010,,0.14,0.00
+Heloísa Helena,0,AGO,Datafolha,PSOL,2010,,0.14,0.00
+Marina Silva,0.09,AGO,Datafolha,PV,2010,,0.14,0.19
+Jose Serra,0.28,AGO,Sensus,PSDB,2010,,178,0.33
+Dilma Rousseff,0.46,AGO,Sensus,PT,2010,,178,0.47
+Ciro Gomes,0,AGO,Sensus,PDT12,2010,,178,0.00
+Heloísa Helena,0,AGO,Sensus,PSOL,2010,,178,0.00
+Marina Silva,0.08,AGO,Sensus,PV,2010,,178,0.19
+Jose Serra,0.29,AGO,Datafolha,PSDB,2010,,0.13,0.33
+Dilma Rousseff,0.49,AGO,Datafolha,PT,2010,,0.13,0.47
+Ciro Gomes,0,AGO,Datafolha,PDT12,2010,,0.13,0.00
+Heloísa Helena,0,AGO,Datafolha,PSOL,2010,,0.13,0.00
+Marina Silva,0.09,AGO,Datafolha,PV,2010,,0.13,0.19
+Jose Serra,0.27,AGO,IBOPE,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.51,AGO,IBOPE,PT,2010,,0.15,0.47
+Ciro Gomes,0,AGO,IBOPE,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,AGO,IBOPE,PSOL,2010,,0.15,0.00
+Marina Silva,0.07,AGO,IBOPE,PV,2010,,0.15,0.19
+Jose Serra,0.27,SET,IBOPE,PSDB,2010,,0.14,0.33
+Dilma Rousseff,0.51,SET,IBOPE,PT,2010,,0.14,0.47
+Ciro Gomes,0,SET,IBOPE,PDT12,2010,,0.14,0.00
+Heloísa Helena,0,SET,IBOPE,PSOL,2010,,0.14,0.00
+Marina Silva,0.08,SET,IBOPE,PV,2010,,0.14,0.19
+Jose Serra,0.25,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.51,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.52,SET,Vox Populi,PT,2010,,0.16,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.16,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.16,0.19
+Jose Serra,0.28,SET,Datafolha,PSDB,2010,,0.12,0.33
+Dilma Rousseff,0.5,SET,Datafolha,PT,2010,,0.12,0.47
+Ciro Gomes,0,SET,Datafolha,PDT12,2010,,0.12,0.00
+Heloísa Helena,0,SET,Datafolha,PSOL,2010,,0.12,0.00
+Marina Silva,0.1,SET,Datafolha,PV,2010,,0.12,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.22,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.55,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.21,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.56,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.21,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.54,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.27,SET,Datafolha,PSDB,2010,,0.12,0.33
+Dilma Rousseff,0.5,SET,Datafolha,PT,2010,,0.12,0.47
+Ciro Gomes,0,SET,Datafolha,PDT12,2010,,0.12,0.00
+Heloísa Helena,0,SET,Datafolha,PSOL,2010,,0.12,0.00
+Marina Silva,0.11,SET,Datafolha,PV,2010,,0.12,0.19
+Jose Serra,0.21,SET,Vox Populi,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.17,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.17,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.17,0.19
+Jose Serra,0.22,SET,Vox Populi,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.16,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.16,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.16,0.19
+Jose Serra,0.26,SET,Sensus,PSDB,2010,,142,0.33
+Dilma Rousseff,0.50,SET,Sensus,PT,2010,,142,0.47
+Ciro Gomes,0,SET,Sensus,PDT12,2010,,142,0.00
+Heloísa Helena,0,SET,Sensus,PSOL,2010,,142,0.00
+Marina Silva,0.08,SET,Sensus,PV,2010,,142,0.19
+Jose Serra,0.23,SET,Vox Populi,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.52,SET,Vox Populi,PT,2010,,0.16,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.16,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.16,0.19
+Jose Serra,0.23,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.22,SET,Vox Populi,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.54,SET,Vox Populi,PT,2010,,0.16,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.16,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.16,0.19
+Jose Serra,0.27,SET,Datafolha,PSDB,2010,,0.11,0.33
+Dilma Rousseff,0.51,SET,Datafolha,PT,2010,,0.11,0.47
+Ciro Gomes,0,SET,Datafolha,PDT12,2010,,0.11,0.00
+Heloísa Helena,0,SET,Datafolha,PSOL,2010,,0.11,0.00
+Marina Silva,0.11,SET,Datafolha,PV,2010,,0.11,0.19
+Jose Serra,0.22,SET,Vox Populi,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.17,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.17,0.00
+Marina Silva,0.08,SET,Vox Populi,PV,2010,,0.17,0.19
+Jose Serra,0.25,SET,IBOPE,PSDB,2010,,0.13,0.33
+Dilma Rousseff,0.51,SET,IBOPE,PT,2010,,0.13,0.47
+Ciro Gomes,0,SET,IBOPE,PDT12,2010,,0.13,0.00
+Heloísa Helena,0,SET,IBOPE,PSOL,2010,,0.13,0.00
+Marina Silva,0.11,SET,IBOPE,PV,2010,,0.13,0.19
+Jose Serra,0.22,SET,Vox Populi,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.52,SET,Vox Populi,PT,2010,,0.17,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.17,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.17,0.19
+Jose Serra,0.23,SET,Vox Populi,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.51,SET,Vox Populi,PT,2010,,0.17,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.17,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.17,0.19
+Jose Serra,0.23,SET,Vox Populi,PSDB,2010,,0.17,0.33
+Dilma Rousseff,0.51,SET,Vox Populi,PT,2010,,0.17,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.17,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.17,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.17,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.51,SET,Vox Populi,PT,2010,,0.16,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.16,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.16,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.14,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.14,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.14,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.14,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.14,0.19
+Jose Serra,0.23,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.53,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.25,SET,Vox Populi,PSDB,2010,,0.14,0.33
+Dilma Rousseff,0.52,SET,Vox Populi,PT,2010,,0.14,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.14,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.14,0.00
+Marina Silva,0.09,SET,Vox Populi,PV,2010,,0.14,0.19
+Jose Serra,0.28,SET,Datafolha,PSDB,2010,,0.1,0.33
+Dilma Rousseff,0.49,SET,Datafolha,PT,2010,,0.1,0.47
+Ciro Gomes,0,SET,Datafolha,PDT12,2010,,0.1,0.00
+Heloísa Helena,0,SET,Datafolha,PSOL,2010,,0.1,0.00
+Marina Silva,0.13,SET,Datafolha,PV,2010,,0.1,0.19
+Jose Serra,0.28,SET,IBOPE,PSDB,2010,,0.1,0.33
+Dilma Rousseff,0.5,SET,IBOPE,PT,2010,,0.1,0.47
+Ciro Gomes,0,SET,IBOPE,PDT12,2010,,0.1,0.00
+Heloísa Helena,0,SET,IBOPE,PSOL,2010,,0.1,0.00
+Marina Silva,0.12,SET,IBOPE,PV,2010,,0.1,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.51,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.1,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.51,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.1,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.5,SET,Vox Populi,PT,2010,,0.16,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.16,0.00
+Marina Silva,0.1,SET,Vox Populi,PV,2010,,0.16,0.19
+Jose Serra,0.23,SET,Vox Populi,PSDB,2010,,0.16,0.33
+Dilma Rousseff,0.5,SET,Vox Populi,PT,2010,,0.16,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.16,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.16,0.00
+Marina Silva,0.11,SET,Vox Populi,PV,2010,,0.16,0.19
+Jose Serra,0.27,SET,IBOPE,PSDB,2010,,0.1,0.33
+Dilma Rousseff,0.5,SET,IBOPE,PT,2010,,0.1,0.47
+Ciro Gomes,0,SET,IBOPE,PDT12,2010,,0.1,0.00
+Heloísa Helena,0,SET,IBOPE,PSOL,2010,,0.1,0.00
+Marina Silva,0.13,SET,IBOPE,PV,2010,,0.1,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.49,SET,Vox Populi,PT,2010,,0.15,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.15,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.15,0.00
+Marina Silva,0.12,SET,Vox Populi,PV,2010,,0.15,0.19
+Jose Serra,0.25,SET,Sensus,PSDB,2010,,153,0.33
+Dilma Rousseff,0.47,SET,Sensus,PT,2010,,153,0.47
+Ciro Gomes,0,SET,Sensus,PDT12,2010,,153,0.00
+Heloísa Helena,0,SET,Sensus,PSOL,2010,,153,0.00
+Marina Silva,0.11,SET,Sensus,PV,2010,,153,0.19
+Jose Serra,0.24,SET,Vox Populi,PSDB,2010,,0.14,0.33
+Dilma Rousseff,0.49,SET,Vox Populi,PT,2010,,0.14,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.14,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.14,0.00
+Marina Silva,0.13,SET,Vox Populi,PV,2010,,0.14,0.19
+Jose Serra,0.28,SET,Datafolha,PSDB,2010,,0.12,0.33
+Dilma Rousseff,0.46,SET,Datafolha,PT,2010,,0.12,0.47
+Ciro Gomes,0,SET,Datafolha,PDT12,2010,,0.12,0.00
+Heloísa Helena,0,SET,Datafolha,PSOL,2010,,0.12,0.00
+Marina Silva,0.14,SET,Datafolha,PV,2010,,0.12,0.19
+Jose Serra,0.25,SET,Vox Populi,PSDB,2010,,0.14,0.33
+Dilma Rousseff,0.49,SET,Vox Populi,PT,2010,,0.14,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.14,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.14,0.00
+Marina Silva,0.12,SET,Vox Populi,PV,2010,,0.14,0.19
+Jose Serra,0.28,SET,Datafolha,PSDB,2010,,0.11,0.33
+Dilma Rousseff,0.47,SET,Datafolha,PT,2010,,0.11,0.47
+Ciro Gomes,0,SET,Datafolha,PDT12,2010,,0.11,0.00
+Heloísa Helena,0,SET,Datafolha,PSOL,2010,,0.11,0.00
+Marina Silva,0.14,SET,Datafolha,PV,2010,,0.11,0.19
+Jose Serra,0.26,SET,Vox Populi,PSDB,2010,,0.13,0.33
+Dilma Rousseff,0.49,SET,Vox Populi,PT,2010,,0.13,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.13,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.13,0.00
+Marina Silva,0.12,SET,Vox Populi,PV,2010,,0.13,0.19
+Jose Serra,0.26,SET,Vox Populi,PSDB,2010,,0.13,0.33
+Dilma Rousseff,0.49,SET,Vox Populi,PT,2010,,0.13,0.47
+Ciro Gomes,0,SET,Vox Populi,PDT12,2010,,0.13,0.00
+Heloísa Helena,0,SET,Vox Populi,PSOL,2010,,0.13,0.00
+Marina Silva,0.12,SET,Vox Populi,PV,2010,,0.13,0.19
+Jose Serra,0.27,OUT,Vox Populi,PSDB,2010,,0.13,0.33
+Dilma Rousseff,0.48,OUT,Vox Populi,PT,2010,,0.13,0.47
+Ciro Gomes,0,OUT,Vox Populi,PDT12,2010,,0.13,0.00
+Heloísa Helena,0,OUT,Vox Populi,PSOL,2010,,0.13,0.00
+Marina Silva,0.12,OUT,Vox Populi,PV,2010,,0.13,0.19
+Jose Serra,0.34,JAN,Vox Populi,PSDB,2010,,0.19,0.33
+Dilma Rousseff,0.27,JAN,Vox Populi,PT,2010,,0.19,0.47
+Ciro Gomes,0,JAN,Vox Populi,PDT12,2010,,0.19,0.00
+Heloísa Helena,0.01,JAN,Vox Populi,PSOL,2010,,0.19,0.00
+Marina Silva,0.09,JAN,Vox Populi,PV,2010,,0.19,0.19
+Jose Serra,0.33,JAN,Sensus,PSDB,2010,,203,0.33
+Dilma Rousseff,0.27,JAN,Sensus,PT,2010,,203,0.47
+Ciro Gomes,0,JAN,Sensus,PDT12,2010,,203,0.00
+Heloísa Helena,0.01,JAN,Sensus,PSOL,2010,,203,0.00
+Marina Silva,0.07,JAN,Sensus,PV,2010,,203,0.19
+Jose Serra,0.36,FEV,IBOPE,PSDB,2010,,0.2,0.33
+Dilma Rousseff,0.25,FEV,IBOPE,PT,2010,,0.2,0.47
+Ciro Gomes,0,FEV,IBOPE,PDT12,2010,,0.2,0.00
+Heloísa Helena,0.01,FEV,IBOPE,PSOL,2010,,0.2,0.00
+Marina Silva,0.08,FEV,IBOPE,PV,2010,,0.2,0.19
+Jose Serra,0.32,FEV,Datafolha,PSDB,2010,,0.19,0.33
+Dilma Rousseff,0.28,FEV,Datafolha,PT,2010,,0.19,0.47
+Ciro Gomes,0,FEV,Datafolha,PDT12,2010,,0.19,0.00
+Heloísa Helena,0.01,FEV,Datafolha,PSOL,2010,,0.19,0.00
+Marina Silva,0.08,FEV,Datafolha,PV,2010,,0.19,0.19
+Jose Serra,0.35,MAR,IBOPE,PSDB,2010,,0.18,0.33
+Dilma Rousseff,0.3,MAR,IBOPE,PT,2010,,0.18,0.47
+Ciro Gomes,0,MAR,IBOPE,PDT12,2010,,0.18,0.00
+Heloísa Helena,0.01,MAR,IBOPE,PSOL,2010,,0.18,0.00
+Marina Silva,0.06,MAR,IBOPE,PV,2010,,0.18,0.19
+Jose Serra,0.36,MAR,Datafolha,PSDB,2010,,0.18,0.33
+Dilma Rousseff,0.27,MAR,Datafolha,PT,2010,,0.18,0.47
+Ciro Gomes,0,MAR,Datafolha,PDT12,2010,,0.18,0.00
+Heloísa Helena,0.1,MAR,Datafolha,PSOL,2010,,0.18,0.00
+Marina Silva,0.08,MAR,Datafolha,PV,2010,,0.18,0.19
+Jose Serra,0.34,MAR,Vox Populi,PSDB,2010,,0.2,0.33
+Dilma Rousseff,0.31,MAR,Vox Populi,PT,2010,,0.2,0.47
+Ciro Gomes,0,MAR,Vox Populi,PDT12,2010,,0.2,0.00
+Heloísa Helena,0.01,MAR,Vox Populi,PSOL,2010,,0.2,0.00
+Marina Silva,0.05,MAR,Vox Populi,PV,2010,,0.2,0.19
+Jose Serra,0.33,ABR,Sensus,PSDB,2010,,167,0.33
+Dilma Rousseff,0.32,ABR,Sensus,PT,2010,,167,0.47
+Ciro Gomes,0,ABR,Sensus,PDT12,2010,,167,0.00
+Heloísa Helena,0.01,ABR,Sensus,PSOL,2010,,167,0.00
+Marina Silva,0.08,ABR,Sensus,PV,2010,,167,0.19
+Jose Serra,0.36,ABR,IBOPE,PSDB,2010,,0.19,0.33
+Dilma Rousseff,0.29,ABR,IBOPE,PT,2010,,0.19,0.47
+Ciro Gomes,0,ABR,IBOPE,PDT12,2010,,0.19,0.00
+Heloísa Helena,0,ABR,IBOPE,PSOL,2010,,0.19,0.00
+Marina Silva,0.08,ABR,IBOPE,PV,2010,,0.19,0.19
+Jose Serra,0.38,ABR,Datafolha,PSDB,2010,,0.15,0.33
+Dilma Rousseff,0.28,ABR,Datafolha,PT,2010,,0.15,0.47
+Ciro Gomes,0,ABR,Datafolha,PDT12,2010,,0.15,0.00
+Heloísa Helena,0.09,ABR,Datafolha,PSOL,2010,,0.15,0.00
+Marina Silva,0.1,ABR,Datafolha,PV,2010,,0.15,0.19
+Lula,0.37,OUT,Datafolha,PT,2002,0.02,0.26,0.46
+Jose Serra,0.13,OUT,Datafolha,PSDB,2002,0.02,0.26,0.23
+Anthony Garotinho,0.12,OUT,Datafolha,PSB,2002,0.02,0.26,0.18
+Ciro Gomes,0.08,OUT,Datafolha,PPS,2002,0.02,0.26,0.12
+Lula,0.36,SET,IBOPE,PT,2002,0.03,0.27,0.46
+Jose Serra,0.13,SET,IBOPE,PSDB,2002,0.03,0.27,0.23
+Anthony Garotinho,0.12,SET,IBOPE,PSB,2002,0.03,0.27,0.18
+Ciro Gomes,0.09,SET,IBOPE,PPS,2002,0.03,0.27,0.12
+Lula,0.34,SET,Sensus,PT,2002,0.08,299,0.46
+Jose Serra,0.14,SET,Sensus,PSDB,2002,0.08,299,0.23
+Anthony Garotinho,0.11,SET,Sensus,PSB,2002,0.08,299,0.18
+Ciro Gomes,0.09,SET,Sensus,PPS,2002,0.08,299,0.12
+Lula,0.36,SET,Datafolha,PT,2002,0.02,0.3,0.46
+Eneas,0.12,SET,Datafolha,PSDB,2002,0.02,0.3,0.23
+Anthony Garotinho,0.1,SET,Datafolha,PSB,2002,0.02,0.3,0.18
+Ciro Gomes,0.08,SET,Datafolha,PPS,2002,0.02,0.3,0.12
+Lula,0.34,SET,IBOPE,PT,2002,0.04,0.3,0.46
+Jose Serra,0.13,SET,IBOPE,PSDB,2002,0.04,0.3,0.23
+Anthony Garotinho,0.1,SET,IBOPE,PSB,2002,0.04,0.3,0.18
+Ciro Gomes,0.09,SET,IBOPE,PPS,2002,0.04,0.3,0.12
+Lula,0.35,SET,Datafolha,PT,2002,0.03,0.31,0.46
+Jose Serra,0.12,SET,Datafolha,PSDB,2002,0.03,0.31,0.23
+Anthony Garotinho,0.09,SET,Datafolha,PSB,2002,0.03,0.31,0.18
+Ciro Gomes,0.09,SET,Datafolha,PPS,2002,0.03,0.31,0.12
+Lula,0.32,SET,IBOPE,PT,2002,0.05,0.27,0.46
+Jose Serra,0.14,SET,IBOPE,PSDB,2002,0.05,0.27,0.23
+Anthony Garotinho,0.1,SET,IBOPE,PSB,2002,0.05,0.27,0.18
+Ciro Gomes,0.1,SET,IBOPE,PPS,2002,0.05,0.27,0.12
+Lula,0.35,SET,IBOPE,PT,2002,0.05,0.3,0.46
+Jose Serra,0.13,SET,IBOPE,PSDB,2002,0.05,0.3,0.23
+Anthony Garotinho,0.09,SET,IBOPE,PSB,2002,0.05,0.3,0.18
+Ciro Gomes,0.08,SET,IBOPE,PPS,2002,0.05,0.3,0.12
+Lula,0.29,SET,Datafolha,PT,2002,0.03,0.38,0.46
+Jose Serra,0.11,SET,Datafolha,PSDB,2002,0.03,0.38,0.23
+Anthony Garotinho,0.07,SET,Datafolha,PSB,2002,0.03,0.38,0.18
+Ciro Gomes,0.1,SET,Datafolha,PPS,2002,0.03,0.38,0.12
+Lula,0.29,SET,IBOPE,PT,2002,,382,0.46
+Jose Serra,0.10,SET,IBOPE,PSDB,2002,,382,0.23
+Anthony Garotinho,0.09,SET,IBOPE,PSB,2002,,382,0.18
+Ciro Gomes,0.12,SET,IBOPE,PPS,2002,,382,0.12
+Lula,0.26,SET,Datafolha,PT,2002,0.05,0.39,0.46
+Jose Serra,0.1,SET,Datafolha,PSDB,2002,0.05,0.39,0.23
+Anthony Garotinho,0.07,SET,Datafolha,PSB,2002,0.05,0.39,0.18
+Ciro Gomes,0.12,SET,Datafolha,PPS,2002,0.05,0.39,0.12
+Lula,0.26,AGO,Sensus,PT,2002,0.03,0.41,0.46
+Jose Serra,0.1,AGO,Sensus,PSDB,2002,0.03,0.41,0.23
+Anthony Garotinho,0.05,AGO,Sensus,PSB,2002,0.03,0.41,0.18
+Ciro Gomes,0.13,AGO,Sensus,PPS,2002,0.03,0.41,0.12
+Lula,0.26,AGO,IBOPE,PT,2002,,398,0.46
+Jose Serra,0.1,AGO,IBOPE,PSDB,2002,,398,0.23
+Anthony Garotinho,0.05,AGO,IBOPE,PSB,2002,,398,0.18
+Ciro Gomes,0.17,AGO,IBOPE,PPS,2002,,398,0.12
+Lula,0.24,AGO,Datafolha,PT,2002,0.07,0.42,0.46
+Jose Serra,0.05,AGO,Datafolha,PSDB,2002,0.07,0.42,0.23
+Anthony Garotinho,0.05,AGO,Datafolha,PSB,2002,0.07,0.42,0.18
+Ciro Gomes,0.16,AGO,Datafolha,PPS,2002,0.07,0.42,0.12
+Lula,0.25,AGO,Sensus,PT,2002,0.03,0.41,0.46
+Jose Serra,0.06,AGO,Sensus,PSDB,2002,0.03,0.41,0.23
+Anthony Garotinho,0.06,AGO,Sensus,PSB,2002,0.03,0.41,0.18
+Ciro Gomes,0.18,AGO,Sensus,PPS,2002,0.03,0.41,0.12
+Lula,0.25,AGO,IBOPE,PT,2002,,403,0.46
+Jose Serra,0.07,AGO,IBOPE,PSDB,2002,,403,0.23
+Anthony Garotinho,0.06,AGO,IBOPE,PSB,2002,,403,0.18
+Ciro Gomes,0.19,AGO,IBOPE,PPS,2002,,403,0.12
+Lula,0.22,AGO,Datafolha,PT,2002,0.06,0.42,0.46
+Jose Serra,0.07,AGO,Datafolha,PSDB,2002,0.06,0.42,0.23
+Anthony Garotinho,0.06,AGO,Datafolha,PSB,2002,0.06,0.42,0.18
+Ciro Gomes,0.17,AGO,Datafolha,PPS,2002,0.06,0.42,0.12
+Lula,0.28,AGO,Sensus,PT,2002,,0.3,0.46
+Jose Serra,0.08,AGO,Sensus,PSDB,2002,,0.3,0.23
+Anthony Garotinho,0.05,AGO,Sensus,PSB,2002,,0.3,0.18
+Ciro Gomes,0.23,AGO,Sensus,PPS,2002,,0.3,0.12
+Lula,0.22,AGO,IBOPE,PT,2002,0.06,0.42,0.46
+Jose Serra,0.05,AGO,IBOPE,PSDB,2002,0.06,0.42,0.23
+Anthony Garotinho,0.05,AGO,IBOPE,PSB,2002,0.06,0.42,0.18
+Ciro Gomes,0.19,AGO,IBOPE,PPS,2002,0.06,0.42,0.12
+Lula,0.27,AGO,Vox Populi,PT,2002,0.06,0.28,0.46
+Jose Serra,0.09,AGO,Vox Populi,PSDB,2002,0.06,0.28,0.23
+Anthony Garotinho,0.07,AGO,Vox Populi,PSB,2002,0.06,0.28,0.18
+Ciro Gomes,0.22,AGO,Vox Populi,PPS,2002,0.06,0.28,0.12
+Lula,0.26,JUL,IBOPE,PT,2002,0.07,412,0.46
+Jose Serra,0.07,JUL,IBOPE,PSDB,2002,0.07,412,0.23
+Anthony Garotinho,0.06,JUL,IBOPE,PSB,2002,0.07,412,0.18
+Ciro Gomes,0.17,JUL,IBOPE,PPS,2002,0.07,412,0.12
+Lula,0.23,JUL,Vox Populi,PT,2002,0.04,0.42,0.46
+Jose Serra,0.06,JUL,Vox Populi,PSDB,2002,0.04,0.42,0.23
+Anthony Garotinho,0.04,JUL,Vox Populi,PSB,2002,0.04,0.42,0.18
+Ciro Gomes,0.18,JUL,Vox Populi,PPS,2002,0.04,0.42,0.12
+Lula,0.23,JUL,Sensus,PT,2002,0.06,0.42,0.46
+Jose Serra,0.07,JUL,Sensus,PSDB,2002,0.06,0.42,0.23
+Anthony Garotinho,0.06,JUL,Sensus,PSB,2002,0.06,0.42,0.18
+Ciro Gomes,0.16,JUL,Sensus,PPS,2002,0.06,0.42,0.12
+Lula,0.21,JUL,Datafolha,PT,2002,0.06,0.47,0.46
+Jose Serra,0.05,JUL,Datafolha,PSDB,2002,0.06,0.47,0.23
+Anthony Garotinho,0.05,JUL,Datafolha,PSB,2002,0.06,0.47,0.18
+Ciro Gomes,0.15,JUL,Datafolha,PPS,2002,0.06,0.47,0.12
+Lula,0.27,JUL,IBOPE,PT,2002,0.08,0.32,0.46
+Jose Serra,0.08,JUL,IBOPE,PSDB,2002,0.08,0.32,0.23
+Anthony Garotinho,0.06,JUL,IBOPE,PSB,2002,0.08,0.32,0.18
+Ciro Gomes,0.19,JUL,IBOPE,PPS,2002,0.08,0.32,0.12
+Lula,0.21,JUL,Vox Populi,PT,2002,0.06,0.46,0.46
+Jose Serra,0.07,JUL,Vox Populi,PSDB,2002,0.06,0.46,0.23
+Anthony Garotinho,0.06,JUL,Vox Populi,PSB,2002,0.06,0.46,0.18
+Ciro Gomes,0.13,JUL,Vox Populi,PPS,2002,0.06,0.46,0.12
+Lula,0.24,JUN,IBOPE,PT,2002,29,435,0.46
+Jose Serra,0.11,JUN,IBOPE,PSDB,2002,29,435,0.23
+Anthony Garotinho,0.06,JUN,IBOPE,PSB,2002,29,435,0.18
+Ciro Gomes,0.06,JUN,IBOPE,PPS,2002,29,435,0.12
+Lula,0.26,JUN,Datafolha,PT,2002,0.07,0.44,0.46
+Jose Serra,0.08,JUN,Datafolha,PSDB,2002,0.07,0.44,0.23
+Anthony Garotinho,0.06,JUN,Datafolha,PSB,2002,0.07,0.44,0.18
+Ciro Gomes,0.05,JUN,Datafolha,PPS,2002,0.07,0.44,0.12
+Lula,0.24,JUN,Sensus,PT,2002,0.08,0.47,0.46
+Jose Serra,0.07,JUN,Sensus,PSDB,2002,0.08,0.47,0.23
+Anthony Garotinho,0.06,JUN,Sensus,PSB,2002,0.08,0.47,0.18
+Ciro Gomes,0.04,JUN,Sensus,PPS,2002,0.08,0.47,0.12
+Lula,0.25,JUN,IBOPE,PT,2002,0.05,0.48,0.46
+Jose Serra,0.08,JUN,IBOPE,PSDB,2002,0.05,0.48,0.23
+Anthony Garotinho,0.06,JUN,IBOPE,PSB,2002,0.05,0.48,0.18
+Ciro Gomes,0.05,JUN,IBOPE,PPS,2002,0.05,0.48,0.12
+Lula,0.29,MAI,IBOPE,PT,2002,0.07,0.41,0.46
+Jose Serra,0.1,MAI,IBOPE,PSDB,2002,0.07,0.41,0.23
+Anthony Garotinho,0.07,MAI,IBOPE,PSB,2002,0.07,0.41,0.18
+Ciro Gomes,0.04,MAI,IBOPE,PPS,2002,0.07,0.41,0.12
+Lula,0.27,MAI,Vox Populi,PT,2002,0.05,0.46,0.46
+Jose Serra,0.06,MAI,Vox Populi,PSDB,2002,0.05,0.46,0.23
+Anthony Garotinho,0.06,MAI,Vox Populi,PSB,2002,0.05,0.46,0.18
+Ciro Gomes,0.05,MAI,Vox Populi,PPS,2002,0.05,0.46,0.12
+Lula,0.24,ABR,Sensus,PT,2002,37,475,0.46
+Jose Serra,0.07,ABR,Sensus,PSDB,2002,37,475,0.23
+Anthony Garotinho,0.07,ABR,Sensus,PSB,2002,37,475,0.18
+Ciro Gomes,0.04,ABR,Sensus,PPS,2002,37,475,0.12
+Lula,0.2,ABR,Datafolha,PT,2002,0.09,0.48,0.46
+Jose Serra,0.06,ABR,Datafolha,PSDB,2002,0.09,0.48,0.23
+Anthony Garotinho,0.06,ABR,Datafolha,PSB,2002,0.09,0.48,0.18
+Ciro Gomes,0.04,ABR,Datafolha,PPS,2002,0.09,0.48,0.12
+Lula,0.18,ABR,Sensus,PT,2002,0.07,0.5,0.46
+Jose Serra,0.07,ABR,Sensus,PSDB,2002,0.07,0.5,0.23
+Anthony Garotinho,0.06,ABR,Sensus,PSB,2002,0.07,0.5,0.18
+Ciro Gomes,0.03,ABR,Sensus,PPS,2002,0.07,0.5,0.12
+Lula,0.19,MAR,IBOPE,PT,2002,76,452,0.46
+Jose Serra,0.07,MAR,IBOPE,PSDB,2002,76,452,0.23
+Anthony Garotinho,0.06,MAR,IBOPE,PSB,2002,76,452,0.18
+Ciro Gomes,0.04,MAR,IBOPE,PPS,2002,76,452,0.12
+Lula,0.13,MAR,GPP,PT,2002,0.09,0.53,0.46
+Jose Serra,0.06,MAR,GPP,PSDB,2002,0.09,0.53,0.23
+Anthony Garotinho,0.05,MAR,GPP,PSB,2002,0.09,0.53,0.18
+Ciro Gomes,0.03,MAR,GPP,PPS,2002,0.09,0.53,0.12
+Lula,0.2,MAR,Sensus,PT,2002,0.08,0.36,0.46
+Jose Serra,0.11,MAR,Sensus,PSDB,2002,0.08,0.36,0.23
+Anthony Garotinho,0.05,MAR,Sensus,PSB,2002,0.08,0.36,0.18
+Ciro Gomes,0.04,MAR,Sensus,PPS,2002,0.08,0.36,0.12
+Lula,0.15,FEV,Datafolha,PT,2002,0.07,0.51,0.46
+Jose Serra,0.03,FEV,Datafolha,PSDB,2002,0.07,0.51,0.23
+Anthony Garotinho,0.05,FEV,Datafolha,PSB,2002,0.07,0.51,0.18
+Ciro Gomes,0.02,FEV,Datafolha,PPS,2002,0.07,0.51,0.12
+Lula,0.15,JAN,Datafolha,PT,2002,0.09,0.55,0.46
+Jose Serra,0.02,JAN,Datafolha,PSDB,2002,0.09,0.55,0.23
+Anthony Garotinho,0.05,JAN,Datafolha,PSB,2002,0.09,0.55,0.18
+Ciro Gomes,0.02,JAN,Datafolha,PPS,2002,0.09,0.55,0.12
+Lula,0.16,JAN,Sensus,PT,2002,0.08,0.55,0.46
+Jose Serra,0,JAN,Sensus,PSDB,2002,0.08,0.55,0.23
+Anthony Garotinho,0.04,JAN,Sensus,PSB,2002,0.08,0.55,0.18
+Ciro Gomes,0.03,JAN,Sensus,PPS,2002,0.08,0.55,0.12
+Lula,0.37,AGO,Datafolha,PT,2006,0.05,0.36,0.49
+Geraldo Alckimin,0.13,AGO,Datafolha,PSDB,2006,0.05,0.36,0.42
+Lula,0.48,SET,IBOPE,PT,2006,0.06,0.08,0.49
+Geraldo Alckimin,0.27,SET,IBOPE,PSDB,2006,0.06,0.08,0.42
+Lula,0.49,SET,IBOPE,PT,2006,0.05,0.04,0.49
+Geraldo Alckimin,0.30,SET,IBOPE,PSDB,2006,0.05,0.04,0.42
+Lula,0.49,SET,Datafolha,PT,2006,0.05,0.04,0.49
+Geraldo Alckimin,0.30,SET,Datafolha,PSDB,2006,0.05,0.04,0.42
+Lula,0.53,OUT,Datafolha,PT,2006,0.03,0.1,0.49
+Geraldo Alckimin,0.34,OUT,Datafolha,PSDB,2006,0.03,0.1,0.42
+FHC,0.33,JUN,Datafolha,PSDB,1998,0.11,0.09,0.53
+Lula,0.30,JUN,Datafolha,PT,1998,0.11,0.09,0.32
+Ciro Gomes,0.08,JUN,Datafolha,PPS,1998,0.11,0.09,0.11
+Eneas,0.05,JUN,Datafolha,Prona,1998,0.11,0.09,0.02
+FHC,0.40,JUL,Datafolha,PSDB,1998,0.08,0.09,0.53
+Lula,0.28,JUL,Datafolha,PT,1998,0.08,0.09,0.32
+Ciro Gomes,0.07,JUL,Datafolha,PPS,1998,0.08,0.09,0.11
+Eneas,0.04,JUL,Datafolha,Prona,1998,0.08,0.09,0.02
+FHC,0.42,AGO,Datafolha,PSDB,1998,0.09,0.09,0.53
+Lula,0.26,AGO,Datafolha,PT,1998,0.09,0.09,0.32
+Ciro Gomes,0.07,AGO,Datafolha,PPS,1998,0.09,0.09,0.11
+Eneas,0.03,AGO,Datafolha,Prona,1998,0.09,0.09,0.02
+FHC,0.47,SET,Datafolha,PSDB,1998,0.06,0.08,0.53
+Lula,0.26,SET,Datafolha,PT,1998,0.06,0.08,0.32
+Ciro Gomes,0.06,SET,Datafolha,PPS,1998,0.06,0.08,0.11
+Eneas,0.03,SET,Datafolha,Prona,1998,0.06,0.08,0.02
+FHC,0.48,SET,Datafolha,PSDB,1998,0.05,0.08,0.53
+Lula,0.25,SET,Datafolha,PT,1998,0.05,0.08,0.32
+Ciro Gomes,0.08,SET,Datafolha,PPS,1998,0.05,0.08,0.11
+Eneas,0.02,SET,Datafolha,Prona,1998,0.05,0.08,0.02
+FHC,0.46,SET,Datafolha,PSDB,1998,0.06,0.09,0.53
+Lula,0.25,SET,Datafolha,PT,1998,0.06,0.09,0.32
+Ciro Gomes,0.08,SET,Datafolha,PPS,1998,0.06,0.09,0.11
+Eneas,0.04,SET,Datafolha,Prona,1998,0.06,0.09,0.02
