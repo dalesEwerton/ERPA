@@ -3,19 +3,15 @@ title: "ERPA"
 output: html_notebook
 ---
  
+ 
 
 ```{r, warning=FALSE}
-
-#library(keras)
-
-#UNCOMMENT TO INSTALL KERAS
-#install_keras(method = c("auto", "virtualenv", "conda"), conda = "auto",
-#  tensorflow = "default", extra_packages = NULL)
 
 library(caret)
 
 ```
 
+##Particionamento dos dados e Controle dos Treinos
 ```{r}
 
 set.seed(500)
@@ -31,12 +27,43 @@ ctrl <- trainControl(method = "cv", number = 5, search = "random")
 ```
 
 
+
+## Predição dos resultados usando uma Rede Neural
+
+```{r}
+
+set.seed(13)
+
+#Neural Network
+modelo.net <- train(
+   Resultado_Final ~.,
+   data       = fit_data, 
+   method     = "nnet", 
+   trControl  = ctrl,
+   preProcess = c('nzv'),
+   na.action  = na.omit)
+
+
+net.predict <- predict(modelo.net, test_data)
+
+test_data$pred <- net.predict
+
+ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
+  labs(title = "Modelo Neural Network - Obs vs Pred", x = "Predição", y = "Observado")+
+  geom_jitter(colour = "red") +
+  geom_abline(colour = "blue")
+
+```
+
+
+## Predição dos resultados utilizando KNN
+
 ```{r}
 
 grid <- expand.grid(k = 1:50)
 modelo.knn <- train(
   Resultado_Final ~.,
-  data       = data,
+  data       = fit_data,
   method     = "knn",
   trControl  = ctrl,
   preProcess = c('nzv'),
@@ -55,11 +82,15 @@ ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
   geom_abline(colour = "blue")
 ```
 
+
+## Predição dos resultados utilizando MARS 
+#### Multivariate Adaptive Regression Splines
+
 ```{r}
 
 modelo.mars <- train(
    Resultado_Final ~.,
-   data = data, 
+   data = fit_data, 
    method = "earth", 
    trControl = ctrl,
    preProcess = c('nzv'),
@@ -73,36 +104,14 @@ mars.predict <- predict(modelo.mars, test_data)
 test_data$pred <- mars.predict
 
 ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
-  labs(title = "Modelo MARs - Obs vs Pred", x = "Predição", y = "Observado")+
+  labs(title = "Modelo MARS - Obs vs Pred", x = "Predição", y = "Observado")+
   geom_jitter(colour = "red") +
   geom_abline(colour = "blue")
 ```
 
 
-```{r}
 
-set.seed(13)
-
-#Neural Network
-modelo.net <- train(
-   Resultado_Final ~.,
-   data       = data, 
-   method     = "nnet", 
-   trControl  = ctrl,
-   preProcess = c('nzv'),
-   na.action  = na.omit)
-
-
-net.predict <- predict(modelo.net, test_data)
-
-test_data$pred <- net.predict
-
-ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
-  labs(title = "Modelo Neural Network - Obs vs Pred", x = "Predição", y = "Observado")+
-  geom_jitter(colour = "red") +
-  geom_abline(colour = "blue")
-
-```
+## Predição dos resultados utilizando CUBIST
 
 ```{r}
 set.seed(127)
@@ -110,11 +119,13 @@ set.seed(127)
 #Cubist
 modelo.cubist <- train(
    Resultado_Final ~.,
-   data       = data, 
+   data       = fit_data, 
    method     = "cubist", 
    trControl  = ctrl,
    preProcess = c('nzv'),
    na.action  = na.omit)
+
+plot(modelo.cubist)
 
 cubist.predict <- predict(modelo.cubist, test_data)
 
@@ -129,18 +140,43 @@ ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
 
 
 
+####Escolhendo e Re-treinando o melhor modelo com todos os dados, utilizando o segundo melhor modelo como uma das variaveis independentes
+
 ```{r}
 set.seed(849)
 
-#Hybrid Neural Fuzzy Inference System
-modelo.hybrid.neural <- train(
-  Resultado_Final ~.,
-  data       = data,
-  method     = "HYFIS", 
-  tuneLength = 2,
-  trControl  = ctrl)
+min(modelo.mlp$results$RMSE)
+min(modelo.mars$results$RMSE)
+min(modelo.cubist$results$RMSE)
+```
+
+
+#### Inserindo o modelo MARS como variável independente nos dados
+```{r}
+
+mars.final.predict <- predict(modelo.mars, data)
+
+data$MARS <- mars.final.predict
+```
+
+
+#### Retreinando o modelo CUBIST com todos os dados
+```{r}
+
+set.seed(7)
+
+#Cubist
+modelo.cubist <- train(
+   Resultado_Final ~.,
+   data       = fit_data, 
+   method     = "cubist", 
+   trControl  = ctrl,
+   preProcess = c('nzv'),
+   na.action  = na.omit)
 
 ```
+
+
 
 
 
