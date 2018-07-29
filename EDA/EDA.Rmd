@@ -7,15 +7,34 @@ output: html_notebook
 ## Análise de Dados Exploratória
 
 
-### Bibliotecas e Dados
+
 ```{r, echo=FALSE, warning=FALSE}
 
 library(tidyverse)
 data <- read_csv("../data/data.csv")
 
+
+#Code to correct 'Indecisos'
+index <- 1
+for (dt in data$Indecisos) {
+    if(dt > 1) {
+        data$Indecisos[index] <- dt/1000
+    }
+    index = index + 1
+}
+
+median <- median(data$Brancos_Nulos, na.rm = TRUE)
+data$Brancos_Nulos[is.na(data$Brancos_Nulos)] <- median
+index <- 1
+for (dt in data$Brancos_Nulos) {
+    if(dt > 1) {
+        data$Brancos_Nulos[index] <- dt/1000
+    }
+    index = index + 1
+}
+
 ```
 
-### Pré-processamento
 
 ```{r, echo=FALSE, warning=FALSE}
 

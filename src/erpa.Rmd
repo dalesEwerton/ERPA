@@ -157,6 +157,13 @@ min(modelo.cubist$results$RMSE)
 mars.final.predict <- predict(modelo.mars, data)
 
 data$MARS <- mars.final.predict
+
+for (dt : data$Indecisos) {
+    if(data > 1) {
+        data$Indecisos[index] <- dt/1000
+    }
+    index = index + 1
+}
 ```
 
 
