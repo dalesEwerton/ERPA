@@ -26,19 +26,179 @@ data$Brancos_Nulos[is.na(data$Brancos_Nulos)] <- brancos_mediana
 
 ```
 
+
+```{r, echo=FALSE}
+
+#Funções utilizadas nas respostas
+
+qntInstitutosBaseDeDados <- function(){
+  institutos = data %>%
+  group_by(Instituto) %>%
+  summarise(vezes_intituto_apareceu = length(Instituto)) %>%
+  arrange(desc(vezes_intituto_apareceu))
+  
+  return(institutos);
+}
+
+qntPartidosNaBaseDeDados<- function(){
+partidos = data %>%
+  group_by(Partido_do_Candidato) %>%
+  summarise(vezes_partido_apareceu = length(Partido_do_Candidato)) %>%
+  arrange(desc(vezes_partido_apareceu))
+
+return(partidos)
+}
+
+qntAnosNaBaseDeDados <- function(){
+anos = data %>%
+  group_by(Ano_da_Eleicao) %>%
+  summarise(vezes_anos_apareceu = length(Ano_da_Eleicao)) %>%
+  arrange(desc(vezes_anos_apareceu))
+
+return(anos);
+}
+
+qntCandidatosNaBaseDeDados <- function(){
+  candidatos = data %>%
+  group_by(Nome_do_Candidato) %>%
+  summarise(vezes_apareceu = length(Nome_do_Candidato)) %>%
+  arrange(desc(vezes_apareceu))
+  
+  return(candidatos)
+}
+
+  filtraPorCandidatoEAno <- function(candidatoNome, anoPesquisa){
+    candidatoEscolhido <- subset(data, data$Nome_do_Candidato == candidatoNome);
+    anoEscolhido <- subset(candidatoEscolhido, candidatoEscolhido$Ano_da_Eleicao == anoPesquisa);
+    return(anoEscolhido)
+  }
+
+menorMaiorPesquisaPorCandidato <- function(candidatoNome, anoPesquisa){
+  intencoes <- filtraPorCandidatoEAno(candidatoNome , anoPesquisa);
+  return(range(intencoes$Resultado_da_Pesquisa))
+}
+ 
+existePesquisa= function(nomeCandidato,pesquisa, anoPesquisa){
+  existe <- FALSE;
+  candidatoEscolhido <- subset(data, data$Nome_do_Candidato == nomeCandidato);
+  for( i in 1 : length(candidatoEscolhido$Nome_do_Candidato)){
+     if(candidatoEscolhido$Instituto[i] == pesquisa && candidatoEscolhido$Ano_da_Eleicao[i] == anoPesquisa){
+       existe <- TRUE;
+     }
+  }
+  return(existe)
+}
+existeCandidaturaNoAno = function(nomeCandidato, anoPesquisa){
+  existe <- FALSE;
+  candidatoEscolhido <- subset(data, data$Nome_do_Candidato == nomeCandidato);
+  for( i in 1 : length(candidatoEscolhido$Nome_do_Candidato)){
+     if(candidatoEscolhido$Ano_da_Eleicao[i] == anoPesquisa){
+       existe <- TRUE;
+     }
+  }
+  return(existe)
+}
+
+filtraPorCandidatoInstitutoEAno = function(nomeCandidato, nomeInstituto, anoPesquisa){
+  candidatoEscolhido <- subset(data, data$Nome_do_Candidato == nomeCandidato);
+  instituto <- subset(candidatoEscolhido, candidatoEscolhido$Instituto == nomeInstituto);
+  a <- subset(instituto, instituto$Ano_da_Eleicao == anoPesquisa)
+  return(a);
+}
+
+
+minmaxCandidatos = function(){
+  contador <- 1;
+  nomeTabela = vector();
+  anoTabela = vector();
+  minimo = vector();
+  maximo = vector();
+ candidatos <- qntCandidatosNaBaseDeDados();
+ anos <- qntAnosNaBaseDeDados();
+  for( i in 1 : length(candidatos$Nome_do_Candidato)){
+    nomeCandidato <- candidatos$Nome_do_Candidato[i];
+    
+    for(k in 1: length(anos$Ano_da_Eleicao)){
+      anoCandidato <- anos$Ano_da_Eleicao[k]
+      existe <- existeCandidaturaNoAno(nomeCandidato, anoCandidato);
+      if(existe == TRUE){
+        
+        filtroDeCandidatos <- filtraPorCandidatoEAno(nomeCandidato, anoCandidato);
+        minMax <- menorMaiorPesquisaPorCandidato(nomeCandidato, anoCandidato);
+            nomeTabela[contador] = nomeCandidato;
+            anoTabela[contador] = anoCandidato;
+            minimo[contador] = minMax[1];
+            maximo[contador] = minMax[2];
+            contador= contador+1;
+      }
+    }
+}
+mediaDosCandidatos <- data.frame(nomeDoCandidato = nomeTabela, anoDaPesquisa = anoTabela, pesquisaMinima = minimo, pesquisaMaximo = maximo, stringsAsFactors = FALSE);
+
+return(mediaDosCandidatos);
+}
+
+mediaCandidatos = function () {
+  
+  contador <- 1;
+  
+  nomeTabela = vector();
+  pesquisaTabela = vector();
+  mediaTabela = vector();
+  anoTabela = vector();
+  
+  candidatos <- qntCandidatosNaBaseDeDados();
+  anos <- qntAnosNaBaseDeDados();
+  pesquisas <- qntInstitutosBaseDeDados();
+  
+  for( i in 1 : length(candidatos$Nome_do_Candidato)){
+    nomeCandidato <- candidatos$Nome_do_Candidato[i];
+    
+    for(j in 1: length(pesquisas$Instituto)){
+      pesquisa <- pesquisas$Instituto[j];
+      
+      for(k in 1: length(anos$Ano_da_Eleicao)){
+        ano <- anos$Ano_da_Eleicao[k]
+        existe <- existePesquisa(nomeCandidato,pesquisa, ano);
+        
+        if(existe==TRUE){
+          intencoes <- filtraPorCandidatoInstitutoEAno(nomeCandidato,pesquisa,ano);
+          media <- mean(intencoes$Resultado_da_Pesquisa);
+          
+          nomeTabela[contador] = nomeCandidato;
+          pesquisaTabela[contador] = pesquisa;
+          mediaTabela[contador] = media;
+          anoTabela[contador] = ano;
+          contador= contador+1;
+         
+        }
+        
+      }
+    }
+  }
+  
+  mediaDosCandidatos <- data.frame(nomeDoCandidato = nomeTabela, pesquisa = pesquisaTabela, media = mediaTabela, ano = anoTabela, stringsAsFactors = FALSE);
+
+  
+  return(mediaDosCandidatos)
+}  
+
+moda <- function(x) {
+  z <- table(as.vector(x)) 
+  names(z)[z == max(z)]
+}
+
+
+```
+
+
 ### Questões
 
 ##### Quais são os candidatos da nossa base de dados?
 
 ```{r, echo=FALSE}
-#Exemplo guia de como responder
-
-candidatos = data %>%
-  group_by(Nome_do_Candidato) %>%
-  summarise(vezes_apareceu = length(Nome_do_Candidato)) %>%
-  arrange(desc(vezes_apareceu))
-
-ggplot(data = candidatos, 
+tabelaQntCandidatos <- qntCandidatosNaBaseDeDados();
+ggplot(data = tabelaQntCandidatos, 
        aes(x=reorder(Nome_do_Candidato, - as.numeric(vezes_apareceu)),
           y = as.factor(vezes_apareceu), fill = Nome_do_Candidato)) +
   geom_bar(stat = "identity", binwidth = NULL) +
@@ -51,12 +211,8 @@ ggplot(data = candidatos,
 ##### Quais são as instituições da nossa base de dados?
 
 ```{r, echo=FALSE}
-institutos = data %>%
-  group_by(Instituto) %>%
-  summarise(vezes_intituto_apareceu = length(Instituto)) %>%
-  arrange(desc(vezes_intituto_apareceu))
-
-ggplot(data = institutos, 
+tabelaQntInstitutos <- qntInstitutosBaseDeDados();
+ggplot(data = tabelaQntInstitutos, 
        aes(x=reorder(Instituto, - as.numeric(vezes_intituto_apareceu)),
           y = as.factor(vezes_intituto_apareceu), fill = Instituto)) +
   geom_bar(stat = "identity", binwidth = NULL) +
@@ -68,12 +224,10 @@ ggplot(data = institutos,
 ##### Quais os anos das pesquisas da nossa base de dados?
 
 ```{r, echo=FALSE}
-anos = data %>%
-  group_by(Ano_da_Eleicao) %>%
-  summarise(vezes_anos_apareceu = length(Ano_da_Eleicao)) %>%
-  arrange(desc(vezes_anos_apareceu))
+tabelaQntAnos <- qntAnosNaBaseDeDados();
 
-ggplot(data = anos, 
+
+ggplot(data = tabelaQntAnos, 
        aes(x=reorder(Ano_da_Eleicao, - as.numeric(vezes_anos_apareceu)),
           y = as.factor(vezes_anos_apareceu), fill = Ano_da_Eleicao)) +
   geom_bar(stat = "identity", binwidth = NULL) +
@@ -85,12 +239,9 @@ ggplot(data = anos,
 ##### Quais os partidos da nossa base de dados?
 
 ```{r, echo=FALSE}
-partidos = data %>%
-  group_by(Partido_do_Candidato) %>%
-  summarise(vezes_partido_apareceu = length(Partido_do_Candidato)) %>%
-  arrange(desc(vezes_partido_apareceu))
+tabelaPartidosAnos <- qntPartidosNaBaseDeDados();
 
-ggplot(data = partidos, 
+ggplot(data = tabelaPartidosAnos, 
        aes(x=reorder(Partido_do_Candidato, - as.numeric(vezes_partido_apareceu)),
           y = as.factor(vezes_partido_apareceu), fill = Partido_do_Candidato)) +
   geom_bar(stat = "identity", binwidth = NULL) +
@@ -121,17 +272,17 @@ ggplot(data = partidos,
 
 ```{r, echo=FALSE}
 
-
+  minmax <- minmaxCandidatos();
+  ggplot(data = minmax, 
+         aes(x=reorder(minmax$nomeDoCandidato, - as.numeric(minmax$pesquisaMinima)),
+            y = minmax$pesquisaMinima, fill = minmax$nomeDoCandidato)) +
+    geom_bar(stat = "identity", binwidth = NULL) +
+    labs(title = "Candidatos na Base de Dados",
+         x = "Nome do Candidato", y = "menor valor das intenções de voto de cada candidato") +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 ```
 
-```{r, echo=FALSE}
-#Função que calcula a moda para utilizar nas perguntas abaixo!
-moda <- function(x) {
-  z <- table(as.vector(x)) 
-  names(z)[z == max(z)]
-}
-```
 
 ##### Qual o ano em que mais temos dados de pesquisas?
 
