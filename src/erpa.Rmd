@@ -145,7 +145,7 @@ ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
 ```{r}
 set.seed(849)
 
-min(modelo.mlp$results$RMSE)
+min(modelo.net$results$RMSE)
 min(modelo.mars$results$RMSE)
 min(modelo.cubist$results$RMSE)
 ```
@@ -166,13 +166,16 @@ data$MARS <- mars.final.predict
 set.seed(7)
 
 #Cubist
-modelo.cubist <- train(
+modelo.cubist.final <- train(
    Resultado_Final ~.,
-   data       = fit_data, 
-   method     = "cubist", 
-   trControl  = ctrl,
-   preProcess = c('nzv'),
+   data       = data, 
+   method     = "cubist",
    na.action  = na.omit)
+
+
+pred <- predict(modelo.cubist.final, data)
+
+data$pred <- pred
 
 ```
 
