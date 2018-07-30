@@ -89,6 +89,17 @@ existePesquisa= function(nomeCandidato,pesquisa, anoPesquisa){
   return(existe)
 }
 
+existeCadidatoPartido= function(nomeCandidato, anoPesquisa, pesquisa, partido){
+  existe <- FALSE;
+  candidatoEscolhido <- subset(data, data$Partido_do_Candidato == partido);
+  
+  for( i in 1 : length(candidatoEscolhido$Partido_do_Candidato)){
+     if(candidatoEscolhido$Instituto[i] == pesquisa && candidatoEscolhido$Nome_do_Candidato[i]==nomeCandidato && candidatoEscolhido$Ano_da_Eleicao[i] == anoPesquisa){
+       existe <- TRUE;
+     }
+  }
+  return(existe)
+}
 existePesquisaPartido= function(nomeCandidato,anoPesquisa, partido){
   existe <- FALSE;
     candidatosPartido <- subset(data, data$Partido_do_Candidato == partido);
@@ -118,10 +129,11 @@ filtraPorCandidatoInstitutoEAno = function(nomeCandidato, nomeInstituto, anoPesq
   return(a);
 }
 
-filtraPorCandidatoPartidoEAno=function(nomeCandidato,ano, partido){
+filtraPorCandidatoPartidoEAno=function(nomeCandidato,ano, pesquisa, partido){
   candidatosPartido <- subset(data, data$Partido_do_Candidato == partido);
   candidatosFiltrado <- subset(candidatosPartido, candidatosPartido$Nome_do_Candidato == nomeCandidato);
-  anoFiltrado <- subset(candidatosFiltrado, candidatosFiltrado$Ano_da_Eleicao == ano);
+  pesquisaFiltrada <- subset(candidatosFiltrado, candidatosFiltrado$Instituto == pesquisa);
+  anoFiltrado <- subset(pesquisaFiltrada, pesquisaFiltrada$Ano_da_Eleicao == ano);
   
   return(anoFiltrado);
 }
@@ -245,33 +257,38 @@ mediaCandidatosPorPartido <- function(partido){
   nomeTabela = vector();
   mediaTabela = vector();
   anoTabela = vector();
-  
+  pesquisaTabela = vector();
   candidatos <- qntCandidatosNaBaseDeDados();
   anos <- qntAnosNaBaseDeDados();
+  pesquisas <- qntInstitutosBaseDeDados();
   
   for( i in 1 : length(candidatos$Nome_do_Candidato)){
     nomeCandidato <- candidatos$Nome_do_Candidato[i];
       
+    for(j in 1: length(pesquisas$Instituto)){
+      pesquisa <- pesquisas$Instituto[j];
+      
       for(k in 1: length(anos$Ano_da_Eleicao)){
         ano <- anos$Ano_da_Eleicao[k]
-        existe <- existePesquisaPartido(nomeCandidato,ano, partido);
+        existe <- existeCadidatoPartido(nomeCandidato,ano, pesquisa, partido);
         
         if(existe==TRUE){
-          intencoes <- filtraPorCandidatoPartidoEAno(nomeCandidato,ano, partido);
+          intencoes <- filtraPorCandidatoPartidoEAno(nomeCandidato,ano, pesquisa, partido);
           media <- mean(intencoes$Resultado_da_Pesquisa);
           
           partidoTabela[contador] = partido;
           nomeTabela[contador] = nomeCandidato;
           mediaTabela[contador] = media;
           anoTabela[contador] = ano;
+          pesquisaTabela[contador] = pesquisa;
           contador= contador+1;
          
         }
-        
+      }
       }
   }
   
-  mediaDosCandidatos <- data.frame(partido = partidoTabela, nomeDoCandidato = nomeTabela, media = mediaTabela, ano = anoTabela, stringsAsFactors = FALSE);
+  mediaDosCandidatos <- data.frame(partido = partidoTabela, nomeDoCandidato = nomeTabela, media = mediaTabela, ano = anoTabela, pesquisa = pesquisaTabela, stringsAsFactors = FALSE);
 
   
   return(mediaDosCandidatos)
