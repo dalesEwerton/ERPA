@@ -7,7 +7,7 @@ output: html_notebook
 ## Análise de Dados Exploratória
 
 
-
+### Bibliotecas e Dados
 ```{r, echo=FALSE, warning=FALSE}
 
 library(tidyverse)
@@ -34,8 +34,10 @@ for (dt in data$Brancos_Nulos) {
     index = index + 1
 }
 
+
 ```
 
+### Pré-processamento
 
 ```{r, echo=FALSE, warning=FALSE}
 
@@ -273,7 +275,7 @@ ggplot(data = tabelaPartidosAnos,
 ##### Qual a média de cada candidato levando em consideração o instituto e ano?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+media <- mediaCandidatos();
 ```
 
 ##### Qual a media das pesquisas de intenção de voto sobre um candidato?
@@ -332,6 +334,5 @@ moda(instituto)
 partido = data$Partido_do_Candidato
 moda(partido)
 ```
-
 
 
