@@ -13,28 +13,6 @@ output: html_notebook
 library(tidyverse)
 data <- read_csv("../data/data.csv")
 
-
-#Code to correct 'Indecisos'
-index <- 1
-for (dt in data$Indecisos) {
-    if(dt > 1) {
-        data$Indecisos[index] <- dt/1000
-    }
-    index = index + 1
-}
-
-#Code to correct 'Brancos Nulos'
-median <- median(data$Brancos_Nulos, na.rm = TRUE)
-data$Brancos_Nulos[is.na(data$Brancos_Nulos)] <- median
-index <- 1
-for (dt in data$Brancos_Nulos) {
-    if(dt > 1) {
-        data$Brancos_Nulos[index] <- dt/1000
-    }
-    index = index + 1
-}
-
-
 ```
 
 ### Pré-processamento
@@ -205,6 +183,75 @@ mediaCandidatos = function () {
   return(mediaDosCandidatos)
 }  
 
+mediaCandidatosPorAno=function(anoPesquisado){
+  contador <- 1;
+  
+  nomeTabela = vector();
+  pesquisaTabela = vector();
+  mediaTabela = vector();
+  anoTabela = vector();
+  
+  candidatos <- qntCandidatosNaBaseDeDados();
+  pesquisas <- qntInstitutosBaseDeDados();
+  
+  for( i in 1 : length(candidatos$Nome_do_Candidato)){
+    nomeCandidato <- candidatos$Nome_do_Candidato[i];
+    
+    for(j in 1: length(pesquisas$Instituto)){
+      pesquisa <- pesquisas$Instituto[j];
+      existe <- existePesquisa(nomeCandidato,pesquisa, anoPesquisado);
+        
+        if(existe==TRUE){
+          intencoes <- filtraPorCandidatoInstitutoEAno(nomeCandidato,pesquisa,anoPesquisado);
+          media <- mean(intencoes$Resultado_da_Pesquisa);
+          
+          nomeTabela[contador] = nomeCandidato;
+          pesquisaTabela[contador] = pesquisa;
+          mediaTabela[contador] = media;
+          anoTabela[contador] = anoPesquisado; 
+          contador= contador+1;
+        }
+        
+      }
+  }
+  
+  mediaDosCandidatos <- data.frame(nomeDoCandidato = nomeTabela, pesquisa = pesquisaTabela, media = mediaTabela, ano = anoTabela, stringsAsFactors = FALSE);
+
+  return(mediaDosCandidatos)
+}
+
+mediaCandidatoPesquisado=function(candidatoPesquisado){
+  contador <- 1;
+  nomeTabela = vector();
+  pesquisaTabela = vector();
+  mediaTabela = vector();
+  anoTabela = vector();
+  
+    nomeCandidato <- candidatoPesquisado;
+    pesquisas <- qntInstitutosBaseDeDados();
+    
+    for(j in 1: length(pesquisas$Instituto)){
+      anos <- qntAnosNaBaseDeDados();
+      
+      for(k in 1: length(anos$Ano_da_Eleicao)){
+        pesquisa <- pesquisas$Instituto[j];
+        ano <- anos$Ano_da_Eleicao[k];
+        existe <- existePesquisa(nomeCandidato,pesquisa, ano);
+        if(existe==TRUE){
+          intencoes <- filtraPorCandidatoInstitutoEAno(nomeCandidato,pesquisa,ano);
+          media <- mean(intencoes$Resultado_da_Pesquisa);
+          nomeTabela[contador] = nomeCandidato;
+          pesquisaTabela[contador] = pesquisa;
+          mediaTabela[contador] = media;
+          anoTabela[contador] = ano; 
+          contador= contador+1;
+        }
+    }
+    }
+    mediaDosCandidatos <- data.frame(nomeDoCandidato = nomeTabela, pesquisa = pesquisaTabela, media = mediaTabela, ano = anoTabela, stringsAsFactors = FALSE);
+  return(mediaDosCandidatos)
+}
+
 moda <- function(x) {
   z <- table(as.vector(x)) 
   names(z)[z == max(z)]
@@ -275,33 +322,55 @@ ggplot(data = tabelaPartidosAnos,
 ##### Qual a média de cada candidato levando em consideração o instituto e ano?
 
 ```{r, echo=FALSE}
-media <- mediaCandidatos();
+mediaCandidatos();
+
 ```
 
 ##### Qual a media das pesquisas de intenção de voto sobre um candidato?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+primeiroCandidato <- tabelaQntCandidatos$Nome_do_Candidato[1];
+segundoCandidato <- tabelaQntCandidatos$Nome_do_Candidato[2];
+terceiroCandidato <- tabelaQntCandidatos$Nome_do_Candidato[3];
+quartoCandidato <- tabelaQntCandidatos$Nome_do_Candidato[4];
+quintoCandidato <- tabelaQntCandidatos$Nome_do_Candidato[5];
+sextoCandidato <- tabelaQntCandidatos$Nome_do_Candidato[6];
+setimoCandidato <- tabelaQntCandidatos$Nome_do_Candidato[7];
+
+mediaCandidatoPesquisado(primeiroCandidato);
+mediaCandidatoPesquisado(segundoCandidato);
+mediaCandidatoPesquisado(terceiroCandidato);
+mediaCandidatoPesquisado(quartoCandidato);
+mediaCandidatoPesquisado(quintoCandidato);
+mediaCandidatoPesquisado(sextoCandidato);
+mediaCandidatoPesquisado(setimoCandidato);
+
 ```
 
 ##### Qual a media dos candidatos em um determinado ano?
 
 ```{r, echo=FALSE}
-#Responder Aqui
+
+primeiroAno <- tabelaQntAnos$Ano_da_Eleicao[1];
+segundoAno <- tabelaQntAnos$Ano_da_Eleicao[2];
+terceiroAno <- tabelaQntAnos$Ano_da_Eleicao[3];
+quartoAno <- tabelaQntAnos$Ano_da_Eleicao[4];
+quintoAno <- tabelaQntAnos$Ano_da_Eleicao[5];
+
+mediaCandidatosPorAno(primeiroAno);
+mediaCandidatosPorAno(segundoAno);
+mediaCandidatosPorAno(terceiroAno);
+mediaCandidatosPorAno(quartoAno);
+mediaCandidatosPorAno(quintoAno);
+
 ```
 
 ##### Qual foi o menor e o maior valor das intencoes de voto para os candidatos?
 
 ```{r, echo=FALSE}
 
-  minmax <- minmaxCandidatos();
-  ggplot(data = minmax, 
-         aes(x=reorder(minmax$nomeDoCandidato, - as.numeric(minmax$pesquisaMinima)),
-            y = minmax$pesquisaMinima, fill = minmax$nomeDoCandidato)) +
-    geom_bar(stat = "identity", binwidth = NULL) +
-    labs(title = "Candidatos na Base de Dados",
-         x = "Nome do Candidato", y = "menor valor das intenções de voto de cada candidato") +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1))
+minmaxCandidatos();
+ 
 
 ```
 
