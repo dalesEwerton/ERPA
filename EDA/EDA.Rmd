@@ -40,7 +40,7 @@ qntInstitutosBaseDeDados <- function(){
   return(institutos);
 }
 
-qntPartidosNaBaseDeDados<- function(){
+qntPartidosNaBaseDeDados <- function(){
 partidos = data %>%
   group_by(Partido_do_Candidato) %>%
   summarise(vezes_partido_apareceu = length(Partido_do_Candidato)) %>%
@@ -88,6 +88,18 @@ existePesquisa= function(nomeCandidato,pesquisa, anoPesquisa){
   }
   return(existe)
 }
+
+existePesquisaPartido= function(nomeCandidato,anoPesquisa, partido){
+  existe <- FALSE;
+    candidatosPartido <- subset(data, data$Partido_do_Candidato == partido);
+  for( i in 1 : length(candidatosPartido$Partido_do_Candidato)){
+     if(candidatosPartido$Ano_da_Eleicao[i] == anoPesquisa && candidatosPartido$Nome_do_Candidato[i]==nomeCandidato){
+       existe <- TRUE;
+     }
+  }
+  return(existe)
+}
+
 existeCandidaturaNoAno = function(nomeCandidato, anoPesquisa){
   existe <- FALSE;
   candidatoEscolhido <- subset(data, data$Nome_do_Candidato == nomeCandidato);
@@ -106,6 +118,13 @@ filtraPorCandidatoInstitutoEAno = function(nomeCandidato, nomeInstituto, anoPesq
   return(a);
 }
 
+filtraPorCandidatoPartidoEAno=function(nomeCandidato,ano, partido){
+  candidatosPartido <- subset(data, data$Partido_do_Candidato == partido);
+  candidatosFiltrado <- subset(candidatosPartido, candidatosPartido$Nome_do_Candidato == nomeCandidato);
+  anoFiltrado <- subset(candidatosFiltrado, candidatosFiltrado$Ano_da_Eleicao == ano);
+  
+  return(anoFiltrado);
+}
 
 minmaxCandidatos = function(){
   contador <- 1;
@@ -220,6 +239,79 @@ mediaCandidatosPorAno=function(anoPesquisado){
   return(mediaDosCandidatos)
 }
 
+mediaCandidatosPorPartido <- function(partido){
+  contador <- 1;
+  partidoTabela = vector();
+  nomeTabela = vector();
+  mediaTabela = vector();
+  anoTabela = vector();
+  
+  candidatos <- qntCandidatosNaBaseDeDados();
+  anos <- qntAnosNaBaseDeDados();
+  
+  for( i in 1 : length(candidatos$Nome_do_Candidato)){
+    nomeCandidato <- candidatos$Nome_do_Candidato[i];
+      
+      for(k in 1: length(anos$Ano_da_Eleicao)){
+        ano <- anos$Ano_da_Eleicao[k]
+        existe <- existePesquisaPartido(nomeCandidato,ano, partido);
+        
+        if(existe==TRUE){
+          intencoes <- filtraPorCandidatoPartidoEAno(nomeCandidato,ano, partido);
+          media <- mean(intencoes$Resultado_da_Pesquisa);
+          
+          partidoTabela[contador] = partido;
+          nomeTabela[contador] = nomeCandidato;
+          mediaTabela[contador] = media;
+          anoTabela[contador] = ano;
+          contador= contador+1;
+         
+        }
+        
+      }
+  }
+  
+  mediaDosCandidatos <- data.frame(partido = partidoTabela, nomeDoCandidato = nomeTabela, media = mediaTabela, ano = anoTabela, stringsAsFactors = FALSE);
+
+  
+  return(mediaDosCandidatos)
+  
+}
+candidatosPorPartido <- function(partido){
+  contador <- 1;
+  partidoTabela = vector();
+  nomeTabela = vector();
+  anoTabela = vector();
+  
+  candidatos <- qntCandidatosNaBaseDeDados();
+  anos <- qntAnosNaBaseDeDados();
+  
+  for( i in 1 : length(candidatos$Nome_do_Candidato)){
+    nomeCandidato <- candidatos$Nome_do_Candidato[i];
+      
+      for(k in 1: length(anos$Ano_da_Eleicao)){
+        ano <- anos$Ano_da_Eleicao[k]
+        existe <- existePesquisaPartido(nomeCandidato,ano, partido);
+        
+        if(existe==TRUE){
+
+          partidoTabela[contador] = partido;
+          nomeTabela[contador] = nomeCandidato;
+          anoTabela[contador] = ano;
+          contador= contador+1;
+         
+        }
+        
+      }
+  }
+  
+  candidatoss <- data.frame(partido = partidoTabela, nomeDoCandidato = nomeTabela, ano = anoTabela, stringsAsFactors = FALSE);
+
+  
+  return(candidatoss)
+  
+}
+
 mediaCandidatoPesquisado=function(candidatoPesquisado){
   contador <- 1;
   nomeTabela = vector();
@@ -263,6 +355,9 @@ moda <- function(x) {
 
 ### Questões
 
+
+
+
 ##### Quais são os candidatos da nossa base de dados?
 
 ```{r, echo=FALSE}
@@ -277,6 +372,9 @@ ggplot(data = tabelaQntCandidatos,
 ```
 
 
+
+
+
 ##### Quais são as instituições da nossa base de dados?
 
 ```{r, echo=FALSE}
@@ -289,6 +387,9 @@ ggplot(data = tabelaQntInstitutos,
        x = "Institutos", y = "Vezes que aparece nos dados") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
+
+
+
 
 ##### Quais os anos das pesquisas da nossa base de dados?
 
@@ -305,12 +406,42 @@ ggplot(data = tabelaQntAnos,
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
+
+
+##### Quais os candidatos por partido?
+```{r, echo=FALSE}
+primeiroPartido <- tabelaQntPartidos$Partido_do_Candidato[1];
+segundoPartido <- tabelaQntPartidos$Partido_do_Candidato[2];
+terceiroPartido <- tabelaQntPartidos$Partido_do_Candidato[3];
+quartoPartido <- tabelaQntPartidos$Partido_do_Candidato[4];
+quintoPartido <- tabelaQntPartidos$Partido_do_Candidato[5];
+sextoPartido <- tabelaQntPartidos$Partido_do_Candidato[6];
+setimoPartido <- tabelaQntPartidos$Partido_do_Candidato[7];
+oitavoPartido <- tabelaQntPartidos$Partido_do_Candidato[8];
+nonoPartido <- tabelaQntPartidos$Partido_do_Candidato[9];
+decimoPartido <- tabelaQntPartidos$Partido_do_Candidato[10];
+
+candidatosPorPartido(primeiroPartido);
+candidatosPorPartido(segundoPartido);
+candidatosPorPartido(terceiroPartido);
+candidatosPorPartido(quartoPartido);
+candidatosPorPartido(quintoPartido);
+candidatosPorPartido(sextoPartido);
+candidatosPorPartido(setimoPartido);
+candidatosPorPartido(oitavoPartido);
+candidatosPorPartido(nonoPartido);
+candidatosPorPartido(decimoPartido);
+
+```
+
+
+
 ##### Quais os partidos da nossa base de dados?
 
 ```{r, echo=FALSE}
-tabelaPartidosAnos <- qntPartidosNaBaseDeDados();
+tabelaQntPartidos <- qntPartidosNaBaseDeDados();
 
-ggplot(data = tabelaPartidosAnos, 
+ggplot(data = tabelaQntPartidos, 
        aes(x=reorder(Partido_do_Candidato, - as.numeric(vezes_partido_apareceu)),
           y = as.factor(vezes_partido_apareceu), fill = Partido_do_Candidato)) +
   geom_bar(stat = "identity", binwidth = NULL) +
@@ -319,12 +450,46 @@ ggplot(data = tabelaPartidosAnos,
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
+
+
+
+##### Quais as médias dos candidatos por partido?
+```{r, echo=FALSE}
+primeiroPartido <- tabelaQntPartidos$Partido_do_Candidato[1];
+segundoPartido <- tabelaQntPartidos$Partido_do_Candidato[2];
+terceiroPartido <- tabelaQntPartidos$Partido_do_Candidato[3];
+quartoPartido <- tabelaQntPartidos$Partido_do_Candidato[4];
+quintoPartido <- tabelaQntPartidos$Partido_do_Candidato[5];
+sextoPartido <- tabelaQntPartidos$Partido_do_Candidato[6];
+setimoPartido <- tabelaQntPartidos$Partido_do_Candidato[7];
+oitavoPartido <- tabelaQntPartidos$Partido_do_Candidato[8];
+nonoPartido <- tabelaQntPartidos$Partido_do_Candidato[9];
+decimoPartido <- tabelaQntPartidos$Partido_do_Candidato[10];
+
+mediaCandidatosPorPartido(primeiroPartido);
+mediaCandidatosPorPartido(segundoPartido);
+mediaCandidatosPorPartido(terceiroPartido);
+mediaCandidatosPorPartido(quartoPartido);
+mediaCandidatosPorPartido(quintoPartido);
+mediaCandidatosPorPartido(sextoPartido);
+mediaCandidatosPorPartido(setimoPartido);
+mediaCandidatosPorPartido(oitavoPartido);
+mediaCandidatosPorPartido(nonoPartido);
+mediaCandidatosPorPartido(decimoPartido);
+
+```
+
+
+
 ##### Qual a média de cada candidato levando em consideração o instituto e ano?
 
 ```{r, echo=FALSE}
 mediaCandidatos();
 
 ```
+
+
+
 
 ##### Qual a media das pesquisas de intenção de voto sobre um candidato?
 
@@ -347,6 +512,9 @@ mediaCandidatoPesquisado(setimoCandidato);
 
 ```
 
+
+
+
 ##### Qual a media dos candidatos em um determinado ano?
 
 ```{r, echo=FALSE}
@@ -365,6 +533,9 @@ mediaCandidatosPorAno(quintoAno);
 
 ```
 
+
+
+
 ##### Qual foi o menor e o maior valor das intencoes de voto para os candidatos?
 
 ```{r, echo=FALSE}
@@ -375,6 +546,8 @@ minmaxCandidatos();
 ```
 
 
+
+
 ##### Qual o ano em que mais temos dados de pesquisas?
 
 ```{r, echo=FALSE}
@@ -383,6 +556,9 @@ moda(ano)
 
 ```
 
+
+
+
 ##### Qual o candidato em que mais temos dados de pesquisas?
 
 ```{r, echo=FALSE}
@@ -390,12 +566,18 @@ candidato = data$Nome_do_Candidato
 moda(candidato)
 ```
 
+
+
+
 ##### Qual o instituto em que mais temos dados de pesquisas?
 
 ```{r, echo=FALSE}
 instituto = data$Instituto
 moda(instituto)
 ```
+
+
+
 
 ##### Qual o partido em que mais temos dados de pesquisas?
 
