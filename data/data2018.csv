@@ -1,0 +1,29 @@
+Nome_do_Candidato,Resultado_da_Pesquisa,Mes,Instituto,Partido_do_Candidato,Ano_da_Eleicao,Brancos_Nulos,Indecisos
+Jair Bolsonaro,0.23,JUL,Vox Populi,PPS,2018,0.29,0.05
+Marina Silva,0.12,JUL,Vox Populi,PV,2018,0.29,0.05
+Ciro Gomes,0.10,JUL,Vox Populi,PDT12,2018,0.29,0.05
+Geraldo Alckimin,0.10,JUL,Vox Populi,PSDB,2018,0.29,0.05
+Jair Bolsonaro,0.17,JUN,IBOPE,PPS,2018,0.33,0.08
+Marina Silva,0.13,JUN,IBOPE,PV,2018,0.33,0.08
+Ciro Gomes,0.08,JUN,IBOPE,PDT12,2018,0.33,0.08
+Geraldo Alckimin,0.06,JUN,IBOPE,PSDB,2018,0.33,0.08
+Jair Bolsonaro,0.19,JUN,Datafolha,PPS,2018,0.28,0.05
+Marina Silva,0.15,JUN,Datafolha,PV,2018,0.28,0.05
+Ciro Gomes,0.10,JUN,Datafolha,PDT12,2018,0.28,0.05
+Geraldo Alckimin,0.07,JUN,Datafolha,PSDB,2018,0.28,0.05
+Jair Bolsonaro,0.21,MAI, Sensus,PPS,2018,0.18,0.05
+Marina Silva,0.12,MAI,Sensus,PV,2018,0.18,0.05
+Ciro Gomes,0.10,MAI,Sensus,PDT12,2018,0.18,0.05
+Geraldo Alckimin,0.08,MAI,Sensus,PSDB,2018,0.18,0.05
+Jair Bolsonaro,0.17,ABR,Datafolha,PPS,2018,0.24,0.04
+Marina Silva,0.15,ABR,Datafolha,PV,2018,0.24,0.04
+Ciro Gomes,0.09,ABR,Datafolha,PDT12,2018,0.24,0.04
+Geraldo Alckimin,0.07,ABR,Datafolha,PSDB,2018,0.24,0.04
+Jair Bolsonaro,0.20,MAR, Sensus,PPS,2018,0.28,0.10
+Marina Silva,0.13,MAR, Sensus,PV,2018,0.28,0.10
+Ciro Gomes,0.08,MAR, Sensus,PDT12,2018,0.28,0.10
+Geraldo Alckimin,0.09,MAR,Sensus,PSDB,2018,0.28,0.10
+Jair Bolsonaro,0.18,JAN,Datafolha,PPS,2018,0.24,0.04
+Marina Silva,0.13,JAN,Datafolha,PV,2018,0.24,0.04
+Ciro Gomes,0.10,JAN,Datafolha,PDT12,2018,0.24,0.04
+Geraldo Alckimin,0.08,JAN,Datafolha,PSDB,2018,0.24,0.04

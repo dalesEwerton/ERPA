@@ -23,6 +23,7 @@ for (dt in data$Indecisos) {
     index = index + 1
 }
 
+#Code to correct 'Brancos Nulos'
 median <- median(data$Brancos_Nulos, na.rm = TRUE)
 data$Brancos_Nulos[is.na(data$Brancos_Nulos)] <- median
 index <- 1

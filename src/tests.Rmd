@@ -1,0 +1,116 @@
+---
+title: "Testes"
+output: html_notebook
+---
+
+
+```{r, echo=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+
+### Usando o algorítimo para prever o resultado das eleições de 2014
+
+```{r}
+data.2014 <- subset(data, data$Ano_da_Eleicao==2014)
+
+results.2014 <- data.2014 %>%
+  group_by(Nome_do_Candidato) %>%
+  summarise(result = (mean(pred) * 100)) %>%
+  arrange(desc(result))
+
+
+results.2014
+
+ggplot(results.2014, aes(x=reorder(Nome_do_Candidato, as.numeric(result)), 
+                     y=result,
+                     fill=as.factor(Nome_do_Candidato))) +
+  geom_bar(stat="identity", binwidth = NULL, na.rm = TRUE) +
+  coord_flip() +
+  labs(fill = "Candidato", title = "Predição do Resultado das eleições de 2014",
+       x="",
+       y="Votos (%)")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        axis.text.y = element_blank())
+
+```
+
+
+
+#### Resultado real do primeiro turno das eleições de 2014
+
+<img src="http://s2.glbimg.com/rQWpYGNgJVx6tNCvnSyZNZdkDoG_ycqZe7c9ZpwToO-w32qHkbVzaHWz-WZG0fjl/i.glbimg.com/og/ig/infoglobo1/f/original/2015/07/02/500758-2-resultado-1-turno.gif">
+
+
+#### Predição do resultado das eleições 2018 - Cenário com Lula
+
+```{r}
+
+data2018lula <- read_csv("../data/datalula2018.csv")
+median_inst <- median(data$Instituto)
+data2018lula$Instituto[is.na(data2018lula$Instituto)] <- median_inst
+
+
+mars.lula.2018 <- predict(modelo.mars, data2018lula)
+data2018lula$MARS <- mars.lula.2018
+
+
+pred <- predict(modelo.cubist.final, data2018lula)
+data2018lula$pred <- pred
+
+results.2018 <- data2018lula %>%
+  group_by(Nome_do_Candidato) %>%
+  summarise(result = (mean(pred) * 100)) %>%
+  arrange(desc(result))
+
+
+results.2018
+
+
+ggplot(results.2018, aes(x=reorder(Nome_do_Candidato, as.numeric(result)), 
+                     y=result,
+                     fill=as.factor(Nome_do_Candidato))) +
+  geom_bar(stat="identity", binwidth = NULL, na.rm = TRUE) +
+  coord_flip() +
+  labs(fill = "Candidato", title = "Predição do Resultado das eleições de 2018 com Lula",
+       x="",
+       y="Votos (%)")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        axis.text.y = element_blank())
+```
+#### Predição do resultado das eleições 2018 - Cenário sem Lula
+
+```{r}
+
+data2018 <- read_csv("../data/data2018.csv")
+
+mars.2018 <- predict(modelo.mars, data2018)
+data2018$MARS <- mars.2018
+
+
+pred <- predict(modelo.cubist.final, data2018)
+data2018$pred <- pred
+
+results.2018 <- data2018 %>%
+  group_by(Nome_do_Candidato) %>%
+  summarise(result = (mean(pred) * 100)) %>%
+  arrange(desc(result))
+
+
+results.2018
+
+
+ggplot(results.2018, aes(x=reorder(Nome_do_Candidato, as.numeric(result)),
+                     y=result,
+                     fill=as.factor(Nome_do_Candidato))) +
+  geom_bar(stat="identity", binwidth = NULL, na.rm = TRUE) +
+  coord_flip() +
+  labs(fill = "Candidato", title = "Predição do Resultado das eleições de 2018 com Lula",
+       x="",
+       y="Votos (%)")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        axis.text.y = element_blank())
+
+```
+
+

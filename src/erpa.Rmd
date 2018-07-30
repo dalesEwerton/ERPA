@@ -9,6 +9,8 @@ output: html_notebook
 
 library(caret)
 
+data_erpa <- data
+data_erpa$Nome_do_Candidato <- NULL
 ```
 
 ##Particionamento dos dados e Controle dos Treinos
@@ -18,9 +20,9 @@ set.seed(500)
 
 
 #Defininindo o particionamento dos dados
-partition <- createDataPartition(y=data$Nome_do_Candidato, p=.8, list=FALSE)
-fit_data  <- data[partition,]
-test_data <- data[-partition,]
+partition <- createDataPartition(y=data_erpa$Mes, p=.8, list=FALSE)
+fit_data  <- data_erpa[partition,]
+test_data <- data_erpa[-partition,]
 
 ctrl <- trainControl(method = "cv", number = 5, search = "random")
 
@@ -71,7 +73,6 @@ modelo.knn <- train(
   na.action  = na.omit
 )
 
-plot(modelo.knn)
 knn.predict <- predict(modelo.knn, test_data)
 
 test_data$pred <- knn.predict
@@ -80,6 +81,8 @@ ggplot(test_data, aes(x = pred, y = Resultado_Final)) +
   labs(title = "Modelo KNN - Obs vs Pred", x = "Predição", y = "Observado")+
   geom_jitter(colour = "red") +
   geom_abline(colour = "blue")
+
+plot(modelo.knn)
 ```
 
 
@@ -154,16 +157,10 @@ min(modelo.cubist$results$RMSE)
 #### Inserindo o modelo MARS como variável independente nos dados
 ```{r}
 
-mars.final.predict <- predict(modelo.mars, data)
+mars.final.predict <- predict(modelo.mars, data_erpa)
 
 data$MARS <- mars.final.predict
 
-for (dt : data$Indecisos) {
-    if(data > 1) {
-        data$Indecisos[index] <- dt/1000
-    }
-    index = index + 1
-}
 ```
 
 
@@ -175,12 +172,12 @@ set.seed(7)
 #Cubist
 modelo.cubist.final <- train(
    Resultado_Final ~.,
-   data       = data, 
+   data       = data_erpa, 
    method     = "cubist",
    na.action  = na.omit)
 
 
-pred <- predict(modelo.cubist.final, data)
+pred <- predict(modelo.cubist.final, data_erpa)
 
 data$pred <- pred
 
